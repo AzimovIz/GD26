@@ -1,5 +1,10 @@
 name: Update Clash Config
 
+on:
+  schedule:
+    - cron: '*/59 * * * *'
+  workflow_dispatch:
+
 permissions:
   contents: write
 
@@ -32,7 +37,7 @@ jobs:
           import sys
           from datetime import datetime, timezone
 
-          SOURCE_URL = "https://github.com/AvenCores/goida-vpn-configs/raw/refs/heads/main/githubmirror/26.txt"
+          SOURCE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
           OUTPUT_FILE = "clash.yaml"
           TIMEOUT = 3
           MAX_WORKERS = 50
