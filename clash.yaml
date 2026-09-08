@@ -1,692 +1,114 @@
-# Обновлено: 2026-09-08 06:39 UTC
-# Всего в источнике: 69
-# Живых серверов: 58
+# Обновлено: 2026-09-08 11:50 UTC
+# Всего в источнике: 16
+# Живых серверов: 12
 # Источник: 26.txt
 
 proxies:
-- name: 🇫🇷 France | [*CIDR]
-  type: vless
-  server: 62.233.39.7
-  port: 8443
-  uuid: f71957f3-29e0-d077-9b51-83da5cf31480
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.philips.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 92.53.97.15
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  type: vless
-  server: 92.53.97.15
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 92.53.97.15
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: 🇫🇷 France | [*CIDR] (2)
-  type: vless
-  server: 62.233.39.7
-  port: 8443
-  uuid: f71957f3-29e0-d077-9b51-83da5cf31480
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.philips.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇫🇷 France | [*CIDR] (3)
-  type: vless
-  server: 62.233.39.7
-  port: 8443
-  uuid: f71957f3-29e0-d077-9b51-83da5cf31480
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.philips.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 92.53.97.15
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: 🇫🇷 France | [*CIDR] (4)
-  type: vless
-  server: 62.233.39.7
-  port: 8443
-  uuid: f71957f3-29e0-d077-9b51-83da5cf31480
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.philips.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇳🇱 The Netherlands | [*CIDR] VK
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands [*CIDR] VK
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (2)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (3)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands [*CIDR] VK (2)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (4)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands [*CIDR] VK (3)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (5)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands [*CIDR] VK (4)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands [*CIDR] VK (5)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands [*CIDR] VK (6)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇷🇺 Russia | [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (2)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇳🇱 The Netherlands | [*CIDR]
-  type: vless
-  server: turtlethriftsuds.spindlehouse.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: 🇳🇱 The Netherlands [*CIDR]
-  type: vless
-  server: turtlethriftsuds.spindlehouse.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (6)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: defaultenginedimly.rivetpress.me
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: defaultenginedimly.rivetpress.me
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (7)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (8)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands [*CIDR] VK (7)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  type: vless
-  server: defaultenginedimly.rivetpress.me
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: defaultenginedimly.rivetpress.me
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (9)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
-  type: vless
-  server: turtlethriftsuds.spindlehouse.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: 🇳🇱 The Netherlands [*CIDR] VK (8)
-  type: vless
-  server: 185.241.195.116
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: 185.241.195.116
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (10)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
-  type: vless
-  server: turtlethriftsuds.spindlehouse.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: turtlethriftsuds.spindlehouse.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  type: vless
-  server: defaultenginedimly.rivetpress.me
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: defaultenginedimly.rivetpress.me
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  type: vless
-  server: defaultenginedimly.rivetpress.me
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: defaultenginedimly.rivetpress.me
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  type: vless
-  server: cribkisserevict.indigoyarn.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cribkisserevict.indigoyarn.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  type: vless
-  server: cribkisserevict.indigoyarn.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cribkisserevict.indigoyarn.art
-- name: 🇳🇱 The Netherlands | [*CIDR] VK (11)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  type: vless
-  server: cribkisserevict.indigoyarn.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cribkisserevict.indigoyarn.art
-- name: 🇳🇱 The Netherlands [*CIDR] VK (9)
-  type: vless
-  server: asd.coteite.pro
-  port: 14443
-  uuid: 02f3a6a2-289e-4026-8e26-616d47e0914f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: asd.coteite.pro
-  network: ws
-  ws-opts:
-    path: /tzws
-    headers:
-      Host: asd.coteite.pro
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  type: vless
-  server: cribkisserevict.indigoyarn.art
-  port: 443
-  uuid: 7a97f64d-5fc7-4011-9028-58d2ba751595
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cribkisserevict.indigoyarn.art
-- name: 🇷🇺 Russia | [*CIDR] VK (3)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (4)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (5)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (6)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (7)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: 2.27.54.132
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (2)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (4)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: ''
 - name: 🇩🇪 Germany [*CIDR]
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  type: vless
+  server: 194.67.122.222
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (5)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: yastatic.net
+- name: 🇵🇱 Poland | [*CIDR] YA
+  type: vless
+  server: 84.201.142.221
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇩🇪 Germany | [*CIDR]
+  type: vless
+  server: 194.67.122.222
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (6)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: yastatic.net
+- name: 🇵🇱 Poland | [*CIDR] YA (2)
+  type: vless
+  server: 84.201.142.221
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇩🇪 Germany | [*CIDR] (2)
+  type: vless
+  server: 194.67.122.222
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (7)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: yastatic.net
+- name: 🇩🇪 Germany | [*CIDR] (3)
+  type: vless
+  server: 194.67.122.222
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: yastatic.net
+- name: 🇵🇱 Poland | [*CIDR] YA (3)
+  type: vless
+  server: 84.201.142.221
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇵🇱 Poland | [*CIDR] YA (4)
+  type: vless
+  server: 84.201.142.221
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇵🇱 Poland | [*CIDR] YA (5)
+  type: vless
+  server: 84.201.142.221
+  port: 33743
+  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇩🇪 Germany | [*CIDR] (4)
+  type: vless
+  server: 194.67.122.222
+  port: 443
+  uuid: 476d23b8-ab0e-4297-aebf-2c373f7538f0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: yastatic.net
 - name: 🇷🇺 Russia [*CIDR]
   type: hysteria2
   server: cdncache.pleiades.codes
@@ -694,144 +116,48 @@ proxies:
   password: e0b9fb0f-1bbd-478b-9580-c2294778338b
   skip-cert-verify: true
   sni: cdncache.pleiades.codes
-- name: 🇷🇺 Russia [*CIDR] (2)
-  type: hysteria2
-  server: cdncache.pleiades.codes
-  port: 8443
-  password: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vless
+  server: 193.233.221.62
+  port: 2083
+  uuid: b2744db0-1c64-4218-a93b-9eba0e5f811f
+  udp: true
   skip-cert-verify: true
-  sni: cdncache.pleiades.codes
-- name: 🇷🇺 Russia [*CIDR] (3)
-  type: hysteria2
-  server: cdncache.pleiades.codes
-  port: 8443
-  password: e0b9fb0f-1bbd-478b-9580-c2294778338b
-  skip-cert-verify: true
+  encryption: none
+  sni: swe-one.quiet-rogue.site
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇫🇷 France | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] VK
-  - 🇳🇱 The Netherlands [*CIDR] VK
-  - 🇳🇱 The Netherlands | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (3)
-  - 🇳🇱 The Netherlands [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (4)
-  - 🇳🇱 The Netherlands [*CIDR] VK (3)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (5)
-  - 🇳🇱 The Netherlands [*CIDR] VK (4)
-  - 🇳🇱 The Netherlands [*CIDR] VK (5)
-  - 🇳🇱 The Netherlands [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] VK (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (7)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (8)
-  - 🇳🇱 The Netherlands [*CIDR] VK (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR] VK (8)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (10)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (11)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - 🇳🇱 The Netherlands [*CIDR] VK (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK (7)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] YA
   - 🇩🇪 Germany | [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] YA (2)
   - 🇩🇪 Germany | [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR] YA (3)
+  - 🇵🇱 Poland | [*CIDR] YA (4)
+  - 🇵🇱 Poland | [*CIDR] YA (5)
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇩🇪 Germany | [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇫🇷 France | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] VK
-  - 🇳🇱 The Netherlands [*CIDR] VK
-  - 🇳🇱 The Netherlands | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (3)
-  - 🇳🇱 The Netherlands [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (4)
-  - 🇳🇱 The Netherlands [*CIDR] VK (3)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (5)
-  - 🇳🇱 The Netherlands [*CIDR] VK (4)
-  - 🇳🇱 The Netherlands [*CIDR] VK (5)
-  - 🇳🇱 The Netherlands [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] VK (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (7)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (8)
-  - 🇳🇱 The Netherlands [*CIDR] VK (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR] VK (8)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (10)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇳🇱 The Netherlands | [*CIDR] VK (11)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - 🇳🇱 The Netherlands [*CIDR] VK (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK (7)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] YA
   - 🇩🇪 Germany | [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] YA (2)
   - 🇩🇪 Germany | [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR] YA (3)
+  - 🇵🇱 Poland | [*CIDR] YA (4)
+  - 🇵🇱 Poland | [*CIDR] YA (5)
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇩🇪 Germany | [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
 rules:
 - MATCH,🌍 Прокси
