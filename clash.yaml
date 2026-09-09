@@ -1,279 +1,54 @@
-# Обновлено: 2026-09-09 05:28 UTC
-# Всего в источнике: 68
-# Живых серверов: 39
+# Обновлено: 2026-09-09 10:15 UTC
+# Всего в источнике: 14
+# Живых серверов: 8
 # Источник: 26.txt
 
 proxies:
-- name: 🇪🇪 Estonia | [*CIDR]
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+  server: 195.19.164.93
+  port: 443
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇪🇪 Estonia | [*CIDR] (2)
+  sni: sellflow.org
+- name: 🇷🇺 Russia | [*CIDR] (2)
   type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
+  server: 195.19.164.93
+  port: 443
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇪🇪 Estonia | [*CIDR] (3)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇪🇪 Estonia | [*CIDR] (4)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7b50da93-0841-4044-af6a-99bb9dcda6fc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇪🇪 Estonia | [*CIDR] (5)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7b50da93-0841-4044-af6a-99bb9dcda6fc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇪🇪 Estonia | [*CIDR] (6)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7b50da93-0841-4044-af6a-99bb9dcda6fc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇦🇹 Austria [*CIDR]
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR]
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria [*CIDR] (2)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR] (2)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria [*CIDR] (3)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR] (3)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR] (4)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR] (5)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria [*CIDR] (4)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria [*CIDR] (5)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇪🇪 Estonia | [*CIDR] (7)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
-- name: 🇦🇹 Austria [*CIDR] (6)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇦🇹 Austria | [*CIDR] (6)
-  type: vless
-  server: 82.202.143.37
-  port: 9830
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇪🇪 Estonia | [*CIDR] (8)
-  type: vless
-  server: 83.147.245.109
-  port: 24443
-  uuid: 7b50da93-0841-4044-af6a-99bb9dcda6fc
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.cloudflare.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 9d30d49278
+  sni: sellflow.org
 - name: 🇷🇺 Russia [*CIDR]
   type: vless
-  server: 82.148.21.26
+  server: 195.19.164.93
   port: 443
-  uuid: 3c95901c-10ce-4588-9c23-7684a09839a3
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: crypt-obhod-15.mystatic-cdn.ru
-- name: 🇫🇷 France | [*CIDR]
+  sni: sellflow.org
+- name: 🇷🇺 Russia [*CIDR] (2)
   type: vless
-  server: 200.165.226.238
+  server: 195.19.164.93
   port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: app-fr.upd-media.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR]
+  sni: sellflow.org
+- name: 🇷🇺 Russia [*CIDR] (3)
   type: vless
-  server: 200.165.226.238
+  server: 195.19.164.93
   port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
+  uuid: db9da8fb-c528-42ec-9b9e-e578cf934c04
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: api-us.upd-media.com
+  sni: sellflow.org
 - name: 🇷🇺 Russia | [*CIDR] VK
   type: vless
   server: 95.163.214.43
@@ -283,46 +58,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
-- name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (2)
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: api-us.upd-media.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (3)
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: api-us.upd-media.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (4)
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: api-us.upd-media.com
-- name: 🇫🇷 France | [*CIDR] (2)
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: app-fr.upd-media.com
 - name: 🇷🇺 Russia | [*CIDR] VK (2)
   type: vless
   server: 95.163.214.43
@@ -341,183 +76,31 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (4)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (5)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (6)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (7)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (8)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (9)
-  type: vless
-  server: 217.16.31.162
-  port: 443
-  uuid: af9c2bcf-fe68-4379-9c78-6e5f1b4af0e2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: max.ru
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: app-fr.upd-media.com
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  type: vless
-  server: 200.165.226.238
-  port: 443
-  uuid: da57dfef-d209-45a1-bfd8-56081a9cd85a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: app-fr.upd-media.com
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇪🇪 Estonia | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR] (2)
-  - 🇪🇪 Estonia | [*CIDR] (3)
-  - 🇪🇪 Estonia | [*CIDR] (4)
-  - 🇪🇪 Estonia | [*CIDR] (5)
-  - 🇪🇪 Estonia | [*CIDR] (6)
-  - 🇦🇹 Austria [*CIDR]
-  - 🇦🇹 Austria | [*CIDR]
-  - 🇦🇹 Austria [*CIDR] (2)
-  - 🇦🇹 Austria | [*CIDR] (2)
-  - 🇦🇹 Austria [*CIDR] (3)
-  - 🇦🇹 Austria | [*CIDR] (3)
-  - 🇦🇹 Austria | [*CIDR] (4)
-  - 🇦🇹 Austria | [*CIDR] (5)
-  - 🇦🇹 Austria [*CIDR] (4)
-  - 🇦🇹 Austria [*CIDR] (5)
-  - 🇪🇪 Estonia | [*CIDR] (7)
-  - 🇦🇹 Austria [*CIDR] (6)
-  - 🇦🇹 Austria | [*CIDR] (6)
-  - 🇪🇪 Estonia | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia [*CIDR] (3)
   - 🇷🇺 Russia | [*CIDR] VK
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (2)
   - 🇷🇺 Russia | [*CIDR] VK (2)
   - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK (7)
-  - 🇷🇺 Russia | [*CIDR] VK (8)
-  - 🇷🇺 Russia | [*CIDR] VK (9)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇪🇪 Estonia | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR] (2)
-  - 🇪🇪 Estonia | [*CIDR] (3)
-  - 🇪🇪 Estonia | [*CIDR] (4)
-  - 🇪🇪 Estonia | [*CIDR] (5)
-  - 🇪🇪 Estonia | [*CIDR] (6)
-  - 🇦🇹 Austria [*CIDR]
-  - 🇦🇹 Austria | [*CIDR]
-  - 🇦🇹 Austria [*CIDR] (2)
-  - 🇦🇹 Austria | [*CIDR] (2)
-  - 🇦🇹 Austria [*CIDR] (3)
-  - 🇦🇹 Austria | [*CIDR] (3)
-  - 🇦🇹 Austria | [*CIDR] (4)
-  - 🇦🇹 Austria | [*CIDR] (5)
-  - 🇦🇹 Austria [*CIDR] (4)
-  - 🇦🇹 Austria [*CIDR] (5)
-  - 🇪🇪 Estonia | [*CIDR] (7)
-  - 🇦🇹 Austria [*CIDR] (6)
-  - 🇦🇹 Austria | [*CIDR] (6)
-  - 🇪🇪 Estonia | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia [*CIDR] (3)
   - 🇷🇺 Russia | [*CIDR] VK
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇨🇦 🇺🇸 | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (2)
   - 🇷🇺 Russia | [*CIDR] VK (2)
   - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR] VK (7)
-  - 🇷🇺 Russia | [*CIDR] VK (8)
-  - 🇷🇺 Russia | [*CIDR] VK (9)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR]
 rules:
 - MATCH,🌍 Прокси
