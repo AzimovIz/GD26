@@ -1,6 +1,6 @@
-# Обновлено: 2026-09-10 11:55 UTC
-# Всего в источнике: 8
-# Живых серверов: 3
+# Обновлено: 2026-09-10 15:32 UTC
+# Всего в источнике: 22
+# Живых серверов: 14
 # Источник: 26.txt
 
 proxies:
@@ -13,6 +13,22 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
+- name: 🇩🇪 Germany | [*CIDR]
+  type: vmess
+  server: 2.27.54.132
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
 - name: 🇷🇺 Russia | [*CIDR] VK (2)
   type: vless
   server: 95.163.214.43
@@ -31,13 +47,135 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (4)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (5)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (6)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vmess
+  server: 194.226.142.120
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇷🇺 Russia | [*CIDR] VK (7)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (8)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (9)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (10)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇩🇪 Germany | [*CIDR] (2)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: ''
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
   - 🇷🇺 Russia | [*CIDR] VK
+  - 🇩🇪 Germany | [*CIDR]
   - 🇷🇺 Russia | [*CIDR] VK (2)
   - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia | [*CIDR] VK (5)
+  - 🇷🇺 Russia | [*CIDR] VK (6)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] VK (7)
+  - 🇷🇺 Russia | [*CIDR] VK (8)
+  - 🇷🇺 Russia | [*CIDR] VK (9)
+  - 🇷🇺 Russia | [*CIDR] VK (10)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -45,7 +183,18 @@ proxy-groups:
   proxies:
   - 🚀 Авто-выбор
   - 🇷🇺 Russia | [*CIDR] VK
+  - 🇩🇪 Germany | [*CIDR]
   - 🇷🇺 Russia | [*CIDR] VK (2)
   - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia | [*CIDR] VK (5)
+  - 🇷🇺 Russia | [*CIDR] VK (6)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] VK (7)
+  - 🇷🇺 Russia | [*CIDR] VK (8)
+  - 🇷🇺 Russia | [*CIDR] VK (9)
+  - 🇷🇺 Russia | [*CIDR] VK (10)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
