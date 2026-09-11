@@ -39,7 +39,7 @@ jobs:
 
           SOURCE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
           OUTPUT_FILE = "clash.yaml"
-          TIMEOUT = 3
+          TIMEOUT = 5
           MAX_WORKERS = 50
 
           def parse_vmess(uri):
