@@ -1,9 +1,45 @@
-# Обновлено: 2026-09-10 23:30 UTC
-# Всего в источнике: 59
-# Живых серверов: 41
+# Обновлено: 2026-09-11 01:47 UTC
+# Всего в источнике: 70
+# Живых серверов: 53
 # Источник: 26.txt
 
 proxies:
+- name: 🇳🇱 The Netherlands [*CIDR]
+  type: vless
+  server: 46.148.235.16
+  port: 9894
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇳🇱 The Netherlands [*CIDR] (2)
+  type: vless
+  server: 46.148.235.16
+  port: 9894
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇳🇱 The Netherlands [*CIDR] (3)
+  type: vless
+  server: 46.148.235.16
+  port: 9894
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR]
   type: vless
   server: 84.38.187.134
@@ -13,17 +49,50 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: git.xpkg.ru
+- name: 🇳🇱 The Netherlands [*CIDR] (4)
+  type: vless
+  server: 46.148.235.16
+  port: 9894
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR] (2)
   type: vless
-  server: 84.38.187.169
+  server: 84.38.187.134
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: mc.yandex.tr
+  sni: git.xpkg.ru
+- name: 🇳🇱 The Netherlands [*CIDR] (5)
+  type: vless
+  server: 46.148.235.16
+  port: 9894
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR] (3)
   type: vless
+  server: 84.38.187.169
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: mc.yandex.tr
+- name: 🇷🇺 Russia [*CIDR] (4)
+  type: vless
   server: 84.38.187.134
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
@@ -31,7 +100,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: git.xpkg.ru
-- name: 🇷🇺 Russia [*CIDR] (4)
+- name: 🇷🇺 Russia [*CIDR] (5)
   type: vless
   server: 84.38.187.169
   port: 443
@@ -40,60 +109,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: mc.yandex.tr
-- name: 🇳🇱 The Netherlands | [*CIDR]
-  type: vless
-  server: 46.148.235.16
-  port: 9894
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (5)
-  type: vless
-  server: 135.106.142.209
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: alfastat.ru
 - name: 🇷🇺 Russia [*CIDR] (6)
   type: vless
-  server: 84.38.187.134
+  server: 84.38.187.169
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: git.xpkg.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
-  type: vless
-  server: 46.148.235.16
-  port: 9894
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
-  type: vless
-  server: 46.148.235.16
-  port: 9894
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  sni: mc.yandex.tr
 - name: 🇷🇺 Russia [*CIDR] (7)
   type: vless
   server: 84.38.187.134
@@ -105,6 +129,72 @@ proxies:
   sni: git.xpkg.ru
 - name: 🇷🇺 Russia [*CIDR] (8)
   type: vless
+  server: 84.38.187.169
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: mc.yandex.tr
+- name: 🇷🇺 Russia | [*CIDR]
+  type: vless
+  server: 95.143.188.10
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: git.medrocket.ru
+- name: 🇷🇺 Russia | [*CIDR] (2)
+  type: vless
+  server: 95.143.188.10
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: git.medrocket.ru
+- name: 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR]
+  type: vless
+  server: 185.72.146.161
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: de.fef-media.me
+- name: 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (2)
+  type: vless
+  server: 185.72.146.161
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: de.fef-media.me
+- name: 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (3)
+  type: vless
+  server: 185.72.146.161
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: de.fef-media.me
+- name: 🇷🇺 Russia | [*CIDR] (3)
+  type: vless
+  server: 95.143.188.10
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: git.medrocket.ru
+- name: 🇷🇺 Russia | [*CIDR] (4)
+  type: vless
   server: 95.143.188.10
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
@@ -114,15 +204,6 @@ proxies:
   sni: git.medrocket.ru
 - name: 🇷🇺 Russia [*CIDR] (9)
   type: vless
-  server: 84.38.187.169
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: mc.yandex.tr
-- name: 🇷🇺 Russia [*CIDR] (10)
-  type: vless
   server: 135.106.142.209
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
@@ -130,7 +211,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: alfastat.ru
-- name: 🇷🇺 Russia [*CIDR] (11)
+- name: 🇷🇺 Russia [*CIDR] (10)
   type: vless
   server: 161.104.38.98
   port: 443
@@ -139,18 +220,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+- name: 🇷🇺 Russia [*CIDR] (11)
   type: vless
-  server: 46.148.235.16
-  port: 9894
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 135.106.142.209
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  sni: alfastat.ru
 - name: 🇷🇺 Russia [*CIDR] (12)
   type: vless
   server: 161.104.38.98
@@ -160,40 +238,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: 🇵🇱 Poland [*CIDR]
-  type: vless
-  server: 95.143.191.92
-  port: 9844
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR] (13)
-  type: vless
-  server: 135.106.142.209
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: alfastat.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
-  type: vless
-  server: 46.148.235.16
-  port: 9894
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (14)
   type: vless
   server: 161.104.38.98
   port: 443
@@ -202,27 +247,42 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: 🇵🇱 Poland | [*CIDR]
+- name: 🇷🇺 Russia [*CIDR] (14)
   type: vless
-  server: 95.143.191.92
-  port: 9844
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (15)
-  type: vless
-  server: 95.143.188.10
+  server: 135.106.142.209
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: git.medrocket.ru
+  sni: alfastat.ru
+- name: 🇷🇺 Russia | [*CIDR] VK
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] (5)
+  type: vless
+  server: 72.56.234.45
+  port: 443
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
+- name: 🇷🇺 Russia [*CIDR] (15)
+  type: vless
+  server: 93.189.63.146
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: mm.melbicom.net
 - name: 🇷🇺 Russia [*CIDR] (16)
   type: vless
   server: 93.189.63.146
@@ -234,13 +294,13 @@ proxies:
   sni: mm.melbicom.net
 - name: 🇷🇺 Russia [*CIDR] (17)
   type: vless
-  server: 95.143.188.10
+  server: 93.189.63.146
   port: 443
   uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: git.medrocket.ru
+  sni: mm.melbicom.net
 - name: 🇷🇸 Serbia | [*CIDR]
   type: vless
   server: 95.143.191.98
@@ -253,28 +313,10 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (18)
+- name: 🇵🇱 Poland | [*CIDR]
   type: vless
-  server: 95.143.188.10
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: git.medrocket.ru
-- name: 🇷🇺 Russia | [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇸 Serbia | [*CIDR] (2)
-  type: vless
-  server: 95.143.191.98
-  port: 9889
+  server: 95.143.191.92
+  port: 9844
   uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
@@ -295,43 +337,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia | [*CIDR] VK (2)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (3)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia [*CIDR] (19)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇷🇺 Russia | [*CIDR] VK (4)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇸 Serbia | [*CIDR] (3)
+- name: 🇷🇸 Serbia | [*CIDR] (2)
   type: vless
   server: 95.143.191.98
   port: 9889
@@ -343,24 +349,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (20)
-  type: vless
-  server: 93.189.63.146
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: mm.melbicom.net
-- name: 🇷🇺 Russia [*CIDR] (21)
-  type: vless
-  server: 93.189.63.146
-  port: 443
-  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: mm.melbicom.net
 - name: 🇵🇱 Poland | [*CIDR] (3)
   type: vless
   server: 95.143.191.92
@@ -373,6 +361,120 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia [*CIDR] (18)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 82282910-54a0-0032-b2df-86bfbce8ed36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇷🇸 Serbia | [*CIDR] (3)
+  type: vless
+  server: 95.143.191.98
+  port: 9889
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia | [*CIDR] VK (2)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇸 Serbia | [*CIDR] (4)
+  type: vless
+  server: 95.143.191.98
+  port: 9889
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇵🇱 Poland | [*CIDR] (4)
+  type: vless
+  server: 95.143.191.92
+  port: 9844
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇸 Serbia | [*CIDR] (5)
+  type: vless
+  server: 95.143.191.98
+  port: 9889
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia | [*CIDR] (6)
+  type: vless
+  server: 72.56.234.45
+  port: 443
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
+- name: 🇷🇸 Serbia | [*CIDR] (6)
+  type: vless
+  server: 95.143.191.98
+  port: 9889
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia | [*CIDR] (7)
+  type: vless
+  server: 72.56.234.45
+  port: 443
+  uuid: 77da6e30-ad4e-11f1-94d5-525400d1d4f7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ads.x5.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (3)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (4)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
 - name: 🇷🇺 Russia | [*CIDR] VK (5)
   type: vless
   server: 95.163.214.43
@@ -409,97 +511,137 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (9)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia [*CIDR] (19)
+  type: hysteria2
+  server: ru-i.monkeyvillage.pro
+  port: 443
+  password: 88370d48-f668-47b2-9494-bc92c11cc602
+  skip-cert-verify: true
+  sni: ru-i.monkeyvillage.pro
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (2)
+  - 🇳🇱 The Netherlands [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (2)
+  - 🇳🇱 The Netherlands [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR]
   - 🇷🇺 Russia [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (9)
   - 🇷🇺 Russia [*CIDR] (10)
   - 🇷🇺 Russia [*CIDR] (11)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (12)
-  - 🇵🇱 Poland [*CIDR]
   - 🇷🇺 Russia [*CIDR] (13)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (14)
-  - 🇵🇱 Poland | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (15)
   - 🇷🇺 Russia [*CIDR] (16)
   - 🇷🇺 Russia [*CIDR] (17)
   - 🇷🇸 Serbia | [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (18)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇸 Serbia | [*CIDR] (2)
+  - 🇵🇱 Poland | [*CIDR]
   - 🇵🇱 Poland | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia [*CIDR] (19)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇸 Serbia | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR] (20)
-  - 🇷🇺 Russia [*CIDR] (21)
+  - 🇷🇸 Serbia | [*CIDR] (2)
   - 🇵🇱 Poland | [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (18)
+  - 🇷🇸 Serbia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇸 Serbia | [*CIDR] (4)
+  - 🇵🇱 Poland | [*CIDR] (4)
+  - 🇷🇸 Serbia | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇸 Serbia | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
   - 🇷🇺 Russia | [*CIDR] VK (5)
   - 🇷🇺 Russia | [*CIDR] VK (6)
   - 🇷🇺 Russia | [*CIDR] VK (7)
   - 🇷🇺 Russia | [*CIDR] VK (8)
+  - 🇷🇺 Russia | [*CIDR] VK (9)
+  - 🇷🇺 Russia [*CIDR] (19)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (2)
+  - 🇳🇱 The Netherlands [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (2)
+  - 🇳🇱 The Netherlands [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR]
   - 🇷🇺 Russia [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
   - 🇷🇺 Russia [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇩🇪 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (9)
   - 🇷🇺 Russia [*CIDR] (10)
   - 🇷🇺 Russia [*CIDR] (11)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
   - 🇷🇺 Russia [*CIDR] (12)
-  - 🇵🇱 Poland [*CIDR]
   - 🇷🇺 Russia [*CIDR] (13)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (14)
-  - 🇵🇱 Poland | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (15)
   - 🇷🇺 Russia [*CIDR] (16)
   - 🇷🇺 Russia [*CIDR] (17)
   - 🇷🇸 Serbia | [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (18)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇸 Serbia | [*CIDR] (2)
+  - 🇵🇱 Poland | [*CIDR]
   - 🇵🇱 Poland | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia [*CIDR] (19)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇸 Serbia | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR] (20)
-  - 🇷🇺 Russia [*CIDR] (21)
+  - 🇷🇸 Serbia | [*CIDR] (2)
   - 🇵🇱 Poland | [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (18)
+  - 🇷🇸 Serbia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇸 Serbia | [*CIDR] (4)
+  - 🇵🇱 Poland | [*CIDR] (4)
+  - 🇷🇸 Serbia | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇸 Serbia | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
   - 🇷🇺 Russia | [*CIDR] VK (5)
   - 🇷🇺 Russia | [*CIDR] VK (6)
   - 🇷🇺 Russia | [*CIDR] VK (7)
   - 🇷🇺 Russia | [*CIDR] VK (8)
+  - 🇷🇺 Russia | [*CIDR] VK (9)
+  - 🇷🇺 Russia [*CIDR] (19)
 rules:
 - MATCH,🌍 Прокси
