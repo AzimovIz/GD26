@@ -1,6 +1,6 @@
-# Обновлено: 2026-09-11 15:21 UTC
+# Обновлено: 2026-09-11 15:27 UTC
 # Всего в источнике: 72
-# Живых серверов: 59
+# Живых серверов: 62
 # Источник: 26.txt
 
 proxies:
@@ -25,6 +25,24 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  type: vless
+  server: 188.225.36.166
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: brand.betust.net
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  type: vless
+  server: 188.225.36.166
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: brand.betust.net
 - name: 🇩🇪 Germany | [*CIDR] (2)
   type: vless
   server: 188.68.218.205
@@ -37,7 +55,16 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  type: vless
+  server: 188.225.36.166
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: brand.betust.net
+- name: 🇳🇱 The Netherlands | [*CIDR] (5)
   type: vless
   server: 188.225.36.166
   port: 443
@@ -82,33 +109,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
-  type: vless
-  server: 188.225.36.166
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: brand.betust.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
-  type: vless
-  server: 188.225.36.166
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: brand.betust.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
-  type: vless
-  server: 188.225.38.43
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (6)
   type: vless
   server: 188.225.58.195
@@ -120,6 +120,24 @@ proxies:
   sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (7)
   type: vless
+  server: 188.225.78.192
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: spark.betust.net
+- name: 🇳🇱 The Netherlands | [*CIDR] (8)
+  type: vless
+  server: 188.225.58.195
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: news.betust.net
+- name: 🇳🇱 The Netherlands | [*CIDR] (9)
+  type: vless
   server: 188.225.58.153
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
@@ -127,24 +145,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: public.betust.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (8)
-  type: vless
-  server: 188.225.36.166
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: brand.betust.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (9)
-  type: vless
-  server: 188.225.38.43
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (10)
   type: vless
   server: 188.225.58.195
@@ -156,31 +156,31 @@ proxies:
   sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (11)
   type: vless
-  server: 188.225.38.43
+  server: 188.225.78.192
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloud.betust.net
+  sni: spark.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (12)
   type: vless
-  server: 188.225.38.43
+  server: 188.225.58.153
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloud.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (13)
   type: vless
-  server: 188.225.58.195
+  server: 188.225.78.192
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: spark.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (14)
   type: vless
   server: 188.225.78.192
@@ -192,31 +192,31 @@ proxies:
   sni: spark.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (15)
   type: vless
-  server: 188.225.78.192
+  server: 188.225.58.153
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: spark.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (16)
   type: vless
-  server: 188.225.78.192
+  server: 188.225.58.195
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: spark.betust.net
+  sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (17)
   type: vless
-  server: 188.225.38.43
+  server: 188.225.58.153
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloud.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (18)
   type: vless
   server: 188.225.78.192
@@ -237,31 +237,31 @@ proxies:
   sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (20)
   type: vless
-  server: 188.225.58.195
+  server: 188.225.38.43
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (21)
   type: vless
-  server: 188.225.78.192
+  server: 188.225.38.43
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: spark.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (22)
   type: vless
-  server: 188.225.58.153
+  server: 188.225.38.43
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (23)
   type: vless
   server: 188.225.58.195
@@ -273,31 +273,22 @@ proxies:
   sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (24)
   type: vless
-  server: 188.225.58.153
+  server: 188.225.38.43
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (25)
   type: vless
-  server: 188.225.58.153
+  server: 188.225.38.43
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (26)
   type: vless
   server: 195.209.214.9
@@ -334,15 +325,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: absolute-disaster.org
-- name: 🇷🇺 Russia [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
 - name: 🇳🇱 The Netherlands | [*CIDR] (30)
   type: vless
   server: public.betust.net
@@ -354,41 +336,95 @@ proxies:
   sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (31)
   type: vless
-  server: news.betust.net
+  server: 195.209.214.9
   port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  uuid: 6c76b874-2273-56cf-8ba2-1b387e85af7c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: absolute-disaster.org
 - name: 🇳🇱 The Netherlands | [*CIDR] (32)
   type: vless
-  server: news.betust.net
+  server: public.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (33)
   type: vless
-  server: cloud.betust.net
+  server: public.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloud.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (34)
   type: vless
-  server: news.betust.net
+  server: public.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (35)
+  type: vless
+  server: public.betust.net
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: public.betust.net
+- name: 🇷🇺 Russia | [*CIDR] VK
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (2)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (3)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (4)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia [*CIDR] VK
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇳🇱 The Netherlands | [*CIDR] (36)
   type: vless
   server: cloud.betust.net
   port: 443
@@ -397,24 +433,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: cloud.betust.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (36)
-  type: vless
-  server: public.betust.net
-  port: 443
-  uuid: 02722550-1915-4629-a653-cbe95e594f70
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: public.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (37)
   type: vless
-  server: public.betust.net
+  server: cloud.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (38)
   type: vless
   server: cloud.betust.net
@@ -426,13 +453,13 @@ proxies:
   sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (39)
   type: vless
-  server: news.betust.net
+  server: cloud.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: news.betust.net
+  sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (40)
   type: vless
   server: cloud.betust.net
@@ -444,13 +471,13 @@ proxies:
   sni: cloud.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (41)
   type: vless
-  server: cloud.betust.net
+  server: news.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloud.betust.net
+  sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (42)
   type: vless
   server: news.betust.net
@@ -462,31 +489,31 @@ proxies:
   sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (43)
   type: vless
-  server: public.betust.net
+  server: news.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
+  sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (44)
   type: vless
-  server: public.betust.net
+  server: news.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: public.betust.net
+  sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (45)
   type: vless
-  server: spark.betust.net
+  server: news.betust.net
   port: 443
   uuid: 02722550-1915-4629-a653-cbe95e594f70
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: spark.betust.net
+  sni: news.betust.net
 - name: 🇳🇱 The Netherlands | [*CIDR] (46)
   type: vless
   server: spark.betust.net
@@ -523,7 +550,16 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: spark.betust.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
+- name: 🇳🇱 The Netherlands | [*CIDR] (50)
+  type: vless
+  server: spark.betust.net
+  port: 443
+  uuid: 02722550-1915-4629-a653-cbe95e594f70
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: spark.betust.net
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
   type: vless
   server: 95.163.214.43
   port: 443
@@ -532,16 +568,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ok.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (50)
-  type: vless
-  server: 195.209.214.9
-  port: 443
-  uuid: 6c76b874-2273-56cf-8ba2-1b387e85af7c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
+- name: 🇷🇺 Russia | [*CIDR] VK (5)
   type: vless
   server: 95.163.214.43
   port: 443
@@ -556,14 +583,14 @@ proxy-groups:
   proxies:
   - 🇳🇱 The Netherlands | [*CIDR]
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
   - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇩🇪 Germany | [*CIDR] (3)
   - 🇩🇪 Germany | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇳🇱 The Netherlands | [*CIDR] (6)
   - 🇳🇱 The Netherlands | [*CIDR] (7)
   - 🇳🇱 The Netherlands | [*CIDR] (8)
@@ -583,19 +610,22 @@ proxy-groups:
   - 🇳🇱 The Netherlands | [*CIDR] (22)
   - 🇳🇱 The Netherlands | [*CIDR] (23)
   - 🇳🇱 The Netherlands | [*CIDR] (24)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (25)
   - 🇳🇱 The Netherlands | [*CIDR] (26)
   - 🇳🇱 The Netherlands | [*CIDR] (27)
   - 🇳🇱 The Netherlands | [*CIDR] (28)
   - 🇳🇱 The Netherlands | [*CIDR] (29)
-  - 🇷🇺 Russia [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (30)
   - 🇳🇱 The Netherlands | [*CIDR] (31)
   - 🇳🇱 The Netherlands | [*CIDR] (32)
   - 🇳🇱 The Netherlands | [*CIDR] (33)
   - 🇳🇱 The Netherlands | [*CIDR] (34)
   - 🇳🇱 The Netherlands | [*CIDR] (35)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (36)
   - 🇳🇱 The Netherlands | [*CIDR] (37)
   - 🇳🇱 The Netherlands | [*CIDR] (38)
@@ -610,9 +640,9 @@ proxy-groups:
   - 🇳🇱 The Netherlands | [*CIDR] (47)
   - 🇳🇱 The Netherlands | [*CIDR] (48)
   - 🇳🇱 The Netherlands | [*CIDR] (49)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
   - 🇳🇱 The Netherlands | [*CIDR] (50)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (5)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -621,14 +651,14 @@ proxy-groups:
   - 🚀 Авто-выбор
   - 🇳🇱 The Netherlands | [*CIDR]
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
   - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇩🇪 Germany | [*CIDR] (3)
   - 🇩🇪 Germany | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
   - 🇳🇱 The Netherlands | [*CIDR] (6)
   - 🇳🇱 The Netherlands | [*CIDR] (7)
   - 🇳🇱 The Netherlands | [*CIDR] (8)
@@ -648,19 +678,22 @@ proxy-groups:
   - 🇳🇱 The Netherlands | [*CIDR] (22)
   - 🇳🇱 The Netherlands | [*CIDR] (23)
   - 🇳🇱 The Netherlands | [*CIDR] (24)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (25)
   - 🇳🇱 The Netherlands | [*CIDR] (26)
   - 🇳🇱 The Netherlands | [*CIDR] (27)
   - 🇳🇱 The Netherlands | [*CIDR] (28)
   - 🇳🇱 The Netherlands | [*CIDR] (29)
-  - 🇷🇺 Russia [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (30)
   - 🇳🇱 The Netherlands | [*CIDR] (31)
   - 🇳🇱 The Netherlands | [*CIDR] (32)
   - 🇳🇱 The Netherlands | [*CIDR] (33)
   - 🇳🇱 The Netherlands | [*CIDR] (34)
   - 🇳🇱 The Netherlands | [*CIDR] (35)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia [*CIDR] VK
   - 🇳🇱 The Netherlands | [*CIDR] (36)
   - 🇳🇱 The Netherlands | [*CIDR] (37)
   - 🇳🇱 The Netherlands | [*CIDR] (38)
@@ -675,8 +708,8 @@ proxy-groups:
   - 🇳🇱 The Netherlands | [*CIDR] (47)
   - 🇳🇱 The Netherlands | [*CIDR] (48)
   - 🇳🇱 The Netherlands | [*CIDR] (49)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
   - 🇳🇱 The Netherlands | [*CIDR] (50)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (5)
 rules:
 - MATCH,🌍 Прокси
