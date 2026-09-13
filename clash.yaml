@@ -1,49 +1,18 @@
-# Обновлено: 2026-09-13 06:53 UTC
-# Всего в источнике: 91
-# Живых серверов: 82
+# Обновлено: 2026-09-13 12:24 UTC
+# Всего в источнике: 83
+# Живых серверов: 77
 # Источник: 26.txt
 
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+- name: 🇬🇧 United Kingdom | [*CIDR]
   type: vless
-  server: 168.113.215.17
+  server: 62.233.39.9
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  type: vless
-  server: 168.113.215.17
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 168.113.215.17
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
+  sni: download.nvidia.com
 - name: 🇰🇿 Kazakhstan | [*CIDR]
   type: vless
   server: 62.233.39.9
@@ -56,6 +25,27 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
+- name: 🇰🇿 Kazakhstan | [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
 - name: 🇩🇪 Germany | [*CIDR]
   type: vless
   server: 188.68.218.205
@@ -68,6 +58,60 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇬🇧 United Kingdom [*CIDR]
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇩🇪 Germany | [*CIDR] VK
+  type: vless
+  server: 37.139.42.193
+  port: 7443
+  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: 🇰🇿 Kazakhstan [*CIDR]
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇬🇧 United Kingdom [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
 - name: 🇩🇪 Germany [*CIDR]
   type: vless
   server: 188.68.218.205
@@ -80,19 +124,37 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇩🇪 Germany [*CIDR] (2)
+- name: 🇬🇧 United Kingdom [*CIDR] (3)
   type: vless
-  server: 188.68.218.205
-  port: 443
-  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: static-basket-01.wbbasket.ru
+  sni: download.nvidia.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc
-- name: 🇰🇿 Kazakhstan | [*CIDR] (2)
+    grpc-service-name: TunService
+- name: 🇩🇪 Germany [*CIDR] VK
+  type: vless
+  server: 37.139.42.193
+  port: 7443
+  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: 🇬🇧 United Kingdom | [*CIDR] (4)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🇰🇿 Kazakhstan | [*CIDR] (3)
   type: vless
   server: 62.233.39.9
   port: 8443
@@ -116,7 +178,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇰🇿 Kazakhstan | [*CIDR] (3)
+- name: 🇬🇧 United Kingdom | [*CIDR] (5)
   type: vless
   server: 62.233.39.9
   port: 8443
@@ -124,22 +186,10 @@ proxies:
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.dell.com
+  sni: download.nvidia.com
   network: grpc
   grpc-opts:
     grpc-service-name: TunService
-- name: 🇩🇪 Germany [*CIDR] (3)
-  type: vless
-  server: 188.68.218.205
-  port: 443
-  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: static-basket-01.wbbasket.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 🇰🇿 Kazakhstan | [*CIDR] (4)
   type: vless
   server: 62.233.39.9
@@ -164,45 +214,24 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR]
+- name: 🇵🇱 Poland | [*CIDR]
   type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
+  server: 201.34.136.57
+  port: 21443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  sni: www.cloudflare.com
+- name: 🇦🇹 Austria | [*CIDR]
   type: vless
-  server: 46.8.209.137
+  server: 212.115.55.242
   port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: N7qL4vK9sR2mT8xC5pH3dW6z
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
+  sni: ru-dc.wequ.host
 - name: 🇩🇪 Germany | [*CIDR] (4)
   type: vless
   server: 188.68.218.205
@@ -215,476 +244,331 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+- name: 🇬🇧 United Kingdom | [*CIDR] (6)
   type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
+  server: 62.233.39.9
+  port: 8443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
+  sni: download.nvidia.com
   network: grpc
   grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
+    grpc-service-name: TunService
+- name: 🇦🇹 Austria | [*CIDR] (2)
+  type: vless
+  server: 212.115.55.242
+  port: 443
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-dc.wequ.host
+- name: 🇳🇴 Norway | 🌐 | [*CIDR]
+  type: vless
+  server: 178.250.157.177
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | [*CIDR] VK (2)
+  type: vless
+  server: 37.139.42.193
+  port: 7443
+  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: 🇵🇱 Poland | [*CIDR] (2)
+  type: vless
+  server: 201.34.136.57
+  port: 21443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇦🇹 Austria | [*CIDR] (3)
+  type: vless
+  server: 212.115.55.242
+  port: 443
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-dc.wequ.host
+- name: 🇬🇧 United Kingdom | [*CIDR] (7)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🇵🇱 Poland | [*CIDR] (3)
+  type: vless
+  server: 201.34.136.57
+  port: 21443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇳🇴 Norway | 🌐 [*CIDR]
+  type: vless
+  server: 178.250.157.177
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | [*CIDR] VK (3)
+  type: vless
+  server: 37.139.42.193
+  port: 7443
+  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: 🇦🇹 Austria | [*CIDR] (4)
+  type: vless
+  server: 212.115.55.242
+  port: 443
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-dc.wequ.host
+- name: 🇳🇴 Norway | 🌐 [*CIDR] (2)
+  type: vless
+  server: 178.250.157.177
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 201.34.136.57
+  port: 21443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇺🇸 United States | 🌐 [*CIDR]
+  type: vless
+  server: 80.87.195.166
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇵🇱 Poland | [*CIDR] (4)
+  type: vless
+  server: 201.34.136.57
+  port: 21443
+  uuid: 5edbcb44-8d04-4fa7-a587-bc5d60c24ca1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇦🇹 Austria | [*CIDR] (5)
+  type: vless
+  server: 212.115.55.242
+  port: 443
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-dc.wequ.host
+- name: 🇳🇴 Norway | 🌐 [*CIDR] (3)
+  type: vless
+  server: 178.250.157.177
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | [*CIDR] VK (4)
+  type: vless
+  server: 37.139.42.193
+  port: 7443
+  uuid: 9ae0806c-6398-43da-a3c1-9275b461e9b5
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: 🇺🇸 United States | 🌐 [*CIDR] (2)
+  type: vless
+  server: 80.87.195.166
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR]
+  type: vless
+  server: 80.87.195.166
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇳🇴 Norway | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 178.250.157.177
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 [*CIDR] (3)
+  type: vless
+  server: 80.87.195.166
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 80.87.195.166
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 | [*CIDR]
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 80.87.196.72
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 80.87.196.72
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
 - name: 🇩🇪 Germany | [*CIDR] (5)
-  type: vless
-  server: 188.68.218.205
-  port: 443
-  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: static-basket-01.wbbasket.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: W3pH8sN5kT2mR9vL6qC4dX7z
-- name: 🇩🇪 Germany [*CIDR] (4)
-  type: vless
-  server: 188.68.218.205
-  port: 443
-  uuid: 6aaa7d1d-8b35-4fd2-ae60-0129ad624935
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: static-basket-01.wbbasket.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (6)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
-- name: 🇳🇱 The Netherlands | [*CIDR] (7)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: N7qL4vK9sR2mT8xC5pH3dW6z
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (8)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: W3pH8sN5kT2mR9vL6qC4dX7z
-- name: 🇳🇱 The Netherlands | [*CIDR] (9)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: W3pH8sN5kT2mR9vL6qC4dX7z
-- name: 🇳🇱 The Netherlands | [*CIDR] (10)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (11)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: R8mD2kV7pL4xQ9sF6tN3cW5z
-- name: 🇳🇱 The Netherlands | [*CIDR] (12)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: R8mD2kV7pL4xQ9sF6tN3cW5z
-- name: 🇳🇱 The Netherlands | [*CIDR] (13)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: N7qL4vK9sR2mT8xC5pH3dW6z
-- name: 🇳🇱 The Netherlands | [*CIDR] (14)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: R8mD2kV7pL4xQ9sF6tN3cW5z
-- name: 🇳🇱 The Netherlands | [*CIDR] (15)
-  type: vless
-  server: 46.8.209.137
-  port: 443
-  uuid: a226056c-8e43-4ce7-929e-a706b72a7101
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: sixseven.eurocast.work
-  network: grpc
-  grpc-opts:
-    grpc-service-name: T5xK9qM3vR7dL2pC8sH4nW6y
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇬🇧 United Kingdom [*CIDR]
-  type: vless
-  server: 62.233.39.9
-  port: 8443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇬🇧 United Kingdom [*CIDR] (2)
-  type: vless
-  server: 62.233.39.9
-  port: 8443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇬🇧 United Kingdom | [*CIDR]
-  type: vless
-  server: 62.233.39.9
-  port: 443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: 🇬🇧 United Kingdom | [*CIDR] (2)
-  type: vless
-  server: 62.233.39.9
-  port: 443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-- name: 🇬🇧 United Kingdom | [*CIDR] (3)
-  type: vless
-  server: 62.233.39.9
-  port: 443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-- name: 🇬🇧 United Kingdom | [*CIDR] (4)
-  type: vless
-  server: 62.233.39.9
-  port: 443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  type: vless
-  server: 72.56.238.46
-  port: 443
-  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.sdssh-vid.online
-- name: 🇬🇧 United Kingdom | [*CIDR] (5)
-  type: vless
-  server: 62.233.39.9
-  port: 8443
-  uuid: 4350213a-b4e7-262a-0bd7-bd16957cf71a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: download.nvidia.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
-  type: vless
-  server: 72.56.238.46
-  port: 443
-  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.sdssh-vid.online
-- name: 🇩🇪 Germany [*CIDR] (5)
-  type: vmess
-  server: 194.87.71.141
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
-  type: vless
-  server: 72.56.238.46
-  port: 443
-  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.sdssh-vid.online
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: 🇷🇺 Russia [*CIDR]
-  type: vless
-  server: posa9.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  type: vless
-  server: posa9.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (2)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  type: vless
-  server: posa6.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa6.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (3)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia [*CIDR] VK
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (4)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (5)
-  type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ok.ru
-- name: 🇩🇪 Germany [*CIDR] (6)
   type: vmess
   server: 5.188.26.85
   port: 443
@@ -700,25 +584,175 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: renderer-stream-2-62.mirra.now
-- name: 🇷🇺 Russia [*CIDR] VK (2)
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (5)
   type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  server: 80.87.196.72
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ok.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (6)
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (6)
   type: vless
-  server: 95.163.214.43
-  port: 443
-  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  server: 80.87.196.72
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ok.ru
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇺🇸 United States | 🌐 | [*CIDR] (7)
+  type: vless
+  server: 80.87.196.72
+  port: 2096
+  uuid: 617dc5cf-915f-43b2-a0d4-4057584d9d33
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
 - name: 🇩🇪 Germany | [*CIDR] (6)
+  type: vmess
+  server: 5.188.26.85
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+- name: 🇷🇺 Russia | [*CIDR] VK
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+- name: 🇩🇪 Germany | [*CIDR] (7)
+  type: vmess
+  server: 194.226.142.120
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany | [*CIDR] (8)
+  type: vmess
+  server: 194.226.142.120
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+- name: 🇷🇺 Russia | [*CIDR] VK (2)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: s.yourvibe.my
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: s.yourvibe.my
+- name: 🇷🇺 Russia | [*CIDR] VK (3)
+  type: vless
+  server: 95.163.214.43
+  port: 443
+  uuid: 88ce17fc-7c6c-43a7-98a4-33fb59697b17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ok.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: s.yourvibe.my
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (6)
+  type: vless
+  server: s.yourvibe.my
+  port: 443
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+- name: 🇩🇪 Germany | [*CIDR] (9)
   type: vmess
   server: 2.27.54.132
   port: 443
@@ -734,130 +768,44 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
-- name: 🇷🇺 Russia | [*CIDR] (2)
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (7)
   type: vless
-  server: posa8.api3-max.ru
+  server: s.yourvibe.my
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: posa8.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] (3)
+  sni: s.yourvibe.my
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (8)
   type: vless
-  server: posa8.api3-max.ru
+  server: s.yourvibe.my
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: posa8.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] (4)
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (9)
   type: vless
-  server: posa8.api3-max.ru
+  server: s.yourvibe.my
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: posa8.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
+  sni: s.yourvibe.my
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (10)
   type: vless
-  server: posa8.api3-max.ru
+  server: s.yourvibe.my
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: d73e3cdc-a80b-4e73-a11b-cc467d7a84f8
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: posa8.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  type: vless
-  server: posa8.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa8.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
-  type: vless
-  server: posa8.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa8.api3-max.ru
-- name: 🇩🇪 Germany | [*CIDR] (7)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (8)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (9)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany [*CIDR] (7)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: ''
 - name: 🇩🇪 Germany | [*CIDR] (10)
   type: vmess
   server: renderer-stream-2-62.mirra.now
@@ -870,243 +818,221 @@ proxies:
   ws-opts:
     path: /api/v1/gpu-stream/socket
     headers:
+      Host: ''
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+- name: 🇩🇪 Germany | [*CIDR] (11)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+- name: 🇩🇪 Germany | [*CIDR] (12)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
       Host: renderer-stream-2-62.mirra.now
   tls: true
   skip-cert-verify: true
   sni: ''
-- name: 🇷🇺 Russia | [*CIDR] (5)
-  type: vless
-  server: posa9.api3-max.ru
+- name: 🇩🇪 Germany | [*CIDR] (13)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
   port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
   udp: true
-  skip-cert-verify: true
-  encryption: none
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: ''
   tls: true
-  sni: posa9.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
-  type: vless
-  server: posa9.api3-max.ru
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
   skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] (6)
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (16)
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: 🇷🇺 Russia | [*CIDR] (7)
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (17)
-  type: vless
-  server: 168.113.215.20
-  port: 443
-  uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: posa9.api3-max.ru
+  sni: ''
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR]
   - 🇰🇿 Kazakhstan | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
-  - 🇩🇪 Germany [*CIDR] (2)
   - 🇰🇿 Kazakhstan | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK
+  - 🇰🇿 Kazakhstan [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR] (2)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR] (3)
+  - 🇩🇪 Germany [*CIDR] VK
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
   - 🇰🇿 Kazakhstan | [*CIDR] (3)
-  - 🇩🇪 Germany [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
   - 🇰🇿 Kazakhstan | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR]
+  - 🇦🇹 Austria | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (6)
+  - 🇦🇹 Austria | [*CIDR] (2)
+  - 🇳🇴 Norway | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK (2)
+  - 🇵🇱 Poland | [*CIDR] (2)
+  - 🇦🇹 Austria | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (7)
+  - 🇵🇱 Poland | [*CIDR] (3)
+  - 🇳🇴 Norway | 🌐 [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK (3)
+  - 🇦🇹 Austria | [*CIDR] (4)
+  - 🇳🇴 Norway | 🌐 [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR]
+  - 🇺🇸 United States | 🌐 [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (5)
+  - 🇳🇴 Norway | 🌐 [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] VK (4)
+  - 🇺🇸 United States | 🌐 [*CIDR] (2)
+  - 🇺🇸 United States | 🌐 | [*CIDR]
+  - 🇳🇴 Norway | 🌐 | [*CIDR] (2)
+  - 🇺🇸 United States | 🌐 [*CIDR] (3)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (3)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇩🇪 Germany [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
-  - 🇳🇱 The Netherlands | [*CIDR] (8)
-  - 🇳🇱 The Netherlands | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (11)
-  - 🇳🇱 The Netherlands | [*CIDR] (12)
-  - 🇳🇱 The Netherlands | [*CIDR] (13)
-  - 🇳🇱 The Netherlands | [*CIDR] (14)
-  - 🇳🇱 The Netherlands | [*CIDR] (15)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇬🇧 United Kingdom [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
-  - 🇩🇪 Germany [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇩🇪 Germany [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (5)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (6)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (7)
   - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (7)
   - 🇩🇪 Germany | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (6)
   - 🇩🇪 Germany | [*CIDR] (9)
-  - 🇩🇪 Germany [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (9)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (10)
   - 🇩🇪 Germany | [*CIDR] (10)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
-  - 🇷🇺 Russia | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (16)
-  - 🇷🇺 Russia | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (17)
+  - 🇩🇪 Germany | [*CIDR] (11)
+  - 🇩🇪 Germany | [*CIDR] (12)
+  - 🇩🇪 Germany | [*CIDR] (13)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR]
   - 🇰🇿 Kazakhstan | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
-  - 🇩🇪 Germany [*CIDR] (2)
   - 🇰🇿 Kazakhstan | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK
+  - 🇰🇿 Kazakhstan [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR] (2)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR] (3)
+  - 🇩🇪 Germany [*CIDR] VK
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
   - 🇰🇿 Kazakhstan | [*CIDR] (3)
-  - 🇩🇪 Germany [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
   - 🇰🇿 Kazakhstan | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR]
+  - 🇦🇹 Austria | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (6)
+  - 🇦🇹 Austria | [*CIDR] (2)
+  - 🇳🇴 Norway | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK (2)
+  - 🇵🇱 Poland | [*CIDR] (2)
+  - 🇦🇹 Austria | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (7)
+  - 🇵🇱 Poland | [*CIDR] (3)
+  - 🇳🇴 Norway | 🌐 [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] VK (3)
+  - 🇦🇹 Austria | [*CIDR] (4)
+  - 🇳🇴 Norway | 🌐 [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR]
+  - 🇺🇸 United States | 🌐 [*CIDR]
+  - 🇵🇱 Poland | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (5)
+  - 🇳🇴 Norway | 🌐 [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] VK (4)
+  - 🇺🇸 United States | 🌐 [*CIDR] (2)
+  - 🇺🇸 United States | 🌐 | [*CIDR]
+  - 🇳🇴 Norway | 🌐 | [*CIDR] (2)
+  - 🇺🇸 United States | 🌐 [*CIDR] (3)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (3)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇩🇪 Germany [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK
-  - 🇳🇱 The Netherlands | [*CIDR] (8)
-  - 🇳🇱 The Netherlands | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (11)
-  - 🇳🇱 The Netherlands | [*CIDR] (12)
-  - 🇳🇱 The Netherlands | [*CIDR] (13)
-  - 🇳🇱 The Netherlands | [*CIDR] (14)
-  - 🇳🇱 The Netherlands | [*CIDR] (15)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] VK (3)
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇬🇧 United Kingdom [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
-  - 🇩🇪 Germany [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
-  - 🇩🇪 Germany [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (6)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (5)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (6)
+  - 🇺🇸 United States | 🌐 | [*CIDR] (7)
   - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (7)
   - 🇩🇪 Germany | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (6)
   - 🇩🇪 Germany | [*CIDR] (9)
-  - 🇩🇪 Germany [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (9)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (10)
   - 🇩🇪 Germany | [*CIDR] (10)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
-  - 🇷🇺 Russia | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (16)
-  - 🇷🇺 Russia | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (17)
+  - 🇩🇪 Germany | [*CIDR] (11)
+  - 🇩🇪 Germany | [*CIDR] (12)
+  - 🇩🇪 Germany | [*CIDR] (13)
 rules:
 - MATCH,🌍 Прокси
