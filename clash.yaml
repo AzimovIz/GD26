@@ -1,10 +1,94 @@
-# Обновлено: 2026-09-15 17:22 UTC
-# Всего в источнике: 14
-# Живых серверов: 9
+# Обновлено: 2026-09-15 20:33 UTC
+# Всего в источнике: 36
+# Живых серверов: 31
 # Источник: 26.txt
 
 proxies:
+- name: 🇸🇪 Sweden | [*CIDR]
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🇸🇪 Sweden [*CIDR] (2)
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🇸🇪 Sweden | [*CIDR] (2)
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  type: vmess
+  server: 5.188.26.85
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
 - name: 🇩🇪 Germany [*CIDR]
+  type: vmess
+  server: 2.27.54.132
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany [*CIDR] (2)
+  type: vmess
+  server: 5.188.26.85
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany | [*CIDR]
   type: vmess
   server: 194.226.142.120
   port: 443
@@ -20,47 +104,154 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
-- name: 🇱🇹 Lithuania | [*CIDR]
-  type: vless
-  server: lt26.cdnfern.org
+- name: 🇩🇪 Germany | [*CIDR] (2)
+  type: vmess
+  server: 194.226.142.120
   port: 443
-  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇸🇪 Sweden | 🌐 [*CIDR]
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: lt26.cdnfern.org
-- name: 🇱🇹 Lithuania | [*CIDR] (2)
-  type: vless
-  server: lt26.cdnfern.org
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🇩🇪 Germany | [*CIDR] (3)
+  type: vmess
+  server: 80.240.252.241
   port: 443
-  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: lt26.cdnfern.org
-- name: 🇱🇹 Lithuania [*CIDR]
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 [*CIDR]
   type: vless
-  server: lt26.cdnfern.org
+  server: 45.8.228.167
   port: 443
-  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: lt26.cdnfern.org
-- name: 🇱🇹 Lithuania | [*CIDR] (3)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
   type: vless
-  server: lt26.cdnfern.org
+  server: 45.8.228.167
   port: 443
-  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  type: vless
+  server: network.ezhikvpn.xyz
+  port: 7003
+  uuid: 529809a0-98c2-41da-b581-e504bb717902
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de.ezhikvpn.xyz
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  type: vless
+  server: network.ezhikvpn.xyz
+  port: 7003
+  uuid: 529809a0-98c2-41da-b581-e504bb717902
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de.ezhikvpn.xyz
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  type: vless
+  server: network.ezhikvpn.xyz
+  port: 7003
+  uuid: 529809a0-98c2-41da-b581-e504bb717902
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de.ezhikvpn.xyz
+- name: 🇩🇪 Germany | 🌐 | [*CIDR]
+  type: vless
+  server: network.ezhikvpn.xyz
+  port: 7003
+  uuid: 529809a0-98c2-41da-b581-e504bb717902
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de.ezhikvpn.xyz
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] (3)
+  type: vless
+  server: network.ezhikvpn.xyz
+  port: 7003
+  uuid: 529809a0-98c2-41da-b581-e504bb717902
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de.ezhikvpn.xyz
+- name: 🇩🇪 Germany [*CIDR] (3)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
   tls: true
-  sni: lt26.cdnfern.org
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany | [*CIDR] (4)
   type: vmess
   server: renderer-stream-2-62.mirra.now
   port: 443
@@ -76,23 +267,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (2)
+- name: 🇩🇪 Germany | [*CIDR] (5)
   type: vmess
   server: renderer-stream-2-62.mirra.now
   port: 443
@@ -108,7 +283,23 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
-- name: 🇱🇹 Lithuania [*CIDR] (2)
+- name: 🇩🇪 Germany | [*CIDR] (6)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: ''
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🌐 Anycast-IP | 🇱🇹 [*CIDR]
   type: vless
   server: lt26.cdnfern.org
   port: 443
@@ -118,33 +309,133 @@ proxies:
   encryption: none
   tls: true
   sni: lt26.cdnfern.org
+- name: 🌐 Anycast-IP | 🇱🇹 [*CIDR] (2)
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🇱🇹 Lithuania | [*CIDR]
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🌐 Anycast-IP | 🇱🇹 🇸🇪 [*CIDR]
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🌐 Anycast-IP | 🇱🇹 [*CIDR] (3)
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  type: vmess
+  server: 194.226.142.120
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪 Germany [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR] (2)
-  - 🇱🇹 Lithuania [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR] (3)
+  - 🇸🇪 Sweden | [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR] (2)
+  - 🇸🇪 Sweden | [*CIDR] (2)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇩🇪 Germany [*CIDR]
+  - 🇩🇪 Germany [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇱🇹 Lithuania [*CIDR] (2)
+  - 🇸🇪 Sweden | 🌐 [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (3)
+  - 🇩🇪 Germany [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇩🇪 Germany | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR] (2)
+  - 🇱🇹 Lithuania | [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪 Germany [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR] (2)
-  - 🇱🇹 Lithuania [*CIDR]
-  - 🇱🇹 Lithuania | [*CIDR] (3)
+  - 🇸🇪 Sweden | [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR] (2)
+  - 🇸🇪 Sweden | [*CIDR] (2)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇩🇪 Germany [*CIDR]
+  - 🇩🇪 Germany [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇱🇹 Lithuania [*CIDR] (2)
+  - 🇸🇪 Sweden | 🌐 [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (3)
+  - 🇩🇪 Germany [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇩🇪 Germany | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR] (2)
+  - 🇱🇹 Lithuania | [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇱🇹 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
