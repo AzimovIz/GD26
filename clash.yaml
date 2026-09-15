@@ -1,48 +1,12 @@
-# Обновлено: 2026-09-15 12:18 UTC
-# Всего в источнике: 17
-# Живых серверов: 11
+# Обновлено: 2026-09-15 17:22 UTC
+# Всего в источнике: 14
+# Живых серверов: 9
 # Источник: 26.txt
 
 proxies:
-- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+- name: 🇩🇪 Germany [*CIDR]
   type: vmess
-  server: 5.188.26.85
+  server: 194.226.142.120
   port: 443
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
@@ -56,9 +20,65 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
+- name: 🇱🇹 Lithuania | [*CIDR]
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🇱🇹 Lithuania | [*CIDR] (2)
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🇱🇹 Lithuania [*CIDR]
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🇱🇹 Lithuania | [*CIDR] (3)
+  type: vless
+  server: lt26.cdnfern.org
+  port: 443
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lt26.cdnfern.org
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: ''
+  tls: true
+  skip-cert-verify: true
+  sni: ''
 - name: 🇩🇪 Germany | [*CIDR]
   type: vmess
-  server: 5.188.26.85
+  server: renderer-stream-2-62.mirra.now
   port: 443
   uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
   alterId: 0
@@ -87,95 +107,44 @@ proxies:
       Host: renderer-stream-2-62.mirra.now
   tls: true
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (4)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
   sni: ''
-- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
+- name: 🇱🇹 Lithuania [*CIDR] (2)
   type: vless
-  server: 45.8.228.167
+  server: lt26.cdnfern.org
   port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  uuid: e8002f83-f46a-40d8-9b36-ff982f029488
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  type: vmess
-  server: 194.226.142.120
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
   tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+  sni: lt26.cdnfern.org
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
+  - 🇩🇪 Germany [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR] (2)
+  - 🇱🇹 Lithuania [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR] (3)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
   - 🇩🇪 Germany | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🇱🇹 Lithuania [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
+  - 🇩🇪 Germany [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR] (2)
+  - 🇱🇹 Lithuania [*CIDR]
+  - 🇱🇹 Lithuania | [*CIDR] (3)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
   - 🇩🇪 Germany | [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🇱🇹 Lithuania [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
