@@ -1,41 +1,176 @@
-# Обновлено: 2026-09-16 23:20 UTC
-# Всего в источнике: 33
-# Живых серверов: 29
+# Обновлено: 2026-09-17 02:06 UTC
+# Всего в источнике: 60
+# Живых серверов: 44
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: 5.188.26.85
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+  type: vless
+  server: 45.8.228.167
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (2)
-  type: vmess
-  server: 5.188.26.85
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇫🇮 Finland | 🌐 | [*CIDR]
+  type: vless
+  server: 82.146.56.149
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR]
+  type: vless
+  server: 94.198.217.201
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇪🇪 Estonia [*CIDR]
+  type: vless
+  server: 104.171.133.61
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR]
+  type: vless
+  server: 94.198.217.201
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR] (2)
+  type: vless
+  server: 94.198.217.201
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 82.146.56.149
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]
+  type: vless
+  server: 188.225.56.11
+  port: 443
+  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 82.146.56.149
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇪🇪 Estonia [*CIDR] (2)
+  type: vless
+  server: 104.171.133.61
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 82.146.56.149
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇪🇪 Estonia | [*CIDR]
+  type: vless
+  server: 104.171.133.61
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇵🇱 Poland [*CIDR]
+  type: vless
+  server: 104.171.133.61
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
 - name: 🇳🇱 The Netherlands [*CIDR]
   type: vless
   server: 89.23.113.175
@@ -46,58 +181,26 @@ proxies:
   encryption: none
   tls: true
   sni: ru4.lebedvpn.cc
-- name: 🇳🇱 The Netherlands | [*CIDR]
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (2)
   type: vless
-  server: 89.23.113.175
+  server: 188.225.56.11
   port: 443
-  uuid: 33a1a0e1-7dd1-414b-9751-901aeb44ae7d
+  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: ru4.lebedvpn.cc
-- name: 🇩🇪 Germany [*CIDR]
-  type: vmess
-  server: 5.188.26.85
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+- name: 🇵🇱 Poland | [*CIDR]
   type: vless
-  server: 89.23.113.175
-  port: 443
-  uuid: 33a1a0e1-7dd1-414b-9751-901aeb44ae7d
+  server: 200.165.231.18
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: ru4.lebedvpn.cc
-- name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vmess
-  server: 194.226.142.120
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
 - name: 🇳🇱 The Netherlands [*CIDR] (2)
   type: vless
   server: 89.23.113.175
@@ -108,41 +211,7 @@ proxies:
   encryption: none
   tls: true
   sni: ru4.lebedvpn.cc
-- name: 🇸🇪 Sweden | 🌐 [*CIDR]
-  type: vless
-  server: 5.129.198.223
-  port: 443
-  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-tw-msk-mishka.attention-game.ru
-- name: 🇩🇪 Germany | [*CIDR] (4)
-  type: vmess
-  server: 195.19.20.80
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇸🇪 Sweden [*CIDR]
-  type: vless
-  server: 5.129.198.223
-  port: 443
-  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn-tw-msk-mishka.attention-game.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+- name: 🇳🇱 The Netherlands [*CIDR] (3)
   type: vless
   server: 89.23.113.175
   port: 443
@@ -152,38 +221,92 @@ proxies:
   encryption: none
   tls: true
   sni: ru4.lebedvpn.cc
-- name: 🇩🇪 Germany | [*CIDR] (5)
-  type: vmess
-  server: 2.27.54.132
+- name: 🇳🇱 The Netherlands [*CIDR] (4)
+  type: vless
+  server: 89.23.113.175
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 33a1a0e1-7dd1-414b-9751-901aeb44ae7d
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (6)
-  type: vmess
-  server: 194.226.142.120
+  encryption: none
+  tls: true
+  sni: ru4.lebedvpn.cc
+- name: 🇪🇪 Estonia | [*CIDR] (2)
+  type: vless
+  server: 200.165.231.18
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🌐 Anycast-IP | 🇪🇪 [*CIDR]
+  type: vless
+  server: 94.198.217.201
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇳🇱 The Netherlands [*CIDR] (5)
+  type: vless
+  server: 89.23.113.175
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 33a1a0e1-7dd1-414b-9751-901aeb44ae7d
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
+  encryption: none
+  tls: true
+  sni: ru4.lebedvpn.cc
+- name: 🇵🇱 Poland | [*CIDR] (2)
+  type: vless
+  server: 104.171.133.61
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR] (3)
+  type: vless
+  server: 94.198.217.201
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🇸🇪 Sweden [*CIDR]
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
+- name: 🇸🇪 Sweden | 🌐 [*CIDR]
+  type: vless
+  server: 5.129.198.223
+  port: 443
+  uuid: 57ae2ef6-2aef-0002-b0c1-b8c9d4dfc233
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-tw-msk-mishka.attention-game.ru
 - name: 🇸🇪 Sweden [*CIDR] (2)
   type: vless
   server: 5.129.198.223
@@ -202,23 +325,87 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: cdn-tw-msk-mishka.attention-game.ru
-- name: 🇩🇪 Germany | [*CIDR] (7)
-  type: vmess
-  server: 194.226.142.120
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 82.146.56.149
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇸🇪 Sweden | [*CIDR] (2)
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (6)
+  type: vless
+  server: 82.146.56.149
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]
+  type: vless
+  server: 188.225.56.11
+  port: 443
+  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR] (4)
+  type: vless
+  server: 94.198.217.201
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (2)
+  type: vless
+  server: 94.198.217.201
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🌐 Anycast-IP | 🇪🇪 [*CIDR] (2)
+  type: vless
+  server: 200.165.231.18
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🇵🇱 Poland [*CIDR] (2)
+  type: vless
+  server: 104.171.133.61
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🇸🇪 Sweden [*CIDR] (3)
   type: vless
   server: 5.129.198.223
   port: 443
@@ -227,214 +414,171 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: cdn-tw-msk-mishka.attention-game.ru
-- name: 🇩🇪 Germany | [*CIDR] (8)
-  type: vmess
-  server: 80.240.252.241
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🇹🇷 Turkey | [*CIDR]
+- name: 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (3)
   type: vless
-  server: sa-912c336033398baa.sr-eaf1205edf6182a1.r.vpvpn.club
-  port: 443
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  server: 200.165.231.18
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: tr.static-assets.space
-- name: 🇹🇷 Turkey | [*CIDR] (2)
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🌐 Anycast-IP | 🇵🇱 🇸🇪 [*CIDR]
   type: vless
-  server: sa-912c336033398baa.sr-eaf1205edf6182a1.r.vpvpn.club
-  port: 443
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  server: 200.165.231.18
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: tr.static-assets.space
-- name: 🇹🇷 Turkey | [*CIDR] (3)
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🌐 Anycast-IP | 🇪🇪 [*CIDR] (3)
   type: vless
-  server: sa-912c336033398baa.sr-eaf1205edf6182a1.r.vpvpn.club
-  port: 443
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  server: 200.165.231.18
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: tr.static-assets.space
-- name: 🇹🇷 Turkey | [*CIDR] (4)
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🌐 Anycast-IP | 🇵🇱 [*CIDR] (5)
   type: vless
-  server: sa-912c336033398baa.sr-eaf1205edf6182a1.r.vpvpn.club
-  port: 443
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  server: 200.165.231.18
+  port: 22443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: tr.static-assets.space
-- name: 🇹🇷 Turkey | [*CIDR] (5)
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f234981844
+- name: 🌐 Anycast-IP | 🇪🇪 [*CIDR] (4)
   type: vless
-  server: sa-912c336033398baa.sr-eaf1205edf6182a1.r.vpvpn.club
-  port: 443
-  uuid: 0c597b0d-99d7-4c27-befe-6c5d339d7dbe
+  server: 94.198.217.201
+  port: 24443
+  uuid: 66ac188b-bd8d-4218-b9ba-0bad0e152cd0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: tr.static-assets.space
-- name: 🇩🇪 Germany | [*CIDR] (9)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  sni: www.cloudflare.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 9d30d49278
+- name: 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (3)
+  type: vless
+  server: 188.225.56.11
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 2cbf425a-aed6-4c8f-937f-6265ed13a7fa
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (10)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (11)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (12)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: ''
+  encryption: none
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR]
+  - 🇪🇪 Estonia [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
+  - 🇪🇪 Estonia [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
+  - 🇪🇪 Estonia | [*CIDR]
+  - 🇵🇱 Poland [*CIDR]
   - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (2)
+  - 🇵🇱 Poland | [*CIDR]
   - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇸🇪 Sweden | 🌐 [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇳🇱 The Netherlands [*CIDR] (3)
+  - 🇳🇱 The Netherlands [*CIDR] (4)
+  - 🇪🇪 Estonia | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (5)
+  - 🇵🇱 Poland | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (3)
   - 🇸🇪 Sweden [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
+  - 🇸🇪 Sweden | 🌐 [*CIDR]
   - 🇸🇪 Sweden [*CIDR] (2)
   - 🇸🇪 Sweden | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (7)
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (8)
-  - 🇹🇷 Turkey | [*CIDR]
-  - 🇹🇷 Turkey | [*CIDR] (2)
-  - 🇹🇷 Turkey | [*CIDR] (3)
-  - 🇹🇷 Turkey | [*CIDR] (4)
-  - 🇹🇷 Turkey | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (9)
-  - 🇩🇪 Germany | [*CIDR] (10)
-  - 🇩🇪 Germany | [*CIDR] (11)
-  - 🇩🇪 Germany | [*CIDR] (12)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR] (2)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (3)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR]
+  - 🇪🇪 Estonia [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
+  - 🇪🇪 Estonia [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
+  - 🇪🇪 Estonia | [*CIDR]
+  - 🇵🇱 Poland [*CIDR]
   - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (2)
+  - 🇵🇱 Poland | [*CIDR]
   - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇸🇪 Sweden | 🌐 [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇳🇱 The Netherlands [*CIDR] (3)
+  - 🇳🇱 The Netherlands [*CIDR] (4)
+  - 🇪🇪 Estonia | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (5)
+  - 🇵🇱 Poland | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (3)
   - 🇸🇪 Sweden [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
+  - 🇸🇪 Sweden | 🌐 [*CIDR]
   - 🇸🇪 Sweden [*CIDR] (2)
   - 🇸🇪 Sweden | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (7)
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (8)
-  - 🇹🇷 Turkey | [*CIDR]
-  - 🇹🇷 Turkey | [*CIDR] (2)
-  - 🇹🇷 Turkey | [*CIDR] (3)
-  - 🇹🇷 Turkey | [*CIDR] (4)
-  - 🇹🇷 Turkey | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (9)
-  - 🇩🇪 Germany | [*CIDR] (10)
-  - 🇩🇪 Germany | [*CIDR] (11)
-  - 🇩🇪 Germany | [*CIDR] (12)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR] (2)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇪🇪 🇸🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇪🇪 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇫🇮 | [*CIDR] (3)
 rules:
 - MATCH,🌍 Прокси
