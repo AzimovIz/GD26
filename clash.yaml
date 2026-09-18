@@ -1,12 +1,132 @@
-# Обновлено: 2026-09-18 18:42 UTC
-# Всего в источнике: 57
-# Живых серверов: 19
+# Обновлено: 2026-09-18 21:20 UTC
+# Всего в источнике: 63
+# Живых серверов: 58
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪 Germany | 🌐 | [*CIDR]
+- name: 🇬🇧 United Kingdom | [*CIDR]
   type: vless
-  server: 82.146.56.30
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🇰🇿 Kazakhstan | [*CIDR]
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+- name: 🇳🇱 The Netherlands | [*CIDR]
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.steamstatic.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇰🇿 Kazakhstan | [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.steamstatic.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.steamstatic.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇰🇿 Kazakhstan | [*CIDR] (3)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+- name: 🇰🇿 Kazakhstan | [*CIDR] (4)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.dell.com
+- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  type: vless
+  server: 62.233.39.9
+  port: 8443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.steamstatic.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🇬🇧 United Kingdom | [*CIDR] (4)
+  type: vless
+  server: 62.233.39.9
+  port: 443
+  uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.nvidia.com
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  type: vless
+  server: 82.146.56.45
   port: 443
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
@@ -16,9 +136,77 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 | [*CIDR]
+  type: vless
+  server: 82.146.57.228
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
+  type: vless
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🇬🇧 United Kingdom [*CIDR]
+  type: vless
+  server: 201.24.122.22
+  port: 730
+  uuid: b57ed0ff-5249-43bd-ad00-dba18c8c789b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
 - name: 🇩🇪 Germany | 🌐 | [*CIDR] (2)
   type: vless
-  server: 82.146.56.30
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  type: vless
+  server: 82.146.56.45
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  type: vless
+  server: 82.146.57.228
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  type: vless
+  server: 82.146.57.228
   port: 443
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
@@ -30,7 +218,40 @@ proxies:
     grpc-service-name: vless-grpc-reality
 - name: 🇩🇪 Germany | 🌐 | [*CIDR] (3)
   type: vless
-  server: 82.146.56.30
+  server: ns.o11111o.club
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  type: vless
+  server: 82.146.56.45
+  port: 443
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA
+  type: vless
+  server: relay.funtime.best
+  port: 2008
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  type: vless
+  server: 82.146.56.45
   port: 443
   uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
@@ -52,7 +273,34 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (5)
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (2)
+  type: vless
+  server: relay.funtime.best
+  port: 2008
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA
+  type: vless
+  server: relay.funtime.best
+  port: 2015
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (3)
+  type: vless
+  server: relay.funtime.best
+  port: 2008
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🇩🇪 Germany | 🌐 [*CIDR] (2)
   type: vless
   server: ns.o11111o.club
   port: 443
@@ -64,67 +312,16 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (6)
+- name: 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA
   type: vless
-  server: ns.o11111o.club
-  port: 443
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
+  server: relay.funtime.best
+  port: 2016
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: id.vk.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  type: vless
-  server: 82.146.56.30
-  port: 443
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: id.vk.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 [*CIDR]
-  type: vless
-  server: 82.146.56.30
-  port: 443
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: id.vk.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  type: vless
-  server: ns.o11111o.club
-  port: 443
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: id.vk.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  type: vless
-  server: ns.o11111o.club
-  port: 443
-  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: id.vk.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc-reality
-- name: 🇳🇱 The Netherlands | [*CIDR] YA
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (2)
   type: vless
   server: wl-cz.funtime.best
   port: 443
@@ -134,22 +331,192 @@ proxies:
   encryption: none
   tls: true
   sni: wl-cz.funtime.best
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vmess
-  server: 5.188.26.85
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  type: vless
+  server: 82.146.57.228
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: b1b3e430-ff52-44b8-b95d-27fa580fbc4f
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
+  encryption: none
+  sni: id.vk.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless-grpc-reality
+- name: 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (2)
+  type: vless
+  server: relay.funtime.best
+  port: 2016
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (4)
+  type: vless
+  server: relay.funtime.best
+  port: 2008
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🇳🇱 The Netherlands | [*CIDR] YA
+  type: vless
+  server: relay.funtime.best
+  port: 2015
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (3)
+  type: vless
+  server: wl-cz.funtime.best
+  port: 443
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: wl-cz.funtime.best
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA
+  type: vless
+  server: relay.funtime.best
+  port: 2006
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (4)
+  type: vless
+  server: relay.funtime.best
+  port: 2015
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (2)
+  type: vless
+  server: relay.funtime.best
+  port: 2006
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (3)
+  type: vless
+  server: relay.funtime.best
+  port: 2016
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (3)
+  type: vless
+  server: relay.funtime.best
+  port: 2006
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  type: vless
+  server: api.setevoybereg.cc
+  port: 443
+  uuid: 80ed15d0-e6ec-4a16-bdb2-4785946c67c7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.setevoybereg.cc
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] YA
+  type: vless
+  server: relay.funtime.best
+  port: 2006
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (5)
+  type: vless
+  server: relay.funtime.best
+  port: 2015
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (4)
+  type: vless
+  server: relay.funtime.best
+  port: 2016
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (5)
+  type: vless
+  server: relay.funtime.best
+  port: 2008
+  uuid: 63502f61-5e8b-4100-8826-868856e78c53
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: gateway.icloud.com
+- name: 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (6)
+  type: vless
+  server: wl-cz.funtime.best
+  port: 443
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: wl-cz.funtime.best
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  type: vless
+  server: api.setevoybereg.cc
+  port: 443
+  uuid: 80ed15d0-e6ec-4a16-bdb2-4785946c67c7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.setevoybereg.cc
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  type: vless
+  server: api.setevoybereg.cc
+  port: 443
+  uuid: 80ed15d0-e6ec-4a16-bdb2-4785946c67c7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.setevoybereg.cc
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  type: vless
+  server: api.setevoybereg.cc
+  port: 443
+  uuid: 80ed15d0-e6ec-4a16-bdb2-4785946c67c7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.setevoybereg.cc
+- name: 🌐 Anycast-IP | 🇳🇱 🇸🇪 [*CIDR] YA
+  type: vless
+  server: wl-cz.funtime.best
+  port: 443
+  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: wl-cz.funtime.best
 - name: 🇩🇪 Germany | [*CIDR]
   type: vmess
   server: 2.27.54.132
@@ -165,48 +532,40 @@ proxies:
       Host: renderer-stream-2-62.mirra.now
   tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇳🇱 The Netherlands [*CIDR] YA
-  type: vless
-  server: wl-cz.funtime.best
-  port: 443
-  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wl-cz.funtime.best
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (2)
-  type: vless
-  server: wl-cz.funtime.best
-  port: 443
-  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wl-cz.funtime.best
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (3)
-  type: vless
-  server: wl-cz.funtime.best
-  port: 443
-  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wl-cz.funtime.best
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (4)
-  type: vless
-  server: wl-cz.funtime.best
-  port: 443
-  uuid: 0a0667bd-1bdb-4555-a4a6-6903623fc804
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wl-cz.funtime.best
+  sni: renderer-stream-2-62.mirra.now
 - name: 🇩🇪 Germany | [*CIDR] (2)
+  type: vmess
+  server: 195.19.20.80
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany | [*CIDR] (3)
+  type: vmess
+  server: 80.240.252.241
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: ''
+- name: 🇩🇪 Germany | [*CIDR] (4)
   type: vmess
   server: renderer-stream-2-62.mirra.now
   port: 443
@@ -222,7 +581,23 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: renderer-stream-2-62.mirra.now
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: ''
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
+- name: 🇩🇪 Germany | [*CIDR] (5)
   type: vmess
   server: renderer-stream-2-62.mirra.now
   port: 443
@@ -238,53 +613,147 @@ proxies:
   tls: true
   skip-cert-verify: true
   sni: ''
+- name: 🇩🇪 Germany | [*CIDR] (6)
+  type: vmess
+  server: renderer-stream-2-62.mirra.now
+  port: 443
+  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
+  alterId: 0
+  cipher: auto
+  network: ws
+  udp: true
+  ws-opts:
+    path: /api/v1/gpu-stream/socket
+    headers:
+      Host: renderer-stream-2-62.mirra.now
+  tls: true
+  skip-cert-verify: true
+  sni: renderer-stream-2-62.mirra.now
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪 Germany | 🌐 | [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] YA
-  - 🇳🇱 The Netherlands | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (4)
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇰🇿 Kazakhstan | [*CIDR] (3)
+  - 🇰🇿 Kazakhstan | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (4)
+  - 🇳🇱 The Netherlands | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (5)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (5)
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇳🇱 🇸🇪 [*CIDR] YA
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (6)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪 Germany | 🌐 | [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] YA
-  - 🇳🇱 The Netherlands | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (4)
-  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇰🇿 Kazakhstan | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇰🇿 Kazakhstan | [*CIDR] (3)
+  - 🇰🇿 Kazakhstan | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
   - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (4)
+  - 🇳🇱 The Netherlands | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] YA (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] YA
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (5)
+  - 🌐 Anycast-IP | 🇬🇧 [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇩🇪 [*CIDR] YA (5)
+  - 🌐 Anycast-IP | 🇳🇱 [*CIDR] YA (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇳🇱 🇸🇪 [*CIDR] YA
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR] (6)
 rules:
 - MATCH,🌍 Прокси
