@@ -1,255 +1,629 @@
-# Обновлено: 2026-09-18 11:56 UTC
-# Всего в источнике: 23
-# Живых серверов: 19
+# Обновлено: 2026-09-18 15:42 UTC
+# Всего в источнике: 50
+# Живых серверов: 41
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪 Germany [*CIDR]
-  type: vmess
-  server: 5.188.26.85
+- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
+  type: vless
+  server: 45.8.228.167
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇹🇷 Turkey | [*CIDR]
+  type: vless
+  server: 72.56.250.71
+  port: 443
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  udp: true
+  skip-cert-verify: true
+  encryption: none
   tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇳🇱 The Netherlands [*CIDR] YA
+  sni: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 72.56.250.71
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia | [*CIDR] (2)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇹🇷 Turkey | [*CIDR] (2)
   type: vless
-  server: 84.201.146.8
+  server: 72.56.250.71
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (2)
+  tls: true
+  sni: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 72.56.250.71
+- name: 🇷🇺 Russia | [*CIDR] (3)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (2)
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia | [*CIDR] (4)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (3)
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | [*CIDR] (5)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (4)
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇹🇷 Turkey | [*CIDR] (3)
   type: vless
-  server: 84.201.146.8
+  server: 72.56.250.71
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (3)
+  tls: true
+  sni: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 72.56.250.71
+- name: 🇷🇺 Russia | [*CIDR] (6)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (4)
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇹🇷 Turkey | [*CIDR] (4)
   type: vless
-  server: 84.201.146.8
+  server: 72.56.250.71
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands [*CIDR] YA (2)
+  tls: true
+  sni: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 72.56.250.71
+- name: 🇹🇷 Turkey | [*CIDR] (5)
   type: vless
-  server: 84.201.146.8
+  server: 72.56.250.71
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands [*CIDR] YA (3)
+  tls: true
+  sni: tr3.wba-pn.ru
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 72.56.250.71
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
   type: vless
-  server: 84.201.146.8
+  server: 201.51.12.29
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (5)
+  sni: s3-m.perecmusic.ru
+- name: 🇷🇺 Russia | [*CIDR] (7)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands [*CIDR] YA (4)
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
   type: vless
-  server: 84.201.146.8
+  server: 201.51.12.29
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (6)
+  sni: s3-m.perecmusic.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
   type: vless
-  server: 84.201.146.8
+  server: 201.51.12.29
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] YA (7)
+  sni: s3-m.perecmusic.ru
+- name: 🇷🇺 Russia | [*CIDR] (8)
   type: vless
-  server: 84.201.146.8
+  server: 147.45.175.81
   port: 443
-  uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 201.51.12.29
+  port: 443
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: s3-m.perecmusic.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 201.51.12.29
+  port: 443
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: s3-m.perecmusic.ru
+- name: 🇷🇺 Russia | [*CIDR] (9)
+  type: vless
+  server: 147.45.175.81
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia | [*CIDR] (10)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | [*CIDR] (11)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia [*CIDR]
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | [*CIDR] (12)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia [*CIDR] (2)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | [*CIDR] (13)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia | [*CIDR] (14)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia [*CIDR] (3)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🇷🇺 Russia | [*CIDR] (15)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-ru
+- name: 🇷🇺 Russia [*CIDR] (4)
+  type: vless
+  server: lesotorg-kirov.ru
+  port: 443
+  uuid: d8fb1abe-20b1-46ce-9b5b-f9bf12c74631
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lesotorg-kirov.ru
+  network: ws
+  ws-opts:
+    path: /lkws
+    headers:
+      Host: lesotorg-kirov.ru
+- name: 🇷🇺 Russia | [*CIDR] (16)
+  type: vless
+  server: lesotorg-kirov.ru
+  port: 443
+  uuid: d8fb1abe-20b1-46ce-9b5b-f9bf12c74631
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lesotorg-kirov.ru
+  network: ws
+  ws-opts:
+    path: /lkws
+    headers:
+      Host: lesotorg-kirov.ru
+- name: 🇷🇺 Russia | [*CIDR] (17)
+  type: vless
+  server: lesotorg-kirov.ru
+  port: 443
+  uuid: d8fb1abe-20b1-46ce-9b5b-f9bf12c74631
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lesotorg-kirov.ru
+  network: ws
+  ws-opts:
+    path: /lkws
+    headers:
+      Host: lesotorg-kirov.ru
+- name: 🇷🇺 Russia [*CIDR] (5)
+  type: vless
+  server: lesotorg-kirov.ru
+  port: 443
+  uuid: d8fb1abe-20b1-46ce-9b5b-f9bf12c74631
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lesotorg-kirov.ru
+  network: ws
+  ws-opts:
+    path: /lkws
+    headers:
+      Host: lesotorg-kirov.ru
+- name: 🇷🇺 Russia | [*CIDR] (18)
+  type: vless
+  server: lesotorg-kirov.ru
+  port: 443
+  uuid: d8fb1abe-20b1-46ce-9b5b-f9bf12c74631
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: lesotorg-kirov.ru
+  network: ws
+  ws-opts:
+    path: /lkws
+    headers:
+      Host: lesotorg-kirov.ru
+- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇷🇺 Russia | [*CIDR] (19)
+  type: vless
+  server: 147.45.175.81
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
+- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇷🇺 Russia | [*CIDR] (20)
+  type: vless
+  server: xsru1.ddnsfree.com
+  port: 443
+  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: xsru1.ddnsfree.com
+  network: ws
+  ws-opts:
+    path: /wsru
+    headers:
+      Host: xsru1.ddnsfree.com
 - name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  type: vless
+  server: 200.169.183.68
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: a72ca3b6-1a26-47f5-aca3-039bb5539eb4
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
   skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (2)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: s3-m.perecmusic.ru
+- name: 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
+  type: vless
+  server: 45.8.228.167
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+  encryption: none
+  sni: dailycanvas.sysopnova.art
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪 Germany [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] YA
-  - 🇳🇱 The Netherlands | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (4)
-  - 🇳🇱 The Netherlands [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (5)
-  - 🇳🇱 The Netherlands [*CIDR] YA (4)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (6)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (7)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
+  - 🇹🇷 Turkey | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇹🇷 Turkey | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇹🇷 Turkey | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇹🇷 Turkey | [*CIDR] (4)
+  - 🇹🇷 Turkey | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (12)
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (13)
+  - 🇷🇺 Russia | [*CIDR] (14)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (15)
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇷🇺 Russia | [*CIDR] (17)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (18)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (19)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (20)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪 Germany [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] YA
-  - 🇳🇱 The Netherlands | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] YA (4)
-  - 🇳🇱 The Netherlands [*CIDR] YA (2)
-  - 🇳🇱 The Netherlands [*CIDR] YA (3)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (5)
-  - 🇳🇱 The Netherlands [*CIDR] YA (4)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (6)
-  - 🇳🇱 The Netherlands | [*CIDR] YA (7)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR]
+  - 🇹🇷 Turkey | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇹🇷 Turkey | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇹🇷 Turkey | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇹🇷 Turkey | [*CIDR] (4)
+  - 🇹🇷 Turkey | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (12)
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (13)
+  - 🇷🇺 Russia | [*CIDR] (14)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (15)
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇷🇺 Russia | [*CIDR] (17)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (18)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (19)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (20)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇮🇹 🇸🇪 | [*CIDR] (4)
 rules:
 - MATCH,🌍 Прокси
