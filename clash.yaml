@@ -1,6 +1,6 @@
-# Обновлено: 2026-09-19 19:01 UTC
-# Всего в источнике: 45
-# Живых серверов: 35
+# Обновлено: 2026-09-19 21:51 UTC
+# Всего в источнике: 50
+# Живых серверов: 39
 # Источник: 26.txt
 
 proxies:
@@ -8,7 +8,7 @@ proxies:
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 5f639cd9-3278-42e8-937a-f582ddde2f92
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -23,7 +23,7 @@ proxies:
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 5f639cd9-3278-42e8-937a-f582ddde2f92
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -38,7 +38,7 @@ proxies:
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 5f639cd9-3278-42e8-937a-f582ddde2f92
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -53,7 +53,7 @@ proxies:
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 5f639cd9-3278-42e8-937a-f582ddde2f92
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -64,129 +64,90 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (5)
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (6)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (7)
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (8)
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (9)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (10)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (6)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: ca04a2bf-97de-4cd5-bdba-537b0d73bb3f
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇫🇮 Finland | [*CIDR]
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (7)
   type: vless
-  server: 107.150.93.51
+  server: 45.8.228.167
   port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (2)
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (8)
   type: vless
-  server: 107.150.93.2
+  server: 45.8.228.167
   port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (3)
+  sni: bl3fk52.sysopnova.art
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 107.150.93.51
+  server: 72.56.38.83
   port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  uuid: Fluffy_VPN-zKZUa4Ie
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
+  sni: absolute-disaster.org
 - name: 🌐 Anycast-IP | 🇫🇮 [*CIDR]
   type: vless
-  server: 107.150.93.51
+  server: 107.150.93.2
   port: 443
   uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
@@ -206,55 +167,6 @@ proxies:
   sni: 6a32736d.ferrin.uk
 - name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (3)
   type: vless
-  server: 107.150.93.51
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
-  type: vless
-  server: 107.150.93.2
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
-  type: vless
-  server: 107.150.93.2
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 72.56.38.83
-  port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
-  type: vless
-  server: 107.150.93.51
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
-  type: vless
   server: 107.150.93.2
   port: 443
   uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
@@ -272,6 +184,45 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: absolute-disaster.org
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  type: vless
+  server: 72.56.38.83
+  port: 443
+  uuid: Fluffy_VPN-zKZUa4Ie
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: absolute-disaster.org
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
+  type: vless
+  server: 107.150.93.51
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
+  type: vless
+  server: 107.150.93.51
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
+  type: vless
+  server: 107.150.93.51
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
 - name: 🇳🇱 The Netherlands [*CIDR]
   type: vless
   server: 72.56.38.83
@@ -281,36 +232,102 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: absolute-disaster.org
-- name: 🇳🇱 The Netherlands [*CIDR] (2)
+- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
   type: vless
-  server: 72.56.38.83
+  server: 107.150.93.2
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: absolute-disaster.org
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
+  type: vless
+  server: 107.150.93.51
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (3)
+  type: vless
+  server: 107.150.93.51
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇳🇴 🇸🇪 [*CIDR]
+  type: vless
+  server: 185.186.143.76
+  port: 443
+  uuid: 528c9248-7b50-45fb-9188-e46d889dafe6
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-kitchen.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🌐 Anycast-IP | 🇳🇴 [*CIDR]
+  type: vless
+  server: 185.186.143.76
+  port: 443
+  uuid: 528c9248-7b50-45fb-9188-e46d889dafe6
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-kitchen.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇷🇺 Russia | 🌐 [*CIDR]
+  type: hysteria2
+  server: 5.42.116.158
+  port: 443
+  password: 334f25ef-3fb7-44a0-8ab7-79527d613281
+  skip-cert-verify: true
+  sni: edge.blacksailcdn.com
+- name: 🌐 Anycast-IP | 🇳🇴 [*CIDR] (2)
+  type: vless
+  server: 185.186.143.76
+  port: 443
+  uuid: 528c9248-7b50-45fb-9188-e46d889dafe6
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-kitchen.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🌐 Anycast-IP | 🇳🇴 [*CIDR] (3)
+  type: vless
+  server: 185.186.143.76
+  port: 443
+  uuid: 528c9248-7b50-45fb-9188-e46d889dafe6
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-kitchen.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇫🇮 Finland | [*CIDR]
+  type: vless
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
 - name: 🌐 Anycast-IP | 🇫🇮 [*CIDR] (7)
-  type: vless
-  server: fi.alpheratzz.org
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (4)
-  type: vless
-  server: fi.alpheratzz.org
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (5)
   type: vless
   server: fi.alpheratzz.org
   port: 443
@@ -330,7 +347,17 @@ proxies:
   encryption: none
   tls: true
   sni: 6a32736d.ferrin.uk
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (4)
+  type: vless
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🇫🇮 Finland | [*CIDR] (2)
   type: vless
   server: fi.alpheratzz.org
   port: 443
@@ -350,7 +377,17 @@ proxies:
   encryption: none
   tls: true
   sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (6)
+- name: 🇫🇮 Finland | [*CIDR] (3)
+  type: vless
+  server: fi.alpheratzz.org
+  port: 443
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 6a32736d.ferrin.uk
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (5)
   type: vless
   server: fi.alpheratzz.org
   port: 443
@@ -370,35 +407,6 @@ proxies:
   encryption: none
   tls: true
   sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (7)
-  type: vless
-  server: fi.alpheratzz.org
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: 🇫🇮 Finland | [*CIDR] (8)
-  type: vless
-  server: fi.alpheratzz.org
-  port: 443
-  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 6a32736d.ferrin.uk
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 72.56.38.83
-  port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
@@ -407,37 +415,41 @@ proxy-groups:
   - 🇸🇪 Sweden | [*CIDR] (2)
   - 🇸🇪 Sweden | [*CIDR] (3)
   - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR] (6)
-  - 🇸🇪 Sweden | [*CIDR] (7)
-  - 🇸🇪 Sweden | [*CIDR] (8)
-  - 🇸🇪 Sweden | [*CIDR] (9)
-  - 🇸🇪 Sweden | [*CIDR] (10)
-  - 🇫🇮 Finland | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR] (2)
-  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (6)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (7)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (8)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (2)
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (7)
-  - 🇫🇮 Finland | [*CIDR] (4)
-  - 🇫🇮 Finland | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (9)
-  - 🇫🇮 Finland | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (10)
-  - 🇫🇮 Finland | [*CIDR] (7)
-  - 🇫🇮 Finland | [*CIDR] (8)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇳🇴 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR]
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (9)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (10)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -448,36 +460,40 @@ proxy-groups:
   - 🇸🇪 Sweden | [*CIDR] (2)
   - 🇸🇪 Sweden | [*CIDR] (3)
   - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR] (6)
-  - 🇸🇪 Sweden | [*CIDR] (7)
-  - 🇸🇪 Sweden | [*CIDR] (8)
-  - 🇸🇪 Sweden | [*CIDR] (9)
-  - 🇸🇪 Sweden | [*CIDR] (10)
-  - 🇫🇮 Finland | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR] (2)
-  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (6)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (7)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (8)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (2)
   - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (7)
-  - 🇫🇮 Finland | [*CIDR] (4)
-  - 🇫🇮 Finland | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (9)
-  - 🇫🇮 Finland | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (10)
-  - 🇫🇮 Finland | [*CIDR] (7)
-  - 🇫🇮 Finland | [*CIDR] (8)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (5)
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇳🇴 🇸🇪 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR]
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇳🇴 [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (9)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇪 [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇫🇮 [*CIDR] (10)
 rules:
 - MATCH,🌍 Прокси
