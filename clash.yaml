@@ -1,14 +1,14 @@
-# Обновлено: 2026-09-19 07:03 UTC
-# Всего в источнике: 60
-# Живых серверов: 52
+# Обновлено: 2026-09-19 12:06 UTC
+# Всего в источнике: 27
+# Живых серверов: 20
 # Источник: 26.txt
 
 proxies:
-- name: 🇸🇪 Sweden | 🌐 | [*CIDR]
+- name: 🇸🇪 Sweden | [*CIDR]
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 0e6e8f81-0510-4dbc-8463-d19525073f9e
+  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -19,11 +19,11 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | 🌐 | [*CIDR] (2)
+- name: 🇸🇪 Sweden | [*CIDR] (2)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 0e6e8f81-0510-4dbc-8463-d19525073f9e
+  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -34,11 +34,38 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | 🌐 | [*CIDR] (3)
+- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
+  type: vless
+  server: 45.131.212.39
+  port: 443
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: us.lstu.ru
+- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR]
+  type: vless
+  server: 45.131.212.39
+  port: 443
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fr.lstu.ru
+- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
+  type: vless
+  server: 45.131.212.39
+  port: 443
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: us.lstu.ru
+- name: 🇸🇪 Sweden | [*CIDR] (3)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 0e6e8f81-0510-4dbc-8463-d19525073f9e
+  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -49,11 +76,20 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | 🌐 | [*CIDR] (4)
+- name: 🇫🇷 France | 🌐 | [*CIDR]
+  type: vless
+  server: 45.131.212.39
+  port: 443
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fr.lstu.ru
+- name: 🇸🇪 Sweden | [*CIDR] (4)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 0e6e8f81-0510-4dbc-8463-d19525073f9e
+  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -64,763 +100,199 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK
+- name: 🇸🇪 Sweden | [*CIDR] (5)
   type: vless
-  server: 217.16.31.193
+  server: 95.129.236.239
   port: 443
-  uuid: f79fe29a-39c9-445d-a6e9-85bfa76d5f02
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 147.45.175.81
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇮🇳 India | [*CIDR] YA
-  type: vless
-  server: 158.160.22.108
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (2)
-  type: vless
-  server: 217.16.31.193
-  port: 443
-  uuid: f79fe29a-39c9-445d-a6e9-85bfa76d5f02
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
-- name: 🇮🇳 India | [*CIDR] YA (2)
-  type: vless
-  server: 158.160.22.108
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (3)
-  type: vless
-  server: 217.16.31.193
-  port: 443
-  uuid: f79fe29a-39c9-445d-a6e9-85bfa76d5f02
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
-- name: 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (4)
-  type: vless
-  server: 217.16.31.193
-  port: 443
-  uuid: f79fe29a-39c9-445d-a6e9-85bfa76d5f02
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ads.x5.ru
-- name: 🇮🇳 India | [*CIDR] YA (3)
-  type: vless
-  server: 158.160.22.108
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 147.45.175.81
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇮🇳 India | [*CIDR] YA (4)
-  type: vless
-  server: 158.160.22.108
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇷🇺 [*CIDR]
-  type: vless
-  server: 147.45.175.81
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
+  sni: wiki.solarinfra.net
   network: ws
   ws-opts:
-    path: /wsru
+    path: /stream/615428/socket
     headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 Russia | [*CIDR] (3)
+      Host: wiki.solarinfra.net
+- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
   type: vless
-  server: 147.45.175.81
+  server: 45.131.212.39
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇮🇳 India | [*CIDR] YA (5)
+  sni: us.lstu.ru
+- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
   type: vless
-  server: 89.169.171.202
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇩🇪 Germany [*CIDR]
-  type: vmess
-  server: 195.19.20.80
+  server: 45.131.212.39
   port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇷🇺 Russia | [*CIDR] (4)
+  encryption: none
+  sni: fr.lstu.ru
+- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
   type: vless
-  server: 147.45.175.81
+  server: 45.131.212.39
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 Russia | [*CIDR] (5)
+  sni: us.lstu.ru
+- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
   type: vless
-  server: 147.45.175.81
+  server: 45.131.212.39
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🌐 Anycast-IP | 🇷🇺 🇸🇪 [*CIDR]
+  sni: us.lstu.ru
+- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
   type: vless
-  server: 147.45.175.81
+  server: 45.131.212.39
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🌐 Anycast-IP | 🇷🇺 [*CIDR] (2)
+  sni: fr.lstu.ru
+- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
   type: vless
-  server: 147.45.175.81
+  server: 45.131.212.39
   port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇮🇳 India | [*CIDR] YA (6)
-  type: vless
-  server: 89.169.171.202
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India [*CIDR] YA
-  type: vless
-  server: 89.169.171.202
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India | [*CIDR] YA (7)
-  type: vless
-  server: 89.169.171.202
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇷🇺 Russia [*CIDR]
-  type: vless
-  server: xsru2.freeddns.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 Russia [*CIDR] (2)
-  type: vless
-  server: xsru2.freeddns.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 Russia [*CIDR] (3)
-  type: vless
-  server: xsru2.freeddns.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
-- name: 🇷🇺 Russia | [*CIDR] (6)
-  type: vless
-  server: xsru2.freeddns.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xsru2.freeddns.org
-  network: ws
-  ws-opts:
-    path: /wsru
-    headers:
-      Host: xsru2.freeddns.org
+  sni: fr.lstu.ru
 - name: 🇩🇪 Germany | [*CIDR]
-  type: vmess
-  server: 194.87.71.141
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany [*CIDR] (2)
-  type: vmess
-  server: 5.188.26.85
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇷🇺 Russia | [*CIDR] (7)
   type: vless
-  server: xssite.webredirect.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
+  sni: pechatprint-63.ru
+  network: ws
+  ws-opts:
+    path: /chws
+    headers:
+      Host: pechatprint-63.ru
+- name: 🇩🇪 Germany [*CIDR]
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: pechatprint-63.ru
+  network: ws
+  ws-opts:
+    path: /chws
+    headers:
+      Host: pechatprint-63.ru
 - name: 🇩🇪 Germany | [*CIDR] (2)
-  type: vmess
-  server: 5.188.26.85
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: pechatprint-63.ru
   network: ws
-  udp: true
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /chws
     headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇷🇺 Russia | [*CIDR] (8)
-  type: vless
-  server: xssite.webredirect.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇷🇺 Russia | [*CIDR] (9)
-  type: vless
-  server: xssite.webredirect.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
-- name: 🇷🇺 Russia [*CIDR] (4)
-  type: vless
-  server: xssite.webredirect.org
-  port: 443
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: xssite.webredirect.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
+      Host: pechatprint-63.ru
 - name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vmess
-  server: 194.226.142.120
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
+  skip-cert-verify: true
+  encryption: none
   tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  type: vmess
-  server: 2.27.54.132
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
+  sni: pechatprint-63.ru
   network: ws
-  udp: true
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /chws
     headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA
-  type: vless
-  server: bp1-6f0572fa31.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇮🇳 🇸🇪 [*CIDR] YA
-  type: vless
-  server: bp1-6f0572fa31.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India | [*CIDR] YA (8)
-  type: vless
-  server: bp1-6f0572fa31.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA (2)
-  type: vless
-  server: bp1-6f0572fa31.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India [*CIDR] YA (2)
-  type: vless
-  server: bp4-29f1baf990.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India [*CIDR] YA (3)
-  type: vless
-  server: bp4-29f1baf990.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India | [*CIDR] YA (9)
-  type: vless
-  server: bp4-29f1baf990.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇮🇳 India [*CIDR] YA (4)
-  type: vless
-  server: bp4-29f1baf990.shamanapp.online
-  port: 8444
-  uuid: b3a11068-1a7e-4643-85de-7c82cce46943
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 🇩🇪 Germany [*CIDR] (3)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+      Host: pechatprint-63.ru
 - name: 🇩🇪 Germany | [*CIDR] (4)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
   skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (5)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
+  encryption: none
+  tls: true
+  sni: pechatprint-63.ru
   network: ws
-  udp: true
   ws-opts:
-    path: /api/v1/gpu-stream/socket
+    path: /chws
     headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🇩🇪 Germany | [*CIDR] (6)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: ''
-  tls: true
-  skip-cert-verify: true
-  sni: ''
-- name: 🇩🇪 Germany | [*CIDR] (7)
-  type: vmess
-  server: renderer-stream-2-62.mirra.now
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  type: vmess
-  server: 194.226.142.120
-  port: 443
-  uuid: db50a20e-7ff5-4e70-948f-17cc9ca7c154
-  alterId: 0
-  cipher: auto
-  network: ws
-  udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-2-62.mirra.now
-  tls: true
-  skip-cert-verify: true
-  sni: renderer-stream-2-62.mirra.now
+      Host: pechatprint-63.ru
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇸🇪 Sweden | 🌐 | [*CIDR]
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (2)
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (3)
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇮🇳 India | [*CIDR] YA
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (2)
-  - 🇮🇳 India | [*CIDR] YA (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (4)
-  - 🇮🇳 India | [*CIDR] YA (3)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇮🇳 India | [*CIDR] YA (4)
-  - 🌐 Anycast-IP | 🇷🇺 [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇮🇳 India | [*CIDR] YA (5)
-  - 🇩🇪 Germany [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇷🇺 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇷🇺 [*CIDR] (2)
-  - 🇮🇳 India | [*CIDR] YA (6)
-  - 🇮🇳 India [*CIDR] YA
-  - 🇮🇳 India | [*CIDR] YA (7)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇸🇪 Sweden | [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
+  - 🇸🇪 Sweden | [*CIDR] (3)
+  - 🇫🇷 France | 🌐 | [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR] (4)
+  - 🇸🇪 Sweden | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇩🇪 Germany [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (8)
-  - 🇷🇺 Russia | [*CIDR] (9)
-  - 🇷🇺 Russia [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA
-  - 🌐 Anycast-IP | 🇮🇳 🇸🇪 [*CIDR] YA
-  - 🇮🇳 India | [*CIDR] YA (8)
-  - 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA (2)
-  - 🇮🇳 India [*CIDR] YA (2)
-  - 🇮🇳 India [*CIDR] YA (3)
-  - 🇮🇳 India | [*CIDR] YA (9)
-  - 🇮🇳 India [*CIDR] YA (4)
-  - 🇩🇪 Germany [*CIDR] (3)
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇩🇪 Germany | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇸🇪 Sweden | 🌐 | [*CIDR]
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (2)
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (3)
-  - 🇸🇪 Sweden | 🌐 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇮🇳 India | [*CIDR] YA
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (2)
-  - 🇮🇳 India | [*CIDR] YA (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇪🇪 | [*CIDR] VK (4)
-  - 🇮🇳 India | [*CIDR] YA (3)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇮🇳 India | [*CIDR] YA (4)
-  - 🌐 Anycast-IP | 🇷🇺 [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇮🇳 India | [*CIDR] YA (5)
-  - 🇩🇪 Germany [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇷🇺 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇷🇺 [*CIDR] (2)
-  - 🇮🇳 India | [*CIDR] YA (6)
-  - 🇮🇳 India [*CIDR] YA
-  - 🇮🇳 India | [*CIDR] YA (7)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇸🇪 Sweden | [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
+  - 🇸🇪 Sweden | [*CIDR] (3)
+  - 🇫🇷 France | 🌐 | [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR] (4)
+  - 🇸🇪 Sweden | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇩🇪 Germany [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (8)
-  - 🇷🇺 Russia | [*CIDR] (9)
-  - 🇷🇺 Russia [*CIDR] (4)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA
-  - 🌐 Anycast-IP | 🇮🇳 🇸🇪 [*CIDR] YA
-  - 🇮🇳 India | [*CIDR] YA (8)
-  - 🌐 Anycast-IP | 🇮🇳 [*CIDR] YA (2)
-  - 🇮🇳 India [*CIDR] YA (2)
-  - 🇮🇳 India [*CIDR] YA (3)
-  - 🇮🇳 India | [*CIDR] YA (9)
-  - 🇮🇳 India [*CIDR] YA (4)
-  - 🇩🇪 Germany [*CIDR] (3)
   - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | [*CIDR] (6)
-  - 🇩🇪 Germany | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
