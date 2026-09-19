@@ -1,190 +1,60 @@
-# Обновлено: 2026-09-19 12:06 UTC
-# Всего в источнике: 27
-# Живых серверов: 20
+# Обновлено: 2026-09-19 16:08 UTC
+# Всего в источнике: 20
+# Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: 🇸🇪 Sweden | [*CIDR]
+- name: 🇫🇮 Finland | [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (2)
+  sni: 6a32736d.ferrin.uk
+- name: 🇫🇮 Finland | [*CIDR] (2)
   type: vless
-  server: 95.129.236.239
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
+  sni: 6a32736d.ferrin.uk
+- name: 🇫🇮 Finland | [*CIDR] (3)
   type: vless
-  server: 45.131.212.39
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: us.lstu.ru
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fr.lstu.ru
-- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: us.lstu.ru
-- name: 🇸🇪 Sweden | [*CIDR] (3)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇫🇷 France | 🌐 | [*CIDR]
+  sni: 6a32736d.ferrin.uk
+- name: 🇫🇮 Finland | [*CIDR] (4)
   type: vless
-  server: 45.131.212.39
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fr.lstu.ru
-- name: 🇸🇪 Sweden | [*CIDR] (4)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (5)
+  sni: 6a32736d.ferrin.uk
+- name: 🇫🇮 Finland | [*CIDR] (5)
   type: vless
-  server: 95.129.236.239
+  server: fi.alpheratzz.org
   port: 443
-  uuid: 56aff7b0-c8ca-4dda-9b1e-643a16d9b67d
+  uuid: 6a32736d-4b7f-4c35-a1cf-4489d49f2cfb
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: us.lstu.ru
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fr.lstu.ru
-- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: us.lstu.ru
-- name: 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: us.lstu.ru
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fr.lstu.ru
-- name: 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
-  type: vless
-  server: 45.131.212.39
-  port: 443
-  uuid: 950beaff-a665-4b36-baad-2251ba6bbd6a
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fr.lstu.ru
+  sni: 6a32736d.ferrin.uk
 - name: 🇩🇪 Germany | [*CIDR]
-  type: vless
-  server: pechatprint-63.ru
-  port: 8080
-  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: pechatprint-63.ru
-  network: ws
-  ws-opts:
-    path: /chws
-    headers:
-      Host: pechatprint-63.ru
-- name: 🇩🇪 Germany [*CIDR]
   type: vless
   server: pechatprint-63.ru
   port: 8080
@@ -214,6 +84,36 @@ proxies:
     path: /chws
     headers:
       Host: pechatprint-63.ru
+- name: 🇩🇪 Germany [*CIDR]
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: pechatprint-63.ru
+  network: ws
+  ws-opts:
+    path: /chws
+    headers:
+      Host: pechatprint-63.ru
+- name: 🇩🇪 Germany [*CIDR] (2)
+  type: vless
+  server: pechatprint-63.ru
+  port: 8080
+  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: pechatprint-63.ru
+  network: ws
+  ws-opts:
+    path: /chws
+    headers:
+      Host: pechatprint-63.ru
 - name: 🇩🇪 Germany | [*CIDR] (3)
   type: vless
   server: pechatprint-63.ru
@@ -229,70 +129,90 @@ proxies:
     path: /chws
     headers:
       Host: pechatprint-63.ru
-- name: 🇩🇪 Germany | [*CIDR] (4)
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
-  server: pechatprint-63.ru
-  port: 8080
-  uuid: 75db4327-dff6-4de2-a089-6924b22b7e51
+  server: dzen-ru-1.com
+  port: 443
+  uuid: bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: pechatprint-63.ru
-  network: ws
-  ws-opts:
-    path: /chws
-    headers:
-      Host: pechatprint-63.ru
+  sni: dzen-ru-1.com
+- name: 🇷🇺 Russia | [*CIDR] (2)
+  type: vless
+  server: dzen-ru-1.com
+  port: 443
+  uuid: bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen-ru-1.com
+- name: 🇷🇺 Russia | [*CIDR] (3)
+  type: vless
+  server: dzen-ru-1.com
+  port: 443
+  uuid: bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen-ru-1.com
+- name: 🇷🇺 Russia | [*CIDR] (4)
+  type: vless
+  server: dzen-ru-1.com
+  port: 443
+  uuid: bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen-ru-1.com
+- name: 🇷🇺 Russia | [*CIDR] (5)
+  type: vless
+  server: dzen-ru-1.com
+  port: 443
+  uuid: bcb5a897-8cc4-4e21-ad96-c82fb3a9d72a
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dzen-ru-1.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇫🇷 France | 🌐 | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR] (5)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇩🇪 Germany [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇫🇷 France | 🌐 | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇸🇪 🇺🇸 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇷 [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR] (4)
+  - 🇫🇮 Finland | [*CIDR] (5)
   - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany [*CIDR]
   - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany [*CIDR]
+  - 🇩🇪 Germany [*CIDR] (2)
   - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
 rules:
 - MATCH,🌍 Прокси
