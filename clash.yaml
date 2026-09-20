@@ -1,173 +1,55 @@
-# Обновлено: 2026-09-20 12:53 UTC
-# Всего в источнике: 40
-# Живых серверов: 30
+# Обновлено: 2026-09-20 16:35 UTC
+# Всего в источнике: 23
+# Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: 🇸🇪 Sweden | [*CIDR]
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: e8310659-b715-4c1f-9de7-8f8cf589779d
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: 9fbbe099-62a0-472b-9c1c-e4ebd43cd67c
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (2)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: e8310659-b715-4c1f-9de7-8f8cf589779d
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: 9fbbe099-62a0-472b-9c1c-e4ebd43cd67c
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   type: vless
-  server: 95.129.236.239
+  server: 45.8.228.167
   port: 443
-  uuid: 9fbbe099-62a0-472b-9c1c-e4ebd43cd67c
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (3)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: e8310659-b715-4c1f-9de7-8f8cf589779d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (4)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: e8310659-b715-4c1f-9de7-8f8cf589779d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇸🇪 Sweden | [*CIDR] (5)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: e8310659-b715-4c1f-9de7-8f8cf589779d
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 9fbbe099-62a0-472b-9c1c-e4ebd43cd67c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 9fbbe099-62a0-472b-9c1c-e4ebd43cd67c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇳🇱 The Netherlands | [*CIDR]
-  type: vless
-  server: 201.34.128.128
-  port: 6443
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nld.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇨🇿 Czechia | [*CIDR]
+  sni: bl3fk52.sysopnova.art
+- name: 🇨🇿 Czechia [*CIDR]
   type: vless
   server: 89.125.214.154
   port: 8444
@@ -179,7 +61,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-de-grpc
-- name: 🇨🇿 Czechia [*CIDR]
+- name: 🇨🇿 Czechia | [*CIDR]
   type: vless
   server: 89.125.214.154
   port: 8444
@@ -227,257 +109,90 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-de-grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+- name: 🇷🇺 Russia | [*CIDR] VK
   type: vless
-  server: 201.34.128.128
-  port: 6443
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
+  server: node3.frost-api.com
+  port: 443
+  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: nld.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  sni: max.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (2)
   type: vless
-  server: 201.34.128.128
-  port: 6443
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
+  server: node3.frost-api.com
+  port: 443
+  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: nld.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  sni: max.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (3)
   type: vless
-  server: 201.34.128.128
-  port: 6443
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
+  server: node3.frost-api.com
+  port: 443
+  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: nld.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  sni: max.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (4)
   type: vless
-  server: 201.34.128.128
-  port: 6443
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
+  server: node3.frost-api.com
+  port: 443
+  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: nld.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇷🇺 Russia | [*CIDR]
+  sni: max.ru
+- name: 🇷🇺 Russia | [*CIDR] VK (5)
   type: vless
-  server: 188.225.33.173
-  port: 5001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
+  server: node3.frost-api.com
+  port: 443
+  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: rus.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇫🇮 Finland | [*CIDR]
-  type: vless
-  server: 188.225.33.173
-  port: 6001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇫🇮 Finland | [*CIDR] (2)
-  type: vless
-  server: 188.225.33.173
-  port: 6001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 188.225.33.173
-  port: 5001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: rus.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇷🇺 Russia | [*CIDR] (3)
-  type: vless
-  server: 188.225.33.173
-  port: 5001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: rus.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇷🇺 Russia | [*CIDR] (4)
-  type: vless
-  server: 188.225.33.173
-  port: 5001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: rus.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇫🇮 Finland | [*CIDR] (3)
-  type: vless
-  server: 188.225.33.173
-  port: 6001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇫🇮 Finland | [*CIDR] (4)
-  type: vless
-  server: 188.225.33.173
-  port: 6001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇷🇺 Russia | [*CIDR] (5)
-  type: vless
-  server: 188.225.33.173
-  port: 5001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: rus.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
-- name: 🇫🇮 Finland | [*CIDR] (5)
-  type: vless
-  server: 188.225.33.173
-  port: 6001
-  uuid: e121b564-fade-44aa-ba15-aa46538efaca
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: fin.centermass.net
-  network: grpc
-  grpc-opts:
-    grpc-service-name: media.playback.v1.SessionGateway
+  sni: max.ru
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   - 🇨🇿 Czechia [*CIDR]
+  - 🇨🇿 Czechia | [*CIDR]
   - 🇨🇿 Czechia | [*CIDR] (2)
   - 🇨🇿 Czechia | [*CIDR] (3)
   - 🇨🇿 Czechia | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇫🇮 Finland | [*CIDR] (3)
-  - 🇫🇮 Finland | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🇫🇮 Finland | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia | [*CIDR] VK (5)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   - 🇨🇿 Czechia [*CIDR]
+  - 🇨🇿 Czechia | [*CIDR]
   - 🇨🇿 Czechia | [*CIDR] (2)
   - 🇨🇿 Czechia | [*CIDR] (3)
   - 🇨🇿 Czechia | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR]
-  - 🇫🇮 Finland | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇫🇮 Finland | [*CIDR] (3)
-  - 🇫🇮 Finland | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🇫🇮 Finland | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] VK (2)
+  - 🇷🇺 Russia | [*CIDR] VK (3)
+  - 🇷🇺 Russia | [*CIDR] VK (4)
+  - 🇷🇺 Russia | [*CIDR] VK (5)
 rules:
 - MATCH,🌍 Прокси
