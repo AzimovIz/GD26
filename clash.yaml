@@ -1,198 +1,218 @@
-# Обновлено: 2026-09-20 16:35 UTC
-# Всего в источнике: 23
+# Обновлено: 2026-09-20 19:08 UTC
+# Всего в источнике: 25
 # Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+- name: 🇫🇮 Finland | 🌐 | [*CIDR]
   type: vless
-  server: 45.8.228.167
+  server: tt.sonyabibboop.com
   port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  sni: tt.sonyabibboop.com
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (2)
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: tt.sonyabibboop.com
+  port: 2055
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇨🇿 Czechia [*CIDR]
-  type: vless
-  server: 89.125.214.154
-  port: 8444
-  uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vk.ru
+  sni: tt.sonyabibboop.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-de-grpc
-- name: 🇨🇿 Czechia | [*CIDR]
+    grpc-service-name: sonya-grpc
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (3)
   type: vless
-  server: 89.125.214.154
-  port: 8444
-  uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
+  server: tt.sonyabibboop.com
+  port: 443
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vk.ru
+  sni: tt.sonyabibboop.com
+- name: 🇳🇱 The Netherlands | [*CIDR]
+  type: vless
+  server: 186.246.2.254
+  port: 6443
+  uuid: ae8e2b94-5d44-437b-9002-80c2015f0e23
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: nld.centermass.net
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-de-grpc
-- name: 🇨🇿 Czechia | [*CIDR] (2)
+    grpc-service-name: media.playback.v1.SessionGateway
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
   type: vless
-  server: 89.125.214.154
-  port: 8444
-  uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
+  server: 186.246.2.254
+  port: 6443
+  uuid: ae8e2b94-5d44-437b-9002-80c2015f0e23
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vk.ru
+  tls: true
+  sni: nld.centermass.net
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-de-grpc
-- name: 🇨🇿 Czechia | [*CIDR] (3)
+    grpc-service-name: media.playback.v1.SessionGateway
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (4)
   type: vless
-  server: 89.125.214.154
-  port: 8444
-  uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
+  server: tt.sonyabibboop.com
+  port: 2055
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vk.ru
+  sni: tt.sonyabibboop.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-de-grpc
-- name: 🇨🇿 Czechia | [*CIDR] (4)
+    grpc-service-name: sonya-grpc
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (5)
   type: vless
-  server: 89.125.214.154
-  port: 8444
-  uuid: 82719790-ff61-4284-8668-ba140a4d6cbd
+  server: tt.sonyabibboop.com
+  port: 2055
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: vk.ru
+  sni: tt.sonyabibboop.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-de-grpc
-- name: 🇷🇺 Russia | [*CIDR] VK
+    grpc-service-name: sonya-grpc
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (6)
   type: vless
-  server: node3.frost-api.com
-  port: 443
-  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
+  server: tt.sonyabibboop.com
+  port: 2055
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (2)
+  sni: tt.sonyabibboop.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: sonya-grpc
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (7)
   type: vless
-  server: node3.frost-api.com
-  port: 443
-  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
+  server: tt.sonyabibboop.com
+  port: 2055
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (3)
+  sni: tt.sonyabibboop.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: sonya-grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
   type: vless
-  server: node3.frost-api.com
-  port: 443
-  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
+  server: 186.246.2.254
+  port: 6443
+  uuid: ae8e2b94-5d44-437b-9002-80c2015f0e23
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (4)
+  tls: true
+  sni: nld.centermass.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: media.playback.v1.SessionGateway
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (8)
   type: vless
-  server: node3.frost-api.com
+  server: tt.sonyabibboop.com
   port: 443
-  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] VK (5)
+  sni: tt.sonyabibboop.com
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (9)
   type: vless
-  server: node3.frost-api.com
+  server: tt.sonyabibboop.com
   port: 443
-  uuid: fefe22c4-a9aa-4b56-b23d-e42aab4bbac0
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
+  sni: tt.sonyabibboop.com
+- name: 🇫🇮 Finland | 🌐 | [*CIDR] (10)
+  type: vless
+  server: tt.sonyabibboop.com
+  port: 443
+  uuid: 884b5fb5-13b5-433a-92cc-0ff4e5773375
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: tt.sonyabibboop.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  type: vless
+  server: 186.246.2.254
+  port: 6443
+  uuid: ae8e2b94-5d44-437b-9002-80c2015f0e23
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: nld.centermass.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: media.playback.v1.SessionGateway
+- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  type: vless
+  server: 186.246.2.254
+  port: 6443
+  uuid: ae8e2b94-5d44-437b-9002-80c2015f0e23
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: nld.centermass.net
+  network: grpc
+  grpc-opts:
+    grpc-service-name: media.playback.v1.SessionGateway
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇨🇿 Czechia [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR] (2)
-  - 🇨🇿 Czechia | [*CIDR] (3)
-  - 🇨🇿 Czechia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (8)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (9)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (10)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇨🇿 Czechia [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR]
-  - 🇨🇿 Czechia | [*CIDR] (2)
-  - 🇨🇿 Czechia | [*CIDR] (3)
-  - 🇨🇿 Czechia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR] VK (3)
-  - 🇷🇺 Russia | [*CIDR] VK (4)
-  - 🇷🇺 Russia | [*CIDR] VK (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR]
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (8)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (9)
+  - 🇫🇮 Finland | 🌐 | [*CIDR] (10)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
 rules:
 - MATCH,🌍 Прокси
