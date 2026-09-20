@@ -1,14 +1,14 @@
-# Обновлено: 2026-09-20 21:59 UTC
-# Всего в источнике: 32
-# Живых серверов: 25
+# Обновлено: 2026-09-20 23:55 UTC
+# Всего в источнике: 30
+# Живых серверов: 20
 # Источник: 26.txt
 
 proxies:
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+- name: 🇩🇪 Germany | [*CIDR]
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9
+  uuid: d97fec59-153e-4e1d-81e3-794bcead5ef3
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -19,11 +19,11 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+- name: 🇩🇪 Germany | [*CIDR] (2)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9
+  uuid: d97fec59-153e-4e1d-81e3-794bcead5ef3
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -34,11 +34,11 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+- name: 🇩🇪 Germany | [*CIDR] (3)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9
+  uuid: d97fec59-153e-4e1d-81e3-794bcead5ef3
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -49,11 +49,11 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+- name: 🇩🇪 Germany | [*CIDR] (4)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9
+  uuid: d97fec59-153e-4e1d-81e3-794bcead5ef3
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -64,11 +64,11 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+- name: 🇩🇪 Germany | [*CIDR] (5)
   type: vless
   server: 95.129.236.239
   port: 443
-  uuid: 5fe7036c-e9ef-4dfa-aa19-8db2b3d592c9
+  uuid: d97fec59-153e-4e1d-81e3-794bcead5ef3
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -79,99 +79,9 @@ proxies:
     path: /stream/615428/socket
     headers:
       Host: wiki.solarinfra.net
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇷🇺 Russia | 🌐 | [*CIDR]
-  type: vless
-  server: stablequenchcone.heatherneedle.info
-  port: 443
-  uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stablequenchcone.heatherneedle.info
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  type: vless
-  server: stablequenchcone.heatherneedle.info
-  port: 443
-  uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stablequenchcone.heatherneedle.info
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
-  type: vless
-  server: stablequenchcone.heatherneedle.info
-  port: 443
-  uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stablequenchcone.heatherneedle.info
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
-  type: vless
-  server: stablequenchcone.heatherneedle.info
-  port: 443
-  uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stablequenchcone.heatherneedle.info
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (5)
-  type: vless
-  server: stablequenchcone.heatherneedle.info
-  port: 443
-  uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: stablequenchcone.heatherneedle.info
 - name: 🇳🇱 The Netherlands | [*CIDR]
   type: vless
-  server: prayercurerecall.forumsociety.info
+  server: 85.193.84.151
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
@@ -180,7 +90,7 @@ proxies:
   sni: prayercurerecall.forumsociety.info
 - name: 🇳🇱 The Netherlands | [*CIDR] (2)
   type: vless
-  server: prayercurerecall.forumsociety.info
+  server: 85.193.84.151
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
@@ -189,7 +99,7 @@ proxies:
   sni: prayercurerecall.forumsociety.info
 - name: 🇳🇱 The Netherlands | [*CIDR] (3)
   type: vless
-  server: prayercurerecall.forumsociety.info
+  server: 85.193.84.151
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
@@ -198,7 +108,7 @@ proxies:
   sni: prayercurerecall.forumsociety.info
 - name: 🇳🇱 The Netherlands | [*CIDR] (4)
   type: vless
-  server: prayercurerecall.forumsociety.info
+  server: 85.193.84.151
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
@@ -207,117 +117,157 @@ proxies:
   sni: prayercurerecall.forumsociety.info
 - name: 🇳🇱 The Netherlands | [*CIDR] (5)
   type: vless
-  server: prayercurerecall.forumsociety.info
+  server: 85.193.84.151
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
   sni: prayercurerecall.forumsociety.info
-- name: 🇸🇪 Sweden | [*CIDR]
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
   type: vless
-  server: decreecompanysplashy.ingotbindery.org
+  server: 5.42.116.118
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: decreecompanysplashy.ingotbindery.org
-- name: 🇸🇪 Sweden | [*CIDR] (2)
+  sni: stablequenchcone.heatherneedle.info
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
   type: vless
-  server: decreecompanysplashy.ingotbindery.org
+  server: 5.42.116.118
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: decreecompanysplashy.ingotbindery.org
-- name: 🇸🇪 Sweden | [*CIDR] (3)
+  sni: stablequenchcone.heatherneedle.info
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
   type: vless
-  server: decreecompanysplashy.ingotbindery.org
+  server: 5.42.116.118
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: decreecompanysplashy.ingotbindery.org
-- name: 🇸🇪 Sweden | [*CIDR] (4)
+  sni: stablequenchcone.heatherneedle.info
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
   type: vless
-  server: decreecompanysplashy.ingotbindery.org
+  server: 5.42.116.118
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: decreecompanysplashy.ingotbindery.org
-- name: 🇸🇪 Sweden | [*CIDR] (5)
+  sni: stablequenchcone.heatherneedle.info
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (5)
   type: vless
-  server: decreecompanysplashy.ingotbindery.org
+  server: 5.42.116.118
   port: 443
   uuid: f07d9192-9d39-49fc-ba70-610fcb7fb176
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: decreecompanysplashy.ingotbindery.org
+  sni: stablequenchcone.heatherneedle.info
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vless
+  server: posa6.api3-max.ru
+  port: 443
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: posa6.api3-max.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  type: vless
+  server: posa6.api3-max.ru
+  port: 443
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: posa6.api3-max.ru
+- name: 🇷🇺 Russia [*CIDR]
+  type: vless
+  server: posa6.api3-max.ru
+  port: 443
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: posa6.api3-max.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  type: vless
+  server: posa6.api3-max.ru
+  port: 443
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: posa6.api3-max.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  type: vless
+  server: posa6.api3-max.ru
+  port: 443
+  uuid: cdd6bfce-781a-4454-b7d5-4778abb5c24f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: posa6.api3-max.ru
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇩🇪 Germany | [*CIDR] (5)
   - 🇳🇱 The Netherlands | [*CIDR]
   - 🇳🇱 The Netherlands | [*CIDR] (2)
   - 🇳🇱 The Netherlands | [*CIDR] (3)
   - 🇳🇱 The Netherlands | [*CIDR] (4)
   - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇷🇺 Russia [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
+  - 🇩🇪 Germany | [*CIDR] (5)
   - 🇳🇱 The Netherlands | [*CIDR]
   - 🇳🇱 The Netherlands | [*CIDR] (2)
   - 🇳🇱 The Netherlands | [*CIDR] (3)
   - 🇳🇱 The Netherlands | [*CIDR] (4)
   - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇷🇺 Russia [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
 rules:
 - MATCH,🌍 Прокси
