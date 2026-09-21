@@ -1,59 +1,52 @@
-# Обновлено: 2026-09-21 15:24 UTC
-# Всего в источнике: 12
-# Живых серверов: 6
+# Обновлено: 2026-09-21 20:09 UTC
+# Всего в источнике: 15
+# Живых серверов: 8
 # Источник: 26.txt
 
 proxies:
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
-  server: 66.90.90.164
-  port: 8443
-  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
+  server: 159.194.217.26
+  port: 443
+  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: dsapi-v2-6ab0d7e2.adhil.uk
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
+  sni: www.siemens.com
+- name: 🇷🇺 Russia | [*CIDR] (2)
   type: vless
-  server: 66.90.90.164
-  port: 8443
-  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
+  server: 159.194.217.26
+  port: 443
+  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: dsapi-v2-6ab0d7e2.adhil.uk
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
+  sni: www.siemens.com
+- name: 🇷🇺 Russia | [*CIDR] (3)
   type: vless
-  server: 66.90.90.164
-  port: 8443
-  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
+  server: 159.194.217.26
+  port: 443
+  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: dsapi-v2-6ab0d7e2.adhil.uk
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
+  sni: www.siemens.com
+- name: 🇷🇺 Russia | [*CIDR] (4)
   type: vless
-  server: 66.90.90.164
-  port: 8443
-  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
+  server: 159.194.217.26
+  port: 443
+  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: dsapi-v2-6ab0d7e2.adhil.uk
-- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
-  type: vless
-  server: 66.90.90.164
-  port: 8443
-  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
+  sni: www.siemens.com
+- name: 🇭🇰 Hong Kong | 🌐 | [*CIDR]
+  type: trojan
+  server: 213.171.27.80
+  port: 37490
+  password: wYQ9WYorgO
   udp: true
   skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dsapi-v2-6ab0d7e2.adhil.uk
 - name: 🇷🇺 Russia [*CIDR]
   type: vless
   server: 95.163.155.137
@@ -62,27 +55,47 @@ proxies:
   udp: true
   skip-cert-verify: true
   encryption: none
+- name: 🇷🇺 Russia | [*CIDR] (5)
+  type: vless
+  server: 159.194.217.26
+  port: 443
+  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.siemens.com
+- name: 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
+  type: trojan
+  server: 213.171.27.80
+  port: 37490
+  password: wYQ9WYorgO
+  udp: true
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇭🇰 Hong Kong | 🌐 | [*CIDR]
   - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
-  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇭🇰 Hong Kong | 🌐 | [*CIDR]
   - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
