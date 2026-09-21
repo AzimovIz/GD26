@@ -1,630 +1,88 @@
-# Обновлено: 2026-09-21 08:17 UTC
-# Всего в источнике: 67
-# Живых серверов: 47
+# Обновлено: 2026-09-21 15:24 UTC
+# Всего в источнике: 12
+# Живых серверов: 6
 # Источник: 26.txt
 
 proxies:
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇳🇱 The Netherlands | [*CIDR]
-  type: vless
-  server: 196.240.125.254
+  server: 66.90.90.164
   port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
+  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  sni: dsapi-v2-6ab0d7e2.adhil.uk
+- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
-  type: vless
-  server: 196.240.125.254
+  server: 66.90.90.164
   port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
+  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  sni: dsapi-v2-6ab0d7e2.adhil.uk
+- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
   type: vless
-  server: 196.240.125.254
+  server: 66.90.90.164
   port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
+  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
+  sni: dsapi-v2-6ab0d7e2.adhil.uk
+- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (9)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
-  type: vless
-  server: 196.240.125.254
+  server: 66.90.90.164
   port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
+  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  sni: dsapi-v2-6ab0d7e2.adhil.uk
+- name: 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
   type: vless
-  server: 196.240.125.254
+  server: 66.90.90.164
   port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
+  uuid: b24a59f3-f62c-48ef-86d6-e4ca44d6b357
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (10)
-  type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 454d5905-f445-46e6-a236-d94965a6bfea
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: wiki.solarinfra.net
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: wiki.solarinfra.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 62.113.41.127
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  type: vless
-  server: 46.19.66.142
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 46.19.66.142
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 46.19.66.142
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 46.19.66.142
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
+  sni: dsapi-v2-6ab0d7e2.adhil.uk
 - name: 🇷🇺 Russia [*CIDR]
   type: vless
-  server: 185.185.142.205
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
+  server: 95.163.155.137
+  port: 31585
+  uuid: 00d4010a-ac43-48a4-a790-50a50599e616
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  type: vless
-  server: 62.113.41.127
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  type: vless
-  server: 31.130.135.81
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  type: vless
-  server: 46.19.66.142
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  type: vless
-  server: 31.130.135.81
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  type: vless
-  server: 31.130.135.81
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  type: vless
-  server: 62.113.41.127
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  type: vless
-  server: 31.130.135.81
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia [*CIDR] (2)
-  type: vless
-  server: 62.113.41.127
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  type: vless
-  server: 31.130.135.81
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 185.185.142.205
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 185.185.142.205
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | [*CIDR] (3)
-  type: vless
-  server: 185.185.142.205
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇳🇱 The Netherlands [*CIDR]
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇷🇺 Russia | [*CIDR] (4)
-  type: vless
-  server: 185.185.142.205
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR]
-  type: vless
-  server: 62.113.41.127
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇳🇱 The Netherlands | [*CIDR] (6)
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇳🇱 The Netherlands | [*CIDR] (7)
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇳🇱 The Netherlands [*CIDR] (2)
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇳🇱 The Netherlands [*CIDR] (3)
-  type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 7ce6f974-8290-48c2-b6ed-2c4c557dcebb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vusr-6ab04962.adhil.uk
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 | [*CIDR]
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (5)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: cbccee46-e5ee-4df1-8e54-a1de44d57403
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: shopper.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
-  type: vless
-  server: es2.h1cloud.net
-  port: 25535
-  uuid: c379d8e4-c67d-42ec-a3ed-ca99d1ad0546
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.microsoft.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
-  type: vless
-  server: es2.h1cloud.net
-  port: 25535
-  uuid: c379d8e4-c67d-42ec-a3ed-ca99d1ad0546
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.microsoft.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
   - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - 🇷🇺 Russia [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (9)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (2)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (3)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (4)
+  - 🌐 Anycast-IP | 🇬🇧 🇷🇺 | [*CIDR] Beeline (5)
   - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
-  - 🇷🇺 Russia [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇳🇱 The Netherlands [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
 rules:
 - MATCH,🌍 Прокси
