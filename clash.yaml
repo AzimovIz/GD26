@@ -1,73 +1,20 @@
-# Обновлено: 2026-09-21 20:09 UTC
-# Всего в источнике: 15
-# Живых серверов: 8
+# Обновлено: 2026-09-21 23:42 UTC
+# Всего в источнике: 14
+# Живых серверов: 2
 # Источник: 26.txt
 
 proxies:
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 159.194.217.26
-  port: 443
-  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 159.194.217.26
-  port: 443
-  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-- name: 🇷🇺 Russia | [*CIDR] (3)
-  type: vless
-  server: 159.194.217.26
-  port: 443
-  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-- name: 🇷🇺 Russia | [*CIDR] (4)
-  type: vless
-  server: 159.194.217.26
-  port: 443
-  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-- name: 🇭🇰 Hong Kong | 🌐 | [*CIDR]
+- name: 🇭🇰 Hong Kong | 🌐 [*CIDR]
   type: trojan
   server: 213.171.27.80
   port: 37490
   password: wYQ9WYorgO
   udp: true
   skip-cert-verify: true
-- name: 🇷🇺 Russia [*CIDR]
-  type: vless
-  server: 95.163.155.137
-  port: 31585
-  uuid: 00d4010a-ac43-48a4-a790-50a50599e616
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-- name: 🇷🇺 Russia | [*CIDR] (5)
-  type: vless
-  server: 159.194.217.26
-  port: 443
-  uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-- name: 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
+- name: 🇸🇬 Singapore | 🌐 [*CIDR]
   type: trojan
   server: 213.171.27.80
-  port: 37490
+  port: 37510
   password: wYQ9WYorgO
   udp: true
   skip-cert-verify: true
@@ -75,27 +22,15 @@ proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇭🇰 Hong Kong | 🌐 | [*CIDR]
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
+  - 🇭🇰 Hong Kong | 🌐 [*CIDR]
+  - 🇸🇬 Singapore | 🌐 [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇭🇰 Hong Kong | 🌐 | [*CIDR]
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - 🇭🇰 Hong Kong | 🌐 | [*CIDR] (2)
+  - 🇭🇰 Hong Kong | 🌐 [*CIDR]
+  - 🇸🇬 Singapore | 🌐 [*CIDR]
 rules:
 - MATCH,🌍 Прокси
