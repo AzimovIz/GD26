@@ -1,95 +1,309 @@
-# Обновлено: 2026-09-22 20:35 UTC
-# Всего в источнике: 19
-# Живых серверов: 7
+# Обновлено: 2026-09-22 23:21 UTC
+# Всего в источнике: 43
+# Живых серверов: 22
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱 The Netherlands | 🌐 [*CIDR]
+- name: 🇫🇷 France | [*CIDR]
   type: vless
-  server: 91.215.40.26
-  port: 16443
-  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ddg.steptofsvo.com
-- name: 🇳🇱 The Netherlands | 🌐 [*CIDR] (2)
-  type: vless
-  server: 91.215.40.26
-  port: 16443
-  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ddg.steptofsvo.com
-- name: 🇳🇱 The Netherlands | 🌐 [*CIDR] (3)
-  type: vless
-  server: 91.215.40.26
-  port: 16443
-  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ddg.steptofsvo.com
-- name: 🇳🇱 The Netherlands | 🌐 [*CIDR] (4)
-  type: vless
-  server: 91.215.40.26
-  port: 16443
-  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ddg.steptofsvo.com
-- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR]
-  type: vless
-  server: 91.215.40.26
-  port: 16443
-  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ddg.steptofsvo.com
-- name: 🇪🇪 Estonia | [*CIDR]
-  type: vless
-  server: ru1.nodalider.ru
+  server: 188.68.218.110
   port: 443
-  uuid: 765a278f-f2d8-403a-9ff1-9b2362dcf8ca
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.ign.com
-- name: 🇪🇪 Estonia | [*CIDR] (2)
+  tls: true
+  sni: forward-change.pushbyte.cc
+- name: 🇫🇷 France | [*CIDR] (2)
   type: vless
-  server: ru1.nodalider.ru
+  server: 188.68.218.110
   port: 443
-  uuid: 765a278f-f2d8-403a-9ff1-9b2362dcf8ca
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.ign.com
+  tls: true
+  sni: forward-change.pushbyte.cc
+- name: 🇫🇷 France | [*CIDR] (3)
+  type: vless
+  server: 188.68.218.110
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.pushbyte.cc
+- name: 🇫🇷 France | [*CIDR] (4)
+  type: vless
+  server: 188.68.218.110
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.pushbyte.cc
+- name: 🇫🇷 France | [*CIDR] (5)
+  type: vless
+  server: 188.68.218.110
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.pushbyte.cc
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-fi-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi02-grpc-8e47a
+- name: 🇦🇹 Austria [*CIDR]
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-01.hanvpn.cc
+- name: 🇫🇷 France | [*CIDR] (6)
+  type: vless
+  server: 31.129.42.37
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.datapull.cc
+- name: 🇫🇷 France | [*CIDR] (7)
+  type: vless
+  server: 31.129.42.37
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.datapull.cc
+- name: 🇦🇹 Austria | [*CIDR]
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-01.hanvpn.cc
+- name: 🇫🇷 France | [*CIDR] (8)
+  type: vless
+  server: 31.129.42.37
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.datapull.cc
+- name: 🇫🇷 France | [*CIDR] (9)
+  type: vless
+  server: 31.129.42.37
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.datapull.cc
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-fi-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi02-grpc-8e47a
+- name: 🇫🇷 France | [*CIDR] (10)
+  type: vless
+  server: 31.129.42.37
+  port: 443
+  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: forward-change.datapull.cc
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-fi-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi02-grpc-8e47a
+- name: 🇦🇹 Austria | [*CIDR] (2)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-02.hanvpn.cc
+  network: ws
+  ws-opts:
+    path: /vie02-ws-8e47a
+    headers:
+      Host: hub-vie-02.hanvpn.cc
+- name: 🇦🇹 Austria [*CIDR] (2)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-01.hanvpn.cc
+- name: 🇦🇹 Austria | [*CIDR] (3)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-01.hanvpn.cc
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-fi-02.hanvpn.cc
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fi02-grpc-8e47a
+- name: 🇦🇹 Austria | [*CIDR] (4)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-01.hanvpn.cc
+- name: 🇦🇹 Austria | [*CIDR] (5)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-02.hanvpn.cc
+  network: ws
+  ws-opts:
+    path: /vie02-ws-8e47a
+    headers:
+      Host: hub-vie-02.hanvpn.cc
+- name: 🇦🇹 Austria | [*CIDR] (6)
+  type: vless
+  server: 82.117.87.129
+  port: 9443
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: hub-vie-02.hanvpn.cc
+  network: ws
+  ws-opts:
+    path: /vie02-ws-8e47a
+    headers:
+      Host: hub-vie-02.hanvpn.cc
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR]
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (2)
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (3)
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (4)
-  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇦🇹 Austria [*CIDR]
+  - 🇫🇷 France | [*CIDR] (6)
+  - 🇫🇷 France | [*CIDR] (7)
+  - 🇦🇹 Austria | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (8)
+  - 🇫🇷 France | [*CIDR] (9)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (10)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇦🇹 Austria | [*CIDR] (2)
+  - 🇦🇹 Austria [*CIDR] (2)
+  - 🇦🇹 Austria | [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (5)
+  - 🇦🇹 Austria | [*CIDR] (6)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR]
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (2)
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (3)
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] (4)
-  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR]
-  - 🇪🇪 Estonia | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇦🇹 Austria [*CIDR]
+  - 🇫🇷 France | [*CIDR] (6)
+  - 🇫🇷 France | [*CIDR] (7)
+  - 🇦🇹 Austria | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (8)
+  - 🇫🇷 France | [*CIDR] (9)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (10)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇦🇹 Austria | [*CIDR] (2)
+  - 🇦🇹 Austria [*CIDR] (2)
+  - 🇦🇹 Austria | [*CIDR] (3)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (4)
+  - 🇦🇹 Austria | [*CIDR] (5)
+  - 🇦🇹 Austria | [*CIDR] (6)
 rules:
 - MATCH,🌍 Прокси
