@@ -1,557 +1,18 @@
-# Обновлено: 2026-09-22 02:08 UTC
-# Всего в источнике: 88
-# Живых серверов: 78
+# Обновлено: 2026-09-22 08:00 UTC
+# Всего в источнике: 25
+# Живых серверов: 20
 # Источник: 26.txt
 
 proxies:
-- name: 🇫🇮 Finland | 🌐 | [*CIDR]
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 92.255.79.246
+  server: 200.165.224.58
   port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇩🇪 Germany | 🌐 | [*CIDR]
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇫🇷 France | [*CIDR]
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇷 France | [*CIDR] (2)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0004-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 92.255.79.246
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: supbober.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Lizat
-- name: 🇫🇷 France | [*CIDR] (3)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0004-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (6)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇩🇪 Germany | 🌐 [*CIDR]
-  type: vless
-  server: 45.151.62.146
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] (2)
-  type: vless
-  server: 45.151.62.146
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] (3)
-  type: vless
-  server: 45.151.62.146
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (7)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 45.151.62.146
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇫🇷 France | [*CIDR] (4)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0004-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (6)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (8)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇷 France | [*CIDR] (5)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇷 France | [*CIDR] (6)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0004-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇷 France | [*CIDR] (7)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇸🇪 Sweden | [*CIDR]
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (6)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (7)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇫🇷 France | [*CIDR] (8)
-  type: vless
-  server: 201.24.50.94
-  port: 443
-  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: kerbal.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Sosat
-- name: 🇸🇪 Sweden | [*CIDR] (2)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇸🇪 Sweden | [*CIDR] (3)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🇸🇪 Sweden | [*CIDR] (4)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (8)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dailycanvas.sysopnova.art
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (10)
-  type: vless
-  server: de58.abvpn.net
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (11)
-  type: vless
-  server: de58.abvpn.net
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (12)
-  type: vless
-  server: de58.abvpn.net
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] (13)
-  type: vless
-  server: de58.abvpn.net
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: de58.abvpn.net
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
+  sni: dl.google.com
 - name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
   type: vless
   server: 104.171.138.229
@@ -564,18 +25,39 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: Piska
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
   type: vless
-  server: 201.24.52.151
+  server: 104.171.138.229
   port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: hexagonicfield.com
+  sni: cdn.mafioznik.xyz
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
+    grpc-service-name: Piska
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  type: vless
+  server: 200.165.224.58
+  port: 443
+  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
 - name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
   type: vless
   server: 104.171.138.229
@@ -588,118 +70,15 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: Piska
-- name: 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR]
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   type: vless
-  server: 178.176.128.128
+  server: 200.165.224.58
   port: 443
-  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: edge3.statiqedge.com
-- name: 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (2)
-  type: vless
-  server: 178.176.128.128
-  port: 443
-  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: edge3.statiqedge.com
-- name: 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (3)
-  type: vless
-  server: 178.176.128.128
-  port: 443
-  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: edge3.statiqedge.com
-- name: 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (4)
-  type: vless
-  server: 178.176.128.128
-  port: 443
-  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: edge3.statiqedge.com
-- name: 🇷🇺 Russia | 🌐 | [*CIDR]
-  type: vless
-  server: 72.56.1.5
-  port: 443
-  uuid: 8057eabc-921d-4ef5-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Popka
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 72.56.1.5
-  port: 443
-  uuid: 8057eabc-921d-4ef5-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.siemens.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Popka
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇷🇺 Russia | [*CIDR] (3)
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇷🇺 Russia | [*CIDR] (4)
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
+  sni: dl.google.com
 - name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
   type: vless
   server: 104.171.138.229
@@ -712,346 +91,203 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: Piska
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+- name: 🇳🇱 The Netherlands | [*CIDR]
   type: vless
-  server: 72.56.1.5
-  port: 443
-  uuid: 8057eabc-921d-4ef5-9acb-80ccc6b48379
+  server: 195.133.198.200
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.siemens.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: Popka
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR]
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
   type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  server: 195.133.198.200
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (2)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
   type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  server: 195.133.198.200
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: upload.hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
   type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  server: 195.133.198.200
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cdn.mafioznik.xyz
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: Piska
-- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (5)
   type: vless
-  server: 72.56.1.5
-  port: 443
-  uuid: 8057eabc-921d-4ef5-9acb-80ccc6b48379
+  server: 195.133.198.200
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.siemens.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: Popka
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (3)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands [*CIDR]
   type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  server: vd.lavivas.org
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: upload.hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (4)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands [*CIDR] (2)
   type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  server: vd.lavivas.org
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR]
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (6)
   type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  server: vd.lavivas.org
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: my.hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (5)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (7)
   type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  server: vd.lavivas.org
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: upload.hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (2)
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (8)
   type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  server: vd.lavivas.org
+  port: 7443
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: my.hexagonicfield.com
+  tls: true
+  sni: vd.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (3)
+    grpc-service-name: grpc
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   type: vless
-  server: 186.246.13.160
+  server: 200.165.224.58
   port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (4)
+  sni: dl.google.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
   type: vless
-  server: 186.246.13.160
+  server: 200.165.224.58
   port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (5)
-  type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (6)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇫🇷 France [*CIDR]
-  type: hysteria2
-  server: ru1.didiservice.com
-  port: 443
-  password: d76aca2e-1a63-4c00-89fb-07957cecc3e4
-  skip-cert-verify: true
-  sni: ru1.didiservice.com
+  sni: dl.google.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇫🇮 Finland | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR]
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] (3)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  - 🇫🇷 France | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  - 🇫🇷 France | [*CIDR] (7)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (6)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  - 🇫🇷 France | [*CIDR] (8)
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (10)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (11)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (12)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (13)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR]
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (6)
-  - 🇫🇷 France [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | [*CIDR] (8)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇫🇮 Finland | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (5)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR]
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] (3)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
-  - 🇫🇷 France | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (8)
-  - 🇫🇷 France | [*CIDR] (7)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (6)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (9)
-  - 🇫🇷 France | [*CIDR] (8)
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (8)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (10)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (11)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (12)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] (13)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR]
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇳🇱 🇺🇸 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
-  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 [*CIDR] (6)
-  - 🇫🇷 France [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇳🇱 The Netherlands [*CIDR]
+  - 🇳🇱 The Netherlands [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | [*CIDR] (8)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
 rules:
 - MATCH,🌍 Прокси
