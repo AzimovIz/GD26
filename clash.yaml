@@ -1,89 +1,64 @@
-# Обновлено: 2026-09-22 08:00 UTC
-# Всего в источнике: 25
-# Живых серверов: 20
+# Обновлено: 2026-09-22 13:14 UTC
+# Всего в источнике: 12
+# Живых серверов: 7
 # Источник: 26.txt
 
 proxies:
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 200.165.224.58
+  server: 185.211.170.77
   port: 443
-  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
+  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
-  type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
+  tls: true
+  sni: polka3.cryposikel.ru
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   type: vless
-  server: 200.165.224.58
+  server: 185.211.170.77
   port: 443
-  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
+  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
+  tls: true
+  sni: polka3.cryposikel.ru
+- name: 🇵🇱 Poland [*CIDR]
   type: vless
-  server: 104.171.138.229
+  server: 185.211.170.77
   port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cdn.mafioznik.xyz
-  network: grpc
-  grpc-opts:
-    grpc-service-name: Piska
+  tls: true
+  sni: polka3.cryposikel.ru
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   type: vless
-  server: 200.165.224.58
+  server: 185.211.170.77
   port: 443
-  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
+  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
+  tls: true
+  sni: polka3.cryposikel.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  type: vless
+  server: 185.211.170.77
+  port: 443
+  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: polka3.cryposikel.ru
+- name: 🇸🇪 Sweden [*CIDR]
   type: vless
   server: 104.171.138.229
   port: 443
-  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -91,178 +66,29 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: Piska
-- name: 🇳🇱 The Netherlands | [*CIDR]
+- name: 🇸🇪 Sweden | [*CIDR]
   type: vless
-  server: 195.133.198.200
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
-  type: vless
-  server: 195.133.198.200
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
-  type: vless
-  server: 195.133.198.200
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
-  type: vless
-  server: 195.133.198.200
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
-  type: vless
-  server: 195.133.198.200
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands [*CIDR]
-  type: vless
-  server: vd.lavivas.org
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands [*CIDR] (2)
-  type: vless
-  server: vd.lavivas.org
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (6)
-  type: vless
-  server: vd.lavivas.org
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (7)
-  type: vless
-  server: vd.lavivas.org
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 🇳🇱 The Netherlands | [*CIDR] (8)
-  type: vless
-  server: vd.lavivas.org
-  port: 7443
-  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vd.lavivas.org
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 200.165.224.58
+  server: 104.171.138.229
   port: 443
-  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 200.165.224.58
-  port: 443
-  uuid: 496a2c7a-c963-4275-b317-4d4a68901456
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - 🇳🇱 The Netherlands | [*CIDR] (8)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
@@ -270,24 +96,11 @@ proxy-groups:
   proxies:
   - 🚀 Авто-выбор
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR]
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
+  - 🇵🇱 Poland [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇳🇱 The Netherlands [*CIDR]
-  - 🇳🇱 The Netherlands [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (6)
-  - 🇳🇱 The Netherlands | [*CIDR] (7)
-  - 🇳🇱 The Netherlands | [*CIDR] (8)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden | [*CIDR]
 rules:
 - MATCH,🌍 Прокси
