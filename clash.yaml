@@ -1,106 +1,583 @@
-# Обновлено: 2026-09-22 13:14 UTC
-# Всего в источнике: 12
-# Живых серверов: 7
+# Обновлено: 2026-09-22 17:47 UTC
+# Всего в источнике: 60
+# Живых серверов: 50
 # Источник: 26.txt
 
 proxies:
+- name: 🇮🇹 Italy | [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | [*CIDR] (3)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | [*CIDR] (4)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇮🇹 Italy | [*CIDR] (5)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dailycanvas.sysopnova.art
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  type: vless
+  server: 91.215.40.26
+  port: 16443
+  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ddg.steptofsvo.com
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 91.215.40.26
+  port: 16443
+  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ddg.steptofsvo.com
+- name: 🇳🇱 The Netherlands | [*CIDR]
+  type: vless
+  server: 194.26.229.28
+  port: 443
+  uuid: d8945fb2-d700-0006-a19b-a50dcae6e3d0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: aeza1.maxtelemost.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  type: vless
+  server: 92.246.138.5
+  port: 443
+  uuid: 72f8e59f-7a0d-44f2-a8db-b4c3e1e36716
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: plugins.jetbrains.com
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 91.215.40.26
+  port: 16443
+  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ddg.steptofsvo.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  type: vless
+  server: 194.26.229.28
+  port: 443
+  uuid: d8945fb2-d700-0006-a19b-a50dcae6e3d0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: aeza1.maxtelemost.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  type: vless
+  server: 92.246.138.5
+  port: 443
+  uuid: 72f8e59f-7a0d-44f2-a8db-b4c3e1e36716
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: plugins.jetbrains.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  type: vless
+  server: 92.246.138.5
+  port: 443
+  uuid: 72f8e59f-7a0d-44f2-a8db-b4c3e1e36716
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: plugins.jetbrains.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (6)
+  type: vless
+  server: 92.246.138.5
+  port: 443
+  uuid: 72f8e59f-7a0d-44f2-a8db-b4c3e1e36716
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: plugins.jetbrains.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (7)
+  type: vless
+  server: 194.26.229.28
+  port: 443
+  uuid: d8945fb2-d700-0006-a19b-a50dcae6e3d0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: aeza1.maxtelemost.com
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 91.215.40.26
+  port: 16443
+  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ddg.steptofsvo.com
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 91.215.40.26
+  port: 16443
+  uuid: d0e80dcb-190e-48e3-87dc-b2bab2324723
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ddg.steptofsvo.com
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
+  type: vless
+  server: 104.171.134.222
+  port: 443
+  uuid: 89d4896a-5bb8-43fc-a889-3837103cd053
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5post-gate.x5.ru
+- name: 🇳🇱 The Netherlands | [*CIDR] (8)
+  type: vless
+  server: 194.26.229.28
+  port: 443
+  uuid: d8945fb2-d700-0006-a19b-a50dcae6e3d0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: aeza1.maxtelemost.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (9)
+  type: vless
+  server: 92.246.138.5
+  port: 443
+  uuid: 72f8e59f-7a0d-44f2-a8db-b4c3e1e36716
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: plugins.jetbrains.com
+- name: 🇳🇱 The Netherlands | [*CIDR] (10)
+  type: vless
+  server: 194.26.229.28
+  port: 443
+  uuid: d8945fb2-d700-0006-a19b-a50dcae6e3d0
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: aeza1.maxtelemost.com
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 104.171.134.222
+  port: 443
+  uuid: 89d4896a-5bb8-43fc-a889-3837103cd053
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5post-gate.x5.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 104.171.134.222
+  port: 443
+  uuid: 89d4896a-5bb8-43fc-a889-3837103cd053
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5post-gate.x5.ru
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 185.211.170.77
-  port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
+  server: 72.56.35.136
+  port: 11443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: polka3.cryposikel.ru
+  sni: account.amd.com
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   type: vless
-  server: 185.211.170.77
-  port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
+  server: 109.120.152.35
+  port: 6443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: polka3.cryposikel.ru
-- name: 🇵🇱 Poland [*CIDR]
-  type: vless
-  server: 185.211.170.77
-  port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: polka3.cryposikel.ru
+  sni: it.nvidia.com
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   type: vless
-  server: 185.211.170.77
-  port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
+  server: 109.120.152.35
+  port: 6443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: polka3.cryposikel.ru
+  sni: it.nvidia.com
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   type: vless
-  server: 185.211.170.77
+  server: 72.56.35.136
+  port: 11443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  type: vless
+  server: 109.120.152.35
+  port: 6443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: it.nvidia.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+  type: vless
+  server: 109.120.152.35
+  port: 6443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: it.nvidia.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+  type: vless
+  server: 109.120.152.35
+  port: 2443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: it.nvidia.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+  type: vless
+  server: 109.120.152.35
+  port: 9443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 104.171.134.222
   port: 443
-  uuid: a5a311a8-6b0b-4ddc-b354-79acb4e19d67
+  uuid: 89d4896a-5bb8-43fc-a889-3837103cd053
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5post-gate.x5.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  type: vless
+  server: 109.120.152.35
+  port: 9443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  type: vless
+  server: 109.120.152.35
+  port: 9443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
+  type: vless
+  server: 109.120.152.35
+  port: 9443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
+  type: vless
+  server: 109.120.152.35
+  port: 9443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
+  type: vless
+  server: 72.56.35.136
+  port: 11443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 104.171.134.222
+  port: 443
+  uuid: 89d4896a-5bb8-43fc-a889-3837103cd053
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 5post-gate.x5.ru
+- name: 🇳🇱 The Netherlands | [*CIDR] (11)
+  type: vless
+  server: ih.lavivas.org
+  port: 8080
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: polka3.cryposikel.ru
-- name: 🇸🇪 Sweden [*CIDR]
+  sni: ih.lavivas.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (12)
   type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+  server: ih.lavivas.org
+  port: 8080
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cdn.mafioznik.xyz
+  tls: true
+  sni: ih.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: Piska
-- name: 🇸🇪 Sweden | [*CIDR]
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (13)
   type: vless
-  server: 104.171.138.229
-  port: 443
-  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+  server: ih.lavivas.org
+  port: 8080
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cdn.mafioznik.xyz
+  tls: true
+  sni: ih.lavivas.org
   network: grpc
   grpc-opts:
-    grpc-service-name: Piska
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (14)
+  type: vless
+  server: ih.lavivas.org
+  port: 8080
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: ih.lavivas.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (15)
+  type: vless
+  server: ih.lavivas.org
+  port: 8080
+  uuid: 44e1105d-b46e-402f-933b-eaa136fcbb24
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: ih.lavivas.org
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇳🇱 The Netherlands | [*CIDR] (16)
+  type: trojan
+  server: ih.lavivas.org
+  port: 8443
+  password: ZBR29pYTPUhKhqtnn926PUWzzjxGY0JX
+  udp: true
+  skip-cert-verify: true
+  sni: ih.lavivas.org
+- name: 🇳🇱 The Netherlands | [*CIDR] (17)
+  type: trojan
+  server: ih.lavivas.org
+  port: 8443
+  password: ZBR29pYTPUhKhqtnn926PUWzzjxGY0JX
+  udp: true
+  skip-cert-verify: true
+  sni: ih.lavivas.org
+- name: 🇳🇱 The Netherlands | [*CIDR] (18)
+  type: trojan
+  server: ih.lavivas.org
+  port: 8443
+  password: ZBR29pYTPUhKhqtnn926PUWzzjxGY0JX
+  udp: true
+  skip-cert-verify: true
+  sni: ih.lavivas.org
+- name: 🇳🇱 The Netherlands | [*CIDR] (19)
+  type: trojan
+  server: ih.lavivas.org
+  port: 8443
+  password: ZBR29pYTPUhKhqtnn926PUWzzjxGY0JX
+  udp: true
+  skip-cert-verify: true
+  sni: ih.lavivas.org
+- name: 🇳🇱 The Netherlands | [*CIDR] (20)
+  type: trojan
+  server: ih.lavivas.org
+  port: 8443
+  password: ZBR29pYTPUhKhqtnn926PUWzzjxGY0JX
+  udp: true
+  skip-cert-verify: true
+  sni: ih.lavivas.org
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
+  type: vless
+  server: 72.56.35.136
+  port: 11443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
+  type: vless
+  server: 72.56.35.136
+  port: 11443
+  uuid: ba5f3ede-9d4c-454f-80e5-eaf374ad356e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: account.amd.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
+  - 🇮🇹 Italy | [*CIDR]
+  - 🇮🇹 Italy | [*CIDR] (2)
+  - 🇮🇹 Italy | [*CIDR] (3)
+  - 🇮🇹 Italy | [*CIDR] (4)
+  - 🇮🇹 Italy | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (8)
+  - 🇳🇱 The Netherlands | [*CIDR] (9)
+  - 🇳🇱 The Netherlands | [*CIDR] (10)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | [*CIDR] (11)
+  - 🇳🇱 The Netherlands | [*CIDR] (12)
+  - 🇳🇱 The Netherlands | [*CIDR] (13)
+  - 🇳🇱 The Netherlands | [*CIDR] (14)
+  - 🇳🇱 The Netherlands | [*CIDR] (15)
+  - 🇳🇱 The Netherlands | [*CIDR] (16)
+  - 🇳🇱 The Netherlands | [*CIDR] (17)
+  - 🇳🇱 The Netherlands | [*CIDR] (18)
+  - 🇳🇱 The Netherlands | [*CIDR] (19)
+  - 🇳🇱 The Netherlands | [*CIDR] (20)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
+  - 🇮🇹 Italy | [*CIDR]
+  - 🇮🇹 Italy | [*CIDR] (2)
+  - 🇮🇹 Italy | [*CIDR] (3)
+  - 🇮🇹 Italy | [*CIDR] (4)
+  - 🇮🇹 Italy | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (8)
+  - 🇳🇱 The Netherlands | [*CIDR] (9)
+  - 🇳🇱 The Netherlands | [*CIDR] (10)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (3)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (11)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (12)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (13)
+  - 🇷🇺 Russia | 🌐 | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | [*CIDR] (11)
+  - 🇳🇱 The Netherlands | [*CIDR] (12)
+  - 🇳🇱 The Netherlands | [*CIDR] (13)
+  - 🇳🇱 The Netherlands | [*CIDR] (14)
+  - 🇳🇱 The Netherlands | [*CIDR] (15)
+  - 🇳🇱 The Netherlands | [*CIDR] (16)
+  - 🇳🇱 The Netherlands | [*CIDR] (17)
+  - 🇳🇱 The Netherlands | [*CIDR] (18)
+  - 🇳🇱 The Netherlands | [*CIDR] (19)
+  - 🇳🇱 The Netherlands | [*CIDR] (20)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (14)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (15)
 rules:
 - MATCH,🌍 Прокси
