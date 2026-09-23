@@ -1,205 +1,70 @@
-# Обновлено: 2026-09-23 08:02 UTC
-# Всего в источнике: 28
-# Живых серверов: 25
+# Обновлено: 2026-09-23 13:55 UTC
+# Всего в источнике: 14
+# Живых серверов: 11
 # Источник: 26.txt
 
 proxies:
-- name: 🇳🇱 The Netherlands | [*CIDR]
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
   type: vless
-  server: 185.134.200.9
+  server: 104.171.138.229
   port: 443
-  uuid: b7b8d377-a5dd-f242-ab6d-5ecc548e9c36
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: wl33.4ch.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
   type: vless
-  server: 185.134.200.9
+  server: 104.171.138.229
   port: 443
-  uuid: b7b8d377-a5dd-f242-ab6d-5ecc548e9c36
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: wl33.4ch.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
   type: vless
-  server: 185.134.200.9
+  server: 104.171.138.229
   port: 443
-  uuid: b7b8d377-a5dd-f242-ab6d-5ecc548e9c36
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: wl33.4ch.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
   type: vless
-  server: 185.134.200.9
+  server: 104.171.138.229
   port: 443
-  uuid: b7b8d377-a5dd-f242-ab6d-5ecc548e9c36
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: wl33.4ch.pro
-- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (5)
   type: vless
-  server: 185.134.200.9
+  server: 104.171.138.229
   port: 443
-  uuid: b7b8d377-a5dd-f242-ab6d-5ecc548e9c36
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: wl33.4ch.pro
-- name: 🇫🇷 France [*CIDR]
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR]
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France [*CIDR] (2)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (2)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (3)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (4)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France [*CIDR] (3)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (5)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (6)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (7)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (8)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (9)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (10)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (11)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇫🇷 France | [*CIDR] (12)
-  type: vless
-  server: 31.129.42.37
-  port: 443
-  uuid: 74e3469f-d4e7-424d-a14b-3f306aa71b74
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: forward-change.datapull.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK
+  sni: cdn.mafioznik.xyz
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
   type: vless
   server: dostavitos.stroymatdv.cc
   port: 443
@@ -214,7 +79,7 @@ proxies:
     path: /e9ws
     headers:
       Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
   type: vless
   server: dostavitos.stroymatdv.cc
   port: 443
@@ -229,7 +94,7 @@ proxies:
     path: /e9ws
     headers:
       Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
   type: vless
   server: dostavitos.stroymatdv.cc
   port: 443
@@ -244,7 +109,7 @@ proxies:
     path: /e9ws
     headers:
       Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
   type: vless
   server: dostavitos.stroymatdv.cc
   port: 443
@@ -259,7 +124,22 @@ proxies:
     path: /e9ws
     headers:
       Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  type: vless
+  server: dostavitos.stroymatdv.cc
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: dostavitos.stroymatdv.cc
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
   type: vless
   server: dostavitos.stroymatdv.cc
   port: 443
@@ -278,61 +158,33 @@ proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇫🇷 France [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🇫🇷 France [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇫🇷 France [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (6)
-  - 🇫🇷 France | [*CIDR] (7)
-  - 🇫🇷 France | [*CIDR] (8)
-  - 🇫🇷 France | [*CIDR] (9)
-  - 🇫🇷 France | [*CIDR] (10)
-  - 🇫🇷 France | [*CIDR] (11)
-  - 🇫🇷 France | [*CIDR] (12)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇳🇱 The Netherlands | [*CIDR]
-  - 🇳🇱 The Netherlands | [*CIDR] (2)
-  - 🇳🇱 The Netherlands | [*CIDR] (3)
-  - 🇳🇱 The Netherlands | [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR] (5)
-  - 🇫🇷 France [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🇫🇷 France [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (4)
-  - 🇫🇷 France [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (6)
-  - 🇫🇷 France | [*CIDR] (7)
-  - 🇫🇷 France | [*CIDR] (8)
-  - 🇫🇷 France | [*CIDR] (9)
-  - 🇫🇷 France | [*CIDR] (10)
-  - 🇫🇷 France | [*CIDR] (11)
-  - 🇫🇷 France | [*CIDR] (12)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR]
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇫🇮 🇸🇨 | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
 rules:
 - MATCH,🌍 Прокси
