@@ -1,129 +1,234 @@
-# Обновлено: 2026-09-24 15:34 UTC
-# Всего в источнике: 50
-# Живых серверов: 43
+# Обновлено: 2026-09-24 19:34 UTC
+# Всего в источнике: 55
+# Живых серверов: 51
 # Источник: 26.txt
 
 proxies:
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+- name: 🇩🇪 Germany | 🌐 | [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: 104.171.138.229
   port: 443
-  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 [*CIDR]
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  server: 201.34.140.176
+  port: 51696
+  uuid: 7a15a039-41fe-459f-b3b0-3b90249f2408
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  sni: 'music.yandex.ru:'
+- name: 🇫🇷 France | [*CIDR]
   type: vless
-  server: 95.129.236.239
+  server: 104.171.138.229
   port: 443
-  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇫🇷 France | [*CIDR] (2)
   type: vless
-  server: 95.129.236.239
+  server: 104.171.138.229
   port: 443
-  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (3)
   type: vless
-  server: 95.129.236.239
+  server: 104.171.138.229
   port: 443
-  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (2)
   type: vless
-  server: 95.129.236.239
+  server: 104.171.138.229
   port: 443
-  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
-- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (3)
   type: vless
-  server: 95.129.236.239
-  port: 443
-  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
+  server: 201.34.140.176
+  port: 51696
+  uuid: 7a15a039-41fe-459f-b3b0-3b90249f2408
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: login.opendns.stream
-  network: ws
-  ws-opts:
-    path: /stream/615428/socket
-    headers:
-      Host: login.opendns.stream
+  sni: 'music.yandex.ru:'
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 201.34.140.176
+  port: 51696
+  uuid: 7a15a039-41fe-459f-b3b0-3b90249f2408
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (4)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (5)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  type: vless
+  server: 201.34.140.176
+  port: 4443
+  uuid: 1229abc6-4fa5-407c-8827-f51a062d621f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (6)
+  type: vless
+  server: 201.24.50.94
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Sosat
+- name: 🇫🇷 France | [*CIDR] (7)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 201.34.140.176
+  port: 4443
+  uuid: 1229abc6-4fa5-407c-8827-f51a062d621f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇫🇷 France | [*CIDR] (8)
+  type: vless
+  server: 201.24.50.94
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Sosat
 - name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
   type: vless
   server: 176.123.167.90
@@ -136,15 +241,123 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇸🇪 Sweden [*CIDR]
+- name: 🇬🇧 United Kingdom [*CIDR]
   type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (9)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇫🇷 France | [*CIDR] (10)
+  type: vless
+  server: 201.24.50.94
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Sosat
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (6)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 201.34.140.176
+  port: 4443
+  uuid: 1229abc6-4fa5-407c-8827-f51a062d621f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇩🇪 Germany | 🌐 [*CIDR] (2)
+  type: vless
+  server: 201.34.140.176
+  port: 51696
+  uuid: 7a15a039-41fe-459f-b3b0-3b90249f2408
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇺🇸 United States | [*CIDR]
+  type: vless
+  server: 201.34.140.176
+  port: 25860
+  uuid: fdc8ddb8-560d-4a76-84cc-9c2419ba2f0e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇫🇷 France | [*CIDR] (11)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0002-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇫🇷 France | [*CIDR] (12)
+  type: vless
+  server: 201.24.50.94
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Sosat
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 201.34.140.176
+  port: 4443
+  uuid: 1229abc6-4fa5-407c-8827-f51a062d621f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇩🇪 Germany | 🌐 [*CIDR] (3)
+  type: vless
+  server: 201.34.140.176
+  port: 51696
+  uuid: 7a15a039-41fe-459f-b3b0-3b90249f2408
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
 - name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
   type: vless
   server: 176.123.167.90
@@ -157,6 +370,72 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇫🇷 France | [*CIDR] (13)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: Piska
+- name: 🇺🇸 United States [*CIDR]
+  type: vless
+  server: 201.34.140.176
+  port: 25860
+  uuid: fdc8ddb8-560d-4a76-84cc-9c2419ba2f0e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇺🇸 United States [*CIDR] (2)
+  type: vless
+  server: 201.34.140.176
+  port: 25860
+  uuid: fdc8ddb8-560d-4a76-84cc-9c2419ba2f0e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
 - name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
   type: vless
   server: 176.123.167.90
@@ -169,454 +448,225 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 201.34.140.176
+  port: 4443
+  uuid: 1229abc6-4fa5-407c-8827-f51a062d621f
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
+  sni: 'music.yandex.ru:'
+- name: 🇫🇷 France | [*CIDR] (14)
+  type: vless
+  server: 201.24.50.94
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+    grpc-service-name: Sosat
+- name: 🇺🇸 United States | [*CIDR] (2)
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 201.34.140.176
+  port: 25860
+  uuid: fdc8ddb8-560d-4a76-84cc-9c2419ba2f0e
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
+  sni: 'music.yandex.ru:'
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR]
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇺🇸 United States | [*CIDR] (3)
+  type: vless
+  server: 201.34.140.176
+  port: 25860
+  uuid: fdc8ddb8-560d-4a76-84cc-9c2419ba2f0e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 'music.yandex.ru:'
+- name: 🇫🇷 France | [*CIDR] (15)
+  type: vless
+  server: 104.171.138.229
+  port: 443
+  uuid: 8057eabc-921d-0003-9acb-80ccc6b48379
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: download.amd.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
+    grpc-service-name: Piska
+- name: 🇩🇪 Germany | 🌐 | [*CIDR] (7)
   type: vless
-  server: 37.139.42.138
+  server: 104.171.138.229
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 8057eabc-921d-0001-9acb-80ccc6b48379
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇷🇺 Russia [*CIDR]
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
+  sni: download.amd.com
   network: grpc
   grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (2)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (3)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden [*CIDR] (2)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia [*CIDR] (4)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇷🇺 Russia [*CIDR] (5)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇷🇺 Russia [*CIDR] (6)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇷🇺 Russia [*CIDR] (7)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇸🇪 Sweden [*CIDR] (3)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden [*CIDR] (4)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇷🇺 Russia | 🌐 [*CIDR]
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ships.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ships.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 | [*CIDR]
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ships.applepie-recipe.ru
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ships.applepie-recipe.ru
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  type: vless
-  server: ytnoads.applepie-recipe.ru
-  port: 443
-  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: ships.applepie-recipe.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 200.169.179.84
-  port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: travel.yandex.ru
+    grpc-service-name: Piska
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
-  - 🇸🇪 Sweden [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇷🇺 Russia [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
-  - 🇷🇺 Russia [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
-  - 🇷🇺 Russia [*CIDR] (4)
-  - 🇷🇺 Russia [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇷🇺 Russia [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇸🇪 Sweden [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇫🇷 France | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR] (6)
+  - 🇫🇷 France | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (8)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇫🇷 France | [*CIDR] (9)
+  - 🇫🇷 France | [*CIDR] (10)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
+  - 🇺🇸 United States | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (11)
+  - 🇫🇷 France | [*CIDR] (12)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom [*CIDR] (2)
+  - 🇬🇧 United Kingdom [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (13)
+  - 🇺🇸 United States [*CIDR]
+  - 🇺🇸 United States [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇫🇷 France | [*CIDR] (14)
+  - 🇺🇸 United States | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR]
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  - 🇺🇸 United States | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (15)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
-  - 🇸🇪 Sweden [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇷🇺 Russia [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
-  - 🇷🇺 Russia [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
-  - 🇷🇺 Russia [*CIDR] (4)
-  - 🇷🇺 Russia [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇷🇺 Russia [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇸🇪 Sweden [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR]
+  - 🇫🇷 France | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR] (6)
+  - 🇫🇷 France | [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇫🇷 France | [*CIDR] (8)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇫🇷 France | [*CIDR] (9)
+  - 🇫🇷 France | [*CIDR] (10)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (2)
+  - 🇺🇸 United States | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (11)
+  - 🇫🇷 France | [*CIDR] (12)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom [*CIDR] (2)
+  - 🇬🇧 United Kingdom [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇫🇷 France | [*CIDR] (13)
+  - 🇺🇸 United States [*CIDR]
+  - 🇺🇸 United States [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇫🇷 France | [*CIDR] (14)
+  - 🇺🇸 United States | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR]
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  - 🇺🇸 United States | [*CIDR] (3)
+  - 🇫🇷 France | [*CIDR] (15)
+  - 🇩🇪 Germany | 🌐 | [*CIDR] (7)
 rules:
 - MATCH,🌍 Прокси
