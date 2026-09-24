@@ -1,54 +1,141 @@
-# Обновлено: 2026-09-24 10:39 UTC
-# Всего в источнике: 34
-# Живых серверов: 26
+# Обновлено: 2026-09-24 15:34 UTC
+# Всего в источнике: 50
+# Живых серверов: 43
 # Источник: 26.txt
 
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
   type: vless
-  server: 200.169.179.84
+  server: 95.129.236.239
   port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
+  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: travel.yandex.ru
-- name: 🇷🇺 Russia [*CIDR]
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
   type: vless
-  server: 161.104.38.98
+  server: 95.129.236.239
   port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
   type: vless
-  server: 200.169.179.84
+  server: 95.129.236.239
   port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
+  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: travel.yandex.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
   type: vless
-  server: 200.169.179.84
+  server: 95.129.236.239
   port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
+  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: travel.yandex.ru
-- name: 🇷🇺 Russia [*CIDR] (2)
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
   type: vless
-  server: 161.104.38.98
+  server: 95.129.236.239
   port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
+  type: vless
+  server: 95.129.236.239
+  port: 443
+  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
+  type: vless
+  server: 95.129.236.239
+  port: 443
+  uuid: 338219e6-d759-4e2b-804b-313a7d869e59
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
+  type: vless
+  server: 95.129.236.239
+  port: 443
+  uuid: bae872a2-8c12-4e35-b17b-b1290046a853
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: login.opendns.stream
+  network: ws
+  ws-opts:
+    path: /stream/615428/socket
+    headers:
+      Host: login.opendns.stream
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇸🇪 Sweden [*CIDR]
   type: vless
   server: 161.104.38.98
@@ -58,7 +145,70 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: 🇷🇺 Russia | [*CIDR]
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇷🇺 Russia [*CIDR]
   type: vless
   server: 161.104.38.98
   port: 443
@@ -67,6 +217,39 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia [*CIDR] (2)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR] (3)
   type: vless
   server: 161.104.38.98
@@ -76,15 +259,6 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 200.169.179.84
-  port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: travel.yandex.ru
 - name: 🇸🇪 Sweden [*CIDR] (2)
   type: vless
   server: 161.104.38.98
@@ -94,38 +268,23 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇷🇺 Russia [*CIDR] (4)
   type: vless
   server: 161.104.38.98
   port: 443
   uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden [*CIDR] (3)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden [*CIDR] (4)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden [*CIDR] (5)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
@@ -139,24 +298,21 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: 🇷🇺 Russia | [*CIDR] (2)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
   type: vless
-  server: 161.104.38.98
+  server: 37.139.42.138
   port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 200.169.179.84
-  port: 443
-  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: travel.yandex.ru
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
 - name: 🇷🇺 Russia [*CIDR] (6)
   type: vless
   server: 161.104.38.98
@@ -175,16 +331,85 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
   type: vless
-  server: 45.10.43.170
+  server: 37.139.42.138
   port: 443
-  uuid: 58facfcd-626d-4719-a2f9-5a8abce2b018
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia [*CIDR] (8)
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇸🇪 Sweden [*CIDR] (3)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇸🇪 Sweden [*CIDR] (4)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  type: vless
+  server: dostavitos.stroymatdv.cc
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: dostavitos.stroymatdv.cc
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  type: vless
+  server: dostavitos.stroymatdv.cc
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: dostavitos.stroymatdv.cc
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
   server: 161.104.38.98
   port: 443
@@ -193,112 +418,205 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
   type: vless
-  server: 45.10.43.170
+  server: dostavitos.stroymatdv.cc
   port: 443
-  uuid: 58facfcd-626d-4719-a2f9-5a8abce2b018
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: dostavitos.stroymatdv.cc
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
   type: vless
-  server: 45.10.43.170
+  server: 37.139.42.138
   port: 443
-  uuid: 58facfcd-626d-4719-a2f9-5a8abce2b018
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: 🇷🇺 Russia | [*CIDR] (3)
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇷🇺 Russia | 🌐 [*CIDR]
   type: vless
-  server: 161.104.38.98
+  server: ytnoads.applepie-recipe.ru
   port: 443
-  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  tls: true
+  sni: ships.applepie-recipe.ru
+- name: 🇷🇺 Russia | 🌐 [*CIDR] (2)
   type: vless
-  server: 45.10.43.170
+  server: ytnoads.applepie-recipe.ru
   port: 443
-  uuid: 58facfcd-626d-4719-a2f9-5a8abce2b018
+  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  tls: true
+  sni: ships.applepie-recipe.ru
+- name: 🇷🇺 Russia | 🌐 | [*CIDR]
   type: vless
-  server: 45.10.43.170
+  server: ytnoads.applepie-recipe.ru
   port: 443
-  uuid: 58facfcd-626d-4719-a2f9-5a8abce2b018
+  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: max.ru
+  tls: true
+  sni: ships.applepie-recipe.ru
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
+  type: vless
+  server: dostavitos.stroymatdv.cc
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: dostavitos.stroymatdv.cc
+- name: 🇷🇺 Russia | 🌐 [*CIDR] (3)
+  type: vless
+  server: ytnoads.applepie-recipe.ru
+  port: 443
+  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: ships.applepie-recipe.ru
+- name: 🇷🇺 Russia | 🌐 [*CIDR] (4)
+  type: vless
+  server: ytnoads.applepie-recipe.ru
+  port: 443
+  uuid: d877de0b-1e7c-4dd4-826f-6ffcd4331a98
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: ships.applepie-recipe.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+  type: vless
+  server: 200.169.179.84
+  port: 443
+  uuid: 57a437c4-7eed-03f2-bf50-5e4e35f71deb
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: travel.yandex.ru
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
   - 🇸🇪 Sweden [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇷🇺 Russia [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   - 🇸🇪 Sweden [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
   - 🇷🇺 Russia [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (5)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
   - 🇷🇺 Russia [*CIDR] (6)
   - 🇷🇺 Russia [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🇸🇪 Sweden [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
+  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇷🇺 Russia [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇩🇪 🇸🇪 | [*CIDR] (8)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
   - 🇸🇪 Sweden [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇷🇺 Russia [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
   - 🇷🇺 Russia [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   - 🇸🇪 Sweden [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (8)
   - 🇷🇺 Russia [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR] (3)
-  - 🇸🇪 Sweden [*CIDR] (4)
-  - 🇸🇪 Sweden [*CIDR] (5)
   - 🇷🇺 Russia [*CIDR] (5)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
   - 🇷🇺 Russia [*CIDR] (6)
   - 🇷🇺 Russia [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇷🇺 Russia [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🇸🇪 Sweden [*CIDR] (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
+  - 🇷🇺 Russia | 🌐 [*CIDR]
+  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
+  - 🇷🇺 Russia | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
+  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
+  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
 rules:
 - MATCH,🌍 Прокси
