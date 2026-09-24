@@ -1,183 +1,198 @@
-# Обновлено: 2026-09-24 00:05 UTC
-# Всего в источнике: 21
+# Обновлено: 2026-09-24 05:36 UTC
+# Всего в источнике: 27
 # Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
   type: vless
-  server: 147.45.185.106
-  port: 443
-  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloudflare.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇸🇪 Sweden [*CIDR]
   type: vless
-  server: 147.45.185.106
+  server: 161.104.38.98
   port: 443
-  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloudflare.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  sni: donatov.net
+- name: 🇸🇪 Sweden [*CIDR] (2)
   type: vless
-  server: 147.45.185.106
+  server: 161.104.38.98
   port: 443
-  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: cloudflare.com
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 147.45.185.106
-  port: 443
-  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cloudflare.com
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 147.45.185.106
-  port: 443
-  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: cloudflare.com
+  sni: donatov.net
 - name: 🇷🇺 Russia [*CIDR]
   type: vless
-  server: 83.222.26.101
+  server: 161.104.38.98
   port: 443
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: amd.com
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 83.222.26.101
-  port: 443
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: amd.com
+  sni: donatov.net
 - name: 🇷🇺 Russia [*CIDR] (2)
   type: vless
-  server: 83.222.26.101
+  server: 161.104.38.98
   port: 443
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: amd.com
-- name: 🇷🇺 Russia | [*CIDR] (2)
+  sni: donatov.net
+- name: 🇸🇪 Sweden [*CIDR] (3)
   type: vless
-  server: 83.222.26.101
+  server: 161.104.38.98
   port: 443
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: amd.com
-- name: 🇷🇺 Russia | [*CIDR] (3)
+  sni: donatov.net
+- name: 🇷🇺 Russia [*CIDR] (3)
   type: vless
-  server: 83.222.26.101
+  server: 161.104.38.98
   port: 443
-  uuid: 8e826a69-63f6-0001-a67d-4a1958e8b2d2
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: amd.com
+  sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia [*CIDR] (4)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇸🇪 Sweden [*CIDR] (4)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇸🇪 Sweden [*CIDR] (5)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-002f-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia [*CIDR] (5)
+  type: vless
+  server: 161.104.38.98
+  port: 443
+  uuid: 256c5e3e-431d-0032-bed4-bfcf1334f64b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: donatov.net
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
   - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇸🇪 Sweden [*CIDR] (4)
+  - 🇸🇪 Sweden [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇸🇪 Sweden [*CIDR]
+  - 🇸🇪 Sweden [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR]
   - 🇷🇺 Russia [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇸🇪 Sweden [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇸🇪 Sweden [*CIDR] (4)
+  - 🇸🇪 Sweden [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
 rules:
 - MATCH,🌍 Прокси
