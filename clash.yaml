@@ -1,205 +1,100 @@
-# Обновлено: 2026-09-23 21:52 UTC
-# Всего в источнике: 32
-# Живых серверов: 26
+# Обновлено: 2026-09-24 00:05 UTC
+# Всего в источнике: 21
+# Живых серверов: 15
 # Источник: 26.txt
 
 proxies:
-- name: 🇩🇪 Germany | [*CIDR]
-  type: vless
-  server: 5.42.107.38
-  port: 14443
-  uuid: ab40c8b0-268e-4251-b8a6-133a53a946ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nlf2.krevetkabs111.net
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: nlf2.krevetkabs111.net
-- name: 🇩🇪 Germany | [*CIDR] (2)
-  type: vless
-  server: 5.42.107.38
-  port: 14443
-  uuid: ab40c8b0-268e-4251-b8a6-133a53a946ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nlf2.krevetkabs111.net
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: nlf2.krevetkabs111.net
-- name: 🇩🇪 Germany | [*CIDR] (3)
-  type: vless
-  server: 5.42.107.38
-  port: 14443
-  uuid: ab40c8b0-268e-4251-b8a6-133a53a946ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nlf2.krevetkabs111.net
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: nlf2.krevetkabs111.net
-- name: 🇩🇪 Germany | [*CIDR] (4)
-  type: vless
-  server: 5.42.107.38
-  port: 14443
-  uuid: ab40c8b0-268e-4251-b8a6-133a53a946ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nlf2.krevetkabs111.net
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: nlf2.krevetkabs111.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | [*CIDR] (5)
-  type: vless
-  server: 5.42.107.38
-  port: 14443
-  uuid: ab40c8b0-268e-4251-b8a6-133a53a946ef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: nlf2.krevetkabs111.net
-  network: ws
-  ws-opts:
-    path: /api/generate
-    headers:
-      Host: nlf2.krevetkabs111.net
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 5.42.123.9
+  server: 147.45.185.106
   port: 443
-  uuid: 365de9e9-ba29-0008-af2d-766f9638e3be
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: diffoscope.com
+  sni: cloudflare.com
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   type: vless
-  server: 5.42.123.9
+  server: 147.45.185.106
   port: 443
-  uuid: 365de9e9-ba29-0008-af2d-766f9638e3be
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: diffoscope.com
+  sni: cloudflare.com
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   type: vless
-  server: 5.42.123.9
+  server: 147.45.185.106
   port: 443
-  uuid: 365de9e9-ba29-0008-af2d-766f9638e3be
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: diffoscope.com
+  sni: cloudflare.com
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
   type: vless
-  server: 5.42.123.9
+  server: 147.45.185.106
   port: 443
-  uuid: 365de9e9-ba29-0008-af2d-766f9638e3be
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: diffoscope.com
+  sni: cloudflare.com
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: bl3fk52.sysopnova.art
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
   type: vless
-  server: 5.42.123.9
+  server: 147.45.185.106
   port: 443
-  uuid: 365de9e9-ba29-0008-af2d-766f9638e3be
+  uuid: fd2c5cf5-63e7-454e-af73-ee2aa91ad126
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: diffoscope.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+  sni: cloudflare.com
+- name: 🇷🇺 Russia [*CIDR]
   type: vless
   server: 83.222.26.101
   port: 443
@@ -208,7 +103,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amd.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
   server: 83.222.26.101
   port: 443
@@ -217,7 +112,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amd.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+- name: 🇷🇺 Russia [*CIDR] (2)
   type: vless
   server: 83.222.26.101
   port: 443
@@ -226,7 +121,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amd.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+- name: 🇷🇺 Russia | [*CIDR] (2)
   type: vless
   server: 83.222.26.101
   port: 443
@@ -235,7 +130,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amd.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
+- name: 🇷🇺 Russia | [*CIDR] (3)
   type: vless
   server: 83.222.26.101
   port: 443
@@ -244,157 +139,45 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: amd.com
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (10)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (11)
-  type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (10)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (11)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇩🇪 Germany | [*CIDR]
-  - 🇩🇪 Germany | [*CIDR] (2)
-  - 🇩🇪 Germany | [*CIDR] (3)
-  - 🇩🇪 Germany | [*CIDR] (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (10)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (10)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (11)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
 rules:
 - MATCH,🌍 Прокси
