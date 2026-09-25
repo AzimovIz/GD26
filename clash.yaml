@@ -1,54 +1,96 @@
-# Обновлено: 2026-09-24 22:47 UTC
-# Всего в источнике: 49
-# Живых серверов: 43
+# Обновлено: 2026-09-25 00:59 UTC
+# Всего в источнике: 113
+# Живых серверов: 110
 # Источник: 26.txt
 
 proxies:
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+- name: 🇩🇪 Germany | [*CIDR]
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 176.124.214.116
+  port: 8443
+  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: pl314j2.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  tls: true
+  sni: free-ger1.wooden-table.org
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: free-ger1.wooden-table.org
+- name: 🇩🇪 Germany | [*CIDR] (2)
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 176.124.214.116
+  port: 8443
+  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: pl314j2.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  tls: true
+  sni: free-ger1.wooden-table.org
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: free-ger1.wooden-table.org
+- name: 🇩🇪 Germany | [*CIDR] (3)
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 176.124.214.116
+  port: 8443
+  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: pl314j2.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
+  tls: true
+  sni: free-ger1.wooden-table.org
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: free-ger1.wooden-table.org
+- name: 🇩🇪 Germany | [*CIDR] (4)
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 176.124.214.116
+  port: 8443
+  uuid: b71637c2-94a5-49bd-8233-b4ed5e3170c3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: pl314j2.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (5)
+  tls: true
+  sni: free-ger1.wooden-table.org
+  network: ws
+  ws-opts:
+    path: /images
+    headers:
+      Host: free-ger1.wooden-table.org
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
   type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  server: 200.165.236.184
+  port: 8443
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: pl314j2.sysopnova.art
+  sni: api.bitrix24.ru
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR]
+  type: vless
+  server: 72.56.35.81
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 72.56.35.81
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
 - name: 🇩🇪 Germany | 🌐 [*CIDR] VK
   type: vless
   server: 37.139.42.138
@@ -64,30 +106,42 @@ proxies:
     path: /e9ws
     headers:
       Host: 37.139.42.138
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
 - name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 200.165.236.184
+  port: 8443
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  sni: api.bitrix24.ru
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  type: vless
+  server: 200.165.236.184
+  port: 8443
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.bitrix24.ru
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 72.56.35.81
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  type: vless
+  server: 155.212.164.9
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
 - name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
   type: vless
   server: 37.139.42.138
@@ -103,6 +157,63 @@ proxies:
     path: /e9ws
     headers:
       Host: 37.139.42.138
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  type: vless
+  server: 200.165.236.184
+  port: 8443
+  uuid: 82e57623-bf39-454c-8b35-218085c536f3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.bitrix24.ru
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 155.212.164.9
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 155.212.164.9
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 72.56.35.81
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 155.212.164.9
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 - name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
   type: vless
   server: 37.139.42.138
@@ -118,45 +229,6 @@ proxies:
     path: /e9ws
     headers:
       Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
 - name: 🇬🇧 United Kingdom [*CIDR]
   type: vless
   server: 176.123.167.90
@@ -169,61 +241,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: 37.139.42.138
-- name: 🇬🇧 United Kingdom [*CIDR] (2)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | [*CIDR]
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR]
   type: vless
   server: 176.123.167.90
   port: 9881
@@ -247,7 +265,37 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
   type: vless
   server: 176.123.167.90
   port: 9881
@@ -259,34 +307,121 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR]
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
   type: vless
-  server: 72.56.35.81
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
   type: vless
-  server: 72.56.35.81
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
   type: vless
-  server: 72.56.35.81
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  type: vless
+  server: zodiacgrapedefiant.berylcord.net
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (6)
+  type: vless
+  server: zodiacgrapedefiant.berylcord.net
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (7)
+  type: vless
+  server: zodiacgrapedefiant.berylcord.net
+  port: 443
+  uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: zodiacgrapedefiant.berylcord.net
+- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  type: vless
+  server: 37.139.42.138
+  port: 443
+  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dostavitos.stroymatdv.cc
+  network: ws
+  ws-opts:
+    path: /e9ws
+    headers:
+      Host: 37.139.42.138
+- name: 🇫🇮 Finland | [*CIDR]
   type: vless
   server: rospaver-timena.cliffbend.com
   port: 443
@@ -295,16 +430,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: rospaver-timena.cliffbend.com
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
-  type: vless
-  server: 72.56.35.81
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ru19.aimodelhub.top
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
+- name: 🇫🇮 Finland | [*CIDR] (2)
   type: vless
   server: rospaver-timena.cliffbend.com
   port: 443
@@ -313,16 +439,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: rospaver-timena.cliffbend.com
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
-  type: vless
-  server: 72.56.35.81
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: ru19.aimodelhub.top
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
+- name: 🇫🇮 Finland | [*CIDR] (3)
   type: vless
   server: rospaver-timena.cliffbend.com
   port: 443
@@ -331,7 +448,7 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: rospaver-timena.cliffbend.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
+- name: 🇫🇮 Finland | [*CIDR] (4)
   type: vless
   server: rospaver-timena.cliffbend.com
   port: 443
@@ -340,15 +457,15 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: rospaver-timena.cliffbend.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+- name: 🇳🇱 The Netherlands | 🌐 | [*CIDR] (8)
   type: vless
-  server: rospaver-timena.cliffbend.com
+  server: zodiacgrapedefiant.berylcord.net
   port: 443
   uuid: 3db8407b-1f96-4b82-bfeb-55258c1e57b4
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: rospaver-timena.cliffbend.com
+  sni: zodiacgrapedefiant.berylcord.net
 - name: 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
   type: vless
   server: dostavitos.stroymatdv.cc
@@ -424,45 +541,519 @@ proxies:
     path: /e9ws
     headers:
       Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (12)
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
   type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  server: 185.142.99.65
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: zsyue7v.bo9ry3c.workers.dev
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /tictok
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (13)
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
   type: vless
-  server: dostavitos.stroymatdv.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  server: 185.142.99.65
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: zsyue7v.bo9ry3c.workers.dev
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /tictok
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
   type: vless
-  server: ru19.aimodelhub.top
-  port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  server: 185.142.99.65
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  type: vless
+  server: 185.142.99.65
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
+  type: vless
+  server: 153.80.249.72
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
+  type: vless
+  server: 153.80.249.72
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
+  type: vless
+  server: 153.80.249.72
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  type: vless
+  server: 153.80.249.72
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
+  type: vless
+  server: 201.24.52.151
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
+  type: vless
+  server: 201.24.52.151
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
+  type: vless
+  server: 201.24.52.151
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (10)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (11)
+  type: vless
+  server: 185.207.66.8
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (12)
+  type: vless
+  server: 201.24.52.151
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR]
+  type: vless
+  server: 82.146.48.37
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA
+  type: vless
+  server: 178.154.235.36
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (2)
+  type: vless
+  server: 82.146.48.37
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (2)
+  type: vless
+  server: 178.154.235.36
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
+  type: vless
+  server: 5.159.101.86
+  port: 443
+  uuid: 58112e44-a0d8-4ec7-87df-52fd34d150f4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dsfadfasdfwse87474.lllcc.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dsfadfasdfwse87474.lllcc.top
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (3)
+  type: vless
+  server: 178.154.235.36
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (3)
+  type: vless
+  server: 82.146.48.37
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (4)
+  type: vless
+  server: 82.146.48.37
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
+  type: vless
+  server: 5.159.101.86
+  port: 443
+  uuid: 58112e44-a0d8-4ec7-87df-52fd34d150f4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dsfadfasdfwse87474.lllcc.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dsfadfasdfwse87474.lllcc.top
+- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (3)
+  type: vless
+  server: 5.159.101.86
+  port: 443
+  uuid: 58112e44-a0d8-4ec7-87df-52fd34d150f4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dsfadfasdfwse87474.lllcc.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dsfadfasdfwse87474.lllcc.top
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (4)
+  type: vless
+  server: 178.154.235.36
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (5)
+  type: vless
+  server: 170.168.66.165
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
+  type: vless
+  server: 186.246.6.110
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (6)
+  type: vless
+  server: 170.168.66.165
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (7)
+  type: vless
+  server: 170.168.66.165
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (8)
+  type: vless
+  server: 170.168.66.165
+  port: 8443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
+  type: vless
+  server: 186.246.6.110
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
 - name: 🇨🇭 Switzerland | 🌐 [*CIDR]
   type: vless
   server: ru19.aimodelhub.top
@@ -472,6 +1063,96 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ru19.aimodelhub.top
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR]
+  type: vless
+  server: 95.31.35.170
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (2)
+  type: vless
+  server: 95.31.35.170
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+  type: vless
+  server: ru19.aimodelhub.top
+  port: 443
+  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru19.aimodelhub.top
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (3)
+  type: vless
+  server: 95.31.35.170
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
+  type: vless
+  server: 186.246.6.110
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (4)
+  type: vless
+  server: 95.31.35.170
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
 - name: 🇨🇭 Switzerland | 🌐 [*CIDR] (2)
   type: vless
   server: ru19.aimodelhub.top
@@ -481,119 +1162,458 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: ru19.aimodelhub.top
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (7)
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA
   type: vless
-  server: ru19.aimodelhub.top
+  server: 46.21.247.126
   port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
-- name: 🇨🇭 Switzerland | 🌐 | [*CIDR] (8)
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (2)
   type: vless
-  server: ru19.aimodelhub.top
+  server: 46.21.247.126
   port: 443
-  uuid: 13ef8e97-815a-000b-8688-0154d85d26bf
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ru19.aimodelhub.top
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (3)
+  type: vless
+  server: 46.21.247.126
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (4)
+  type: vless
+  server: 46.21.247.126
+  port: 443
+  uuid: 721075d0-2ebd-fbfa-f1a0-df0700000000
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: zsyue7v.bo9ry3c.workers.dev
+  network: ws
+  ws-opts:
+    path: /tictok
+    headers:
+      Host: zsyue7v.bo9ry3c.workers.dev
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
+  type: vless
+  server: 193.160.208.137
+  port: 443
+  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
+  type: vless
+  server: 193.160.208.137
+  port: 443
+  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
+  type: vless
+  server: 193.160.208.137
+  port: 443
+  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
+  type: vless
+  server: 186.246.6.110
+  port: 443
+  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: upload.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
+  type: vless
+  server: 193.160.208.137
+  port: 443
+  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
+  type: vless
+  server: 186.246.13.160
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: my.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR]
+  type: vless
+  server: 178.176.128.128
+  port: 443
+  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: edge3.statiqedge.com
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
+  type: vless
+  server: 186.246.13.160
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: my.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (2)
+  type: vless
+  server: 178.176.128.128
+  port: 443
+  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: edge3.statiqedge.com
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (11)
+  type: vless
+  server: 186.246.13.160
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: my.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
+  type: vless
+  server: 5.159.101.86
+  port: 443
+  uuid: 58112e44-a0d8-4ec7-87df-52fd34d150f4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dsfadfasdfwse87474.lllcc.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dsfadfasdfwse87474.lllcc.top
+- name: 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (3)
+  type: vless
+  server: 178.176.128.128
+  port: 443
+  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: edge3.statiqedge.com
+- name: 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (4)
+  type: vless
+  server: 178.176.128.128
+  port: 443
+  uuid: d2e00857-9581-4030-96e2-9d1ed0b95049
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: edge3.statiqedge.com
+- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (12)
+  type: vless
+  server: 186.246.13.160
+  port: 443
+  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: my.hexagonicfield.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇬🇧 United Kingdom [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR]
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (7)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (8)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (10)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (11)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (12)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (13)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (10)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (11)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (12)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
   - 🇨🇭 Switzerland | 🌐 [*CIDR]
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (4)
   - 🇨🇭 Switzerland | 🌐 [*CIDR] (2)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (7)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (11)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (12)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - 🇩🇪 Germany | [*CIDR]
+  - 🇩🇪 Germany | [*CIDR] (2)
+  - 🇩🇪 Germany | [*CIDR] (3)
+  - 🇩🇪 Germany | [*CIDR] (4)
   - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
-  - 🇬🇧 United Kingdom [*CIDR] (2)
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR]
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (3)
   - 🇨🇭 Switzerland | 🌐 | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (6)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (8)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (9)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (4)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (5)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (7)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (6)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (7)
+  - 🇩🇪 Germany | 🌐 [*CIDR] VK (6)
+  - 🇫🇮 Finland | [*CIDR]
+  - 🇫🇮 Finland | [*CIDR] (2)
+  - 🇫🇮 Finland | [*CIDR] (3)
+  - 🇫🇮 Finland | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | 🌐 | [*CIDR] (8)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (7)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (8)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (9)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (10)
   - 🇩🇪 Germany | 🌐 [*CIDR] VK (11)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (12)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (13)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (10)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (11)
+  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (12)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇳🇱 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇳🇱 🇺🇸 | [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇮🇶 🇳🇱 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
   - 🇨🇭 Switzerland | 🌐 [*CIDR]
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (2)
+  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 🇺🇸 | [*CIDR] (4)
   - 🇨🇭 Switzerland | 🌐 [*CIDR] (2)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (7)
-  - 🇨🇭 Switzerland | 🌐 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (2)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (3)
+  - 🌐 Anycast-IP | 🇨🇦 🇩🇪 🇮🇪 | [*CIDR] YA (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR]
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (2)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (11)
+  - 🌐 Anycast-IP | 🇨🇦 🇫🇮 [*CIDR]
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇵🇱 🇺🇸 | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (12)
 rules:
 - MATCH,🌍 Прокси
