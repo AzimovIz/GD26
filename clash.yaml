@@ -1,88 +1,139 @@
-# Обновлено: 2026-09-25 10:55 UTC
-# Всего в источнике: 10
-# Живых серверов: 5
+# Обновлено: 2026-09-25 15:41 UTC
+# Всего в источнике: 33
+# Живых серверов: 11
 # Источник: 26.txt
 
 proxies:
-- name: 🇬🇧 United Kingdom | [*CIDR]
+- name: 🇳🇱 The Netherlands | [*CIDR]
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: ru-7-2.812001.xyz
+  port: 443
+  uuid: c8fe4667-2d44-0068-adfd-354272ba94b4
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  sni: ru-7-2.812001.xyz
+- name: 🇳🇱 The Netherlands | [*CIDR] (2)
+  type: vless
+  server: ru-7-2.812001.xyz
+  port: 443
+  uuid: c8fe4667-2d44-0068-adfd-354272ba94b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-7-2.812001.xyz
+- name: 🇳🇱 The Netherlands | [*CIDR] (3)
+  type: vless
+  server: ru-7-2.812001.xyz
+  port: 443
+  uuid: c8fe4667-2d44-0068-adfd-354272ba94b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-7-2.812001.xyz
+- name: 🇳🇱 The Netherlands | [*CIDR] (4)
+  type: vless
+  server: ru-7-2.812001.xyz
+  port: 443
+  uuid: c8fe4667-2d44-0068-adfd-354272ba94b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-7-2.812001.xyz
+- name: 🇳🇱 The Netherlands | [*CIDR] (5)
+  type: vless
+  server: ru-7-2.812001.xyz
+  port: 443
+  uuid: c8fe4667-2d44-0068-adfd-354272ba94b4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru-7-2.812001.xyz
+- name: 🇮🇹 Italy | 🌐 | [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl314j2.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 [*CIDR]
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl314j2.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl314j2.sysopnova.art
 - name: 🇬🇧 United Kingdom [*CIDR]
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  sni: open.spotify.com
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  sni: pl314j2.sysopnova.art
+- name: 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  server: 45.8.228.167
+  port: 443
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇬🇧 United Kingdom | [*CIDR] (4)
-  type: vless
-  server: 176.123.167.90
-  port: 9881
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
+  sni: pl314j2.sysopnova.art
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
   - 🇬🇧 United Kingdom [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇳🇱 The Netherlands | [*CIDR] (2)
+  - 🇳🇱 The Netherlands | [*CIDR] (3)
+  - 🇳🇱 The Netherlands | [*CIDR] (4)
+  - 🇳🇱 The Netherlands | [*CIDR] (5)
+  - 🇮🇹 Italy | 🌐 | [*CIDR]
+  - 🇮🇹 Italy | 🌐 [*CIDR]
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
   - 🇬🇧 United Kingdom [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
+  - 🇮🇹 Italy | 🌐 | [*CIDR] (4)
 rules:
 - MATCH,🌍 Прокси
