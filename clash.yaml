@@ -1,328 +1,603 @@
-# Обновлено: 2026-09-26 06:45 UTC
-# Всего в источнике: 26
-# Живых серверов: 20
+# Обновлено: 2026-09-26 11:54 UTC
+# Всего в источнике: 45
+# Живых серверов: 40
 # Источник: 26.txt
 
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+- name: 🇷🇺 Russia [*CIDR]
   type: vless
-  server: 72.56.4.84
+  server: 72.4.65.116
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (2)
   type: vless
-  server: 72.56.4.84
+  server: 72.4.65.116
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR]
   type: vless
-  server: 72.56.4.84
+  server: 72.4.65.116
   port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 72.56.4.84
-  port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 72.56.4.84
-  port: 443
-  uuid: Fluffy_VPN-zKZUa4Ie
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: absolute-disaster.org
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  type: vless
-  server: 37.139.42.138
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (2)
   type: vless
-  server: 37.139.42.138
+  server: 72.4.65.116
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (3)
   type: vless
-  server: 37.139.42.138
+  server: 72.4.65.116
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
-  network: ws
-  ws-opts:
-    path: /e9ws
-    headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | [*CIDR] VK
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇬🇧 United Kingdom | [*CIDR]
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom [*CIDR]
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia | [*CIDR] (4)
+  type: vless
+  server: 77.239.107.190
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: msk.fastconnect.click
+- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] (6)
+  type: vless
+  server: 176.123.167.90
+  port: 9881
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: dl.google.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+- name: 🇷🇺 Russia | [*CIDR] (5)
+  type: vless
+  server: 77.239.107.190
+  port: 443
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: msk.fastconnect.click
+- name: 🇷🇺 Russia | [*CIDR] (6)
+  type: vless
+  server: 77.239.107.190
+  port: 443
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: msk.fastconnect.click
+- name: 🇷🇺 Russia | [*CIDR] (7)
+  type: vless
+  server: 77.239.107.190
+  port: 443
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: msk.fastconnect.click
+- name: 🇷🇺 Russia | [*CIDR] (8)
+  type: vless
+  server: 77.239.107.190
+  port: 443
+  uuid: d3aeadf0-94bd-46bd-88f5-ed920a3449fd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: msk.fastconnect.click
+- name: 🇷🇺 Russia | [*CIDR] (9)
+  type: vless
+  server: 31.76.65.234
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | [*CIDR] VK (2)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (10)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany [*CIDR] VK
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (11)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (12)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (13)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | [*CIDR] VK (3)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (14)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (15)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (6)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (16)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (7)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (17)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (8)
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (18)
   type: vless
-  server: dostavitos.stroymatdv.cc
+  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: dostavitos.stroymatdv.cc
+  sni: 31.76.65.234.fwqfw783rg2dad.website
   network: ws
   ws-opts:
-    path: /e9ws
+    path: /websocket
     headers:
-      Host: dostavitos.stroymatdv.cc
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (3)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (4)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (19)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (20)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (21)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | [*CIDR] VK
-  - 🇩🇪 Germany | [*CIDR] VK (2)
-  - 🇩🇪 Germany [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
-  - 🇩🇪 Germany | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (8)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
+  - 🇷🇺 Russia | [*CIDR] (12)
+  - 🇷🇺 Russia | [*CIDR] (13)
+  - 🇷🇺 Russia | [*CIDR] (14)
+  - 🇷🇺 Russia | [*CIDR] (15)
+  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇷🇺 Russia | [*CIDR] (17)
+  - 🇷🇺 Russia | [*CIDR] (18)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (19)
+  - 🇷🇺 Russia | [*CIDR] (20)
+  - 🇷🇺 Russia | [*CIDR] (21)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | [*CIDR] VK
-  - 🇩🇪 Germany | [*CIDR] VK (2)
-  - 🇩🇪 Germany [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (5)
-  - 🇩🇪 Germany | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (6)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (7)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (8)
+  - 🇷🇺 Russia [*CIDR]
+  - 🇷🇺 Russia [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR]
+  - 🇬🇧 United Kingdom [*CIDR]
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
+  - 🇷🇺 Russia | [*CIDR] (12)
+  - 🇷🇺 Russia | [*CIDR] (13)
+  - 🇷🇺 Russia | [*CIDR] (14)
+  - 🇷🇺 Russia | [*CIDR] (15)
+  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇷🇺 Russia | [*CIDR] (17)
+  - 🇷🇺 Russia | [*CIDR] (18)
+  - 🇷🇺 Russia [*CIDR] (3)
+  - 🇷🇺 Russia [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (19)
+  - 🇷🇺 Russia | [*CIDR] (20)
+  - 🇷🇺 Russia | [*CIDR] (21)
 rules:
 - MATCH,🌍 Прокси
