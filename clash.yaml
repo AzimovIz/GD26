@@ -1,9 +1,22 @@
-# Обновлено: 2026-09-26 18:46 UTC
-# Всего в источнике: 36
-# Живых серверов: 31
+# Обновлено: 2026-09-26 21:40 UTC
+# Всего в источнике: 45
+# Живых серверов: 33
 # Источник: 26.txt
 
 proxies:
+- name: 🇷🇺 Russia [*CIDR]
+  type: vless
+  server: 72.4.65.116
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
 - name: 🇷🇺 Russia | [*CIDR]
   type: vless
   server: 72.4.65.116
@@ -30,45 +43,152 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (2)
+  type: vless
+  server: 72.4.65.116
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (3)
+  type: vless
+  server: 72.4.65.116
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇬🇧 United Kingdom | [*CIDR]
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
+- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
+- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
+- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK
+  type: vless
+  server: 161.104.107.198
+  port: 43
+  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 1bs-abs-more.ru
+- name: 🇷🇺 Russia [*CIDR] (4)
+  type: vless
+  server: 31.76.65.234
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (2)
+  type: vless
+  server: 161.104.107.198
+  port: 43
+  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 1bs-abs-more.ru
+- name: 🇬🇧 United Kingdom | [*CIDR] (4)
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
+- name: 🇬🇧 United Kingdom | [*CIDR] (5)
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
 - name: 🇷🇺 Russia | [*CIDR] (3)
   type: vless
-  server: 72.4.65.116
+  server: 31.76.65.234
   port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇷🇺 Russia [*CIDR]
-  type: vless
-  server: 72.4.65.116
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
 - name: 🇷🇺 Russia | [*CIDR] (4)
   type: vless
-  server: 72.4.65.116
+  server: 31.76.65.234
   port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
+  type: vless
+  server: 161.104.107.198
+  port: 43
+  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 1bs-abs-more.ru
 - name: 🇷🇺 Russia | [*CIDR] (5)
   type: vless
   server: 31.76.65.234
@@ -84,61 +204,7 @@ proxies:
     path: /websocket
     headers:
       Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  type: vless
-  server: 5.42.114.41
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🇷🇺 Russia | [*CIDR] (6)
-  type: vless
-  server: 31.76.65.234
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 Russia | [*CIDR] (7)
-  type: vless
-  server: 31.76.65.234
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  type: vless
-  server: 5.42.114.41
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
+- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (3)
   type: vless
   server: 161.104.107.198
   port: 43
@@ -148,21 +214,6 @@ proxies:
   encryption: none
   tls: true
   sni: 1bs-abs-more.ru
-- name: 🇷🇺 Russia | [*CIDR] (8)
-  type: vless
-  server: 31.76.65.234
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
 - name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (2)
   type: vless
   server: 161.104.107.198
@@ -173,83 +224,164 @@ proxies:
   encryption: none
   tls: true
   sni: 1bs-abs-more.ru
-- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (3)
-  type: vless
-  server: 161.104.107.198
-  port: 43
-  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 1bs-abs-more.ru
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  type: vless
-  server: 5.42.114.41
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  type: vless
-  server: 5.42.114.41
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (4)
-  type: vless
-  server: 161.104.107.198
-  port: 43
-  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 1bs-abs-more.ru
-- name: 🇨🇦 Canada | 🌐 [*CIDR]
-  type: vless
-  server: vless.proxyuniverse.online
-  port: 11001
-  uuid: b370af1d-8f14-4113-a8a7-550b20503f16
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  type: vless
-  server: 5.42.114.41
-  port: 9892
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: dl.google.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-- name: 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (5)
-  type: vless
-  server: 161.104.107.198
-  port: 43
-  uuid: dc0d27ba-34d2-4c8b-9cba-9ddbbb632748
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 1bs-abs-more.ru
-- name: 🇷🇺 Russia | [*CIDR] (9)
+- name: 🇷🇺 Russia [*CIDR] (5)
   type: vless
   server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (6)
+  type: vless
+  server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (7)
+  type: vless
+  server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (8)
+  type: vless
+  server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (9)
+  type: vless
+  server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia [*CIDR] (10)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (6)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (11)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (7)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia | [*CIDR] (8)
+  type: vless
+  server: assets-de2.pleiades.codes
+  port: 443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: assets-de2.pleiades.codes
+  network: grpc
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+- name: 🇷🇺 Russia [*CIDR] (12)
+  type: vless
+  server: 31.76.65.234.fwqfw783rg2dad.website
+  port: 443
+  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: 31.76.65.234.fwqfw783rg2dad.website
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: 31.76.65.234.fwqfw783rg2dad.website
+- name: 🇷🇺 Russia | [*CIDR] (9)
+  type: vless
+  server: 31.76.65.234
   port: 443
   uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
@@ -264,37 +396,7 @@ proxies:
       Host: 31.76.65.234.fwqfw783rg2dad.website
 - name: 🇷🇺 Russia | [*CIDR] (10)
   type: vless
-  server: 31.76.65.234.fwqfw783rg2dad.website
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 Russia [*CIDR] (2)
-  type: vless
   server: 31.76.65.234
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 Russia [*CIDR] (3)
-  type: vless
-  server: 31.76.65.234.fwqfw783rg2dad.website
   port: 443
   uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
@@ -309,7 +411,7 @@ proxies:
       Host: 31.76.65.234.fwqfw783rg2dad.website
 - name: 🇷🇺 Russia | [*CIDR] (11)
   type: vless
-  server: 31.76.65.234.fwqfw783rg2dad.website
+  server: 31.76.65.234
   port: 443
   uuid: cc39844c-d9ba-4394-9cae-395933f4e353
   udp: true
@@ -322,157 +424,81 @@ proxies:
     path: /websocket
     headers:
       Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 Russia | [*CIDR] (12)
-  type: vless
-  server: 31.76.65.234.fwqfw783rg2dad.website
-  port: 443
-  uuid: cc39844c-d9ba-4394-9cae-395933f4e353
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: 31.76.65.234.fwqfw783rg2dad.website
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: 31.76.65.234.fwqfw783rg2dad.website
-- name: 🇷🇺 Russia | [*CIDR] (13)
-  type: vless
-  server: assets-de2.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇷🇺 Russia | [*CIDR] (14)
-  type: vless
-  server: assets-de2.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇷🇺 Russia | [*CIDR] (15)
-  type: vless
-  server: assets-de2.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇷🇺 Russia | [*CIDR] (16)
-  type: vless
-  server: assets-de2.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
-- name: 🇷🇺 Russia [*CIDR] (4)
-  type: vless
-  server: assets-de2.pleiades.codes
-  port: 443
-  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: assets-de2.pleiades.codes
-  network: grpc
-  grpc-opts:
-    grpc-service-name: cdn.v1.AssetService
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
+  - 🇷🇺 Russia [*CIDR]
   - 🇷🇺 Russia | [*CIDR]
   - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (6)
-  - 🇷🇺 Russia | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (2)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (4)
-  - 🇨🇦 Canada | 🌐 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] (9)
-  - 🇷🇺 Russia | [*CIDR] (10)
   - 🇷🇺 Russia [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (11)
-  - 🇷🇺 Russia | [*CIDR] (12)
-  - 🇷🇺 Russia | [*CIDR] (13)
-  - 🇷🇺 Russia | [*CIDR] (14)
-  - 🇷🇺 Russia | [*CIDR] (15)
-  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK
   - 🇷🇺 Russia [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (3)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (2)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇷🇺 Russia [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (7)
+  - 🇷🇺 Russia [*CIDR] (8)
+  - 🇷🇺 Russia [*CIDR] (9)
+  - 🇷🇺 Russia [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (11)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia [*CIDR] (12)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
+  - 🇷🇺 Russia [*CIDR]
   - 🇷🇺 Russia | [*CIDR]
   - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (4)
-  - 🇷🇺 Russia | [*CIDR] (5)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (6)
-  - 🇷🇺 Russia | [*CIDR] (7)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
-  - 🇷🇺 Russia | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (2)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (4)
-  - 🇨🇦 Canada | 🌐 [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (5)
-  - 🇷🇺 Russia | [*CIDR] (9)
-  - 🇷🇺 Russia | [*CIDR] (10)
   - 🇷🇺 Russia [*CIDR] (2)
   - 🇷🇺 Russia [*CIDR] (3)
-  - 🇷🇺 Russia | [*CIDR] (11)
-  - 🇷🇺 Russia | [*CIDR] (12)
-  - 🇷🇺 Russia | [*CIDR] (13)
-  - 🇷🇺 Russia | [*CIDR] (14)
-  - 🇷🇺 Russia | [*CIDR] (15)
-  - 🇷🇺 Russia | [*CIDR] (16)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK
   - 🇷🇺 Russia [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 [*CIDR] VK (3)
+  - 🌐 Anycast-IP | 🇦🇹 🇬🇧 | [*CIDR] VK (2)
+  - 🇷🇺 Russia [*CIDR] (5)
+  - 🇷🇺 Russia [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (7)
+  - 🇷🇺 Russia [*CIDR] (8)
+  - 🇷🇺 Russia [*CIDR] (9)
+  - 🇷🇺 Russia [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (6)
+  - 🇷🇺 Russia [*CIDR] (11)
+  - 🇷🇺 Russia | [*CIDR] (7)
+  - 🇷🇺 Russia | [*CIDR] (8)
+  - 🇷🇺 Russia [*CIDR] (12)
+  - 🇷🇺 Russia | [*CIDR] (9)
+  - 🇷🇺 Russia | [*CIDR] (10)
+  - 🇷🇺 Russia | [*CIDR] (11)
 rules:
 - MATCH,🌍 Прокси
