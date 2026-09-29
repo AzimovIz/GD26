@@ -1,101 +1,269 @@
-# Обновлено: 2026-09-29 09:11 UTC
-# Всего в источнике: 15
-# Живых серверов: 7
+# Обновлено: 2026-09-29 16:11 UTC
+# Всего в источнике: 31
+# Живых серверов: 21
 # Источник: 26.txt
 
 proxies:
-- name: 🇵🇱 Poland | [*CIDR] VK
+- name: 🇫🇷 France [*CIDR]
   type: vless
-  server: 109.120.181.153
+  server: 113.30.154.65
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (2)
+  sni: sellflow.org
+- name: 🇫🇷 France [*CIDR] (2)
   type: vless
-  server: 109.120.181.153
+  server: 113.30.154.65
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (3)
+  sni: sellflow.org
+- name: 🇫🇷 France [*CIDR] (3)
   type: vless
-  server: 109.120.181.153
+  server: 113.30.154.65
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (4)
+  sni: sellflow.org
+- name: 🇫🇷 France [*CIDR] (4)
   type: vless
-  server: 109.120.181.153
+  server: 113.30.154.65
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (5)
+  sni: sellflow.org
+- name: 🇫🇷 France | [*CIDR]
   type: vless
-  server: 109.120.181.153
+  server: 113.30.154.65
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | 🌐 [*CIDR]
+  sni: sellflow.org
+- name: 🇱🇻 Latvia | 🌐 | [*CIDR]
   type: vless
-  server: 193.33.133.195
-  port: 443
-  uuid: 4871e898-0980-402f-882f-e1983ffc851b
+  server: 89.108.83.73
+  port: 6443
+  uuid: 035c5195-683b-4992-9c94-bd76bd005ad9
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ozon.ru
+  sni: s3.storage.selcloud.ru
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 🇵🇱 Poland | 🌐 [*CIDR] (2)
+- name: 🇱🇻 Latvia | 🌐 | [*CIDR] (2)
   type: vless
-  server: 193.33.133.195
-  port: 443
-  uuid: 4871e898-0980-402f-882f-e1983ffc851b
+  server: 89.108.83.73
+  port: 6443
+  uuid: 035c5195-683b-4992-9c94-bd76bd005ad9
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: ozon.ru
+  sni: s3.storage.selcloud.ru
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 🇱🇻 Latvia | 🌐 | [*CIDR] (3)
+  type: vless
+  server: 89.108.83.73
+  port: 6443
+  uuid: 035c5195-683b-4992-9c94-bd76bd005ad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: s3.storage.selcloud.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇱🇻 Latvia | 🌐 | [*CIDR] (4)
+  type: vless
+  server: 89.108.83.73
+  port: 6443
+  uuid: 035c5195-683b-4992-9c94-bd76bd005ad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: s3.storage.selcloud.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇱🇻 Latvia | 🌐 | [*CIDR] (5)
+  type: vless
+  server: 89.108.83.73
+  port: 6443
+  uuid: 035c5195-683b-4992-9c94-bd76bd005ad9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: s3.storage.selcloud.ru
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 🇬🇧 United Kingdom | [*CIDR]
+  type: vless
+  server: 37.220.86.155
+  port: 443
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: uk-cf.aba-hum.store
+- name: 🇬🇧 United Kingdom | [*CIDR] (2)
+  type: vless
+  server: 37.220.86.155
+  port: 443
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: uk-cf.aba-hum.store
+- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+  type: vless
+  server: 37.220.86.155
+  port: 443
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: uk-cf.aba-hum.store
+- name: 🇬🇧 United Kingdom | [*CIDR] (4)
+  type: vless
+  server: 37.220.86.155
+  port: 443
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: uk-cf.aba-hum.store
+- name: 🇬🇧 United Kingdom | [*CIDR] (5)
+  type: vless
+  server: 37.220.86.155
+  port: 443
+  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: uk-cf.aba-hum.store
+- name: 🇷🇺 Russia | [*CIDR]
+  type: vless
+  server: ru.karzino-connected.com
+  port: 443
+  uuid: c47d9a64-5237-4386-bb5b-a5d0d312cab9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru.karzino-connected.com
+- name: 🇷🇺 Russia | [*CIDR] (2)
+  type: vless
+  server: ru.karzino-connected.com
+  port: 443
+  uuid: c47d9a64-5237-4386-bb5b-a5d0d312cab9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru.karzino-connected.com
+- name: 🇷🇺 Russia | [*CIDR] (3)
+  type: vless
+  server: ru.karzino-connected.com
+  port: 443
+  uuid: c47d9a64-5237-4386-bb5b-a5d0d312cab9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru.karzino-connected.com
+- name: 🇷🇺 Russia | [*CIDR] (4)
+  type: vless
+  server: ru.karzino-connected.com
+  port: 443
+  uuid: c47d9a64-5237-4386-bb5b-a5d0d312cab9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru.karzino-connected.com
+- name: 🇷🇺 Russia | [*CIDR] (5)
+  type: vless
+  server: ru.karzino-connected.com
+  port: 443
+  uuid: c47d9a64-5237-4386-bb5b-a5d0d312cab9
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ru.karzino-connected.com
+- name: 🇬🇧 United Kingdom [*CIDR]
+  type: vless
+  server: 84.38.181.249
+  port: 443
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: open.spotify.com
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇵🇱 Poland | [*CIDR] VK
-  - 🇵🇱 Poland | [*CIDR] VK (2)
-  - 🇵🇱 Poland | [*CIDR] VK (3)
-  - 🇵🇱 Poland | [*CIDR] VK (4)
-  - 🇵🇱 Poland | [*CIDR] VK (5)
-  - 🇵🇱 Poland | 🌐 [*CIDR]
-  - 🇵🇱 Poland | 🌐 [*CIDR] (2)
+  - 🇫🇷 France [*CIDR]
+  - 🇫🇷 France [*CIDR] (2)
+  - 🇫🇷 France [*CIDR] (3)
+  - 🇫🇷 France [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR]
+  - 🇱🇻 Latvia | 🌐 | [*CIDR]
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (2)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (3)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (4)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇬🇧 United Kingdom [*CIDR]
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇵🇱 Poland | [*CIDR] VK
-  - 🇵🇱 Poland | [*CIDR] VK (2)
-  - 🇵🇱 Poland | [*CIDR] VK (3)
-  - 🇵🇱 Poland | [*CIDR] VK (4)
-  - 🇵🇱 Poland | [*CIDR] VK (5)
-  - 🇵🇱 Poland | 🌐 [*CIDR]
-  - 🇵🇱 Poland | 🌐 [*CIDR] (2)
+  - 🇫🇷 France [*CIDR]
+  - 🇫🇷 France [*CIDR] (2)
+  - 🇫🇷 France [*CIDR] (3)
+  - 🇫🇷 France [*CIDR] (4)
+  - 🇫🇷 France | [*CIDR]
+  - 🇱🇻 Latvia | 🌐 | [*CIDR]
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (2)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (3)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (4)
+  - 🇱🇻 Latvia | 🌐 | [*CIDR] (5)
+  - 🇬🇧 United Kingdom | [*CIDR]
+  - 🇬🇧 United Kingdom | [*CIDR] (2)
+  - 🇬🇧 United Kingdom | [*CIDR] (3)
+  - 🇬🇧 United Kingdom | [*CIDR] (4)
+  - 🇬🇧 United Kingdom | [*CIDR] (5)
+  - 🇷🇺 Russia | [*CIDR]
+  - 🇷🇺 Russia | [*CIDR] (2)
+  - 🇷🇺 Russia | [*CIDR] (3)
+  - 🇷🇺 Russia | [*CIDR] (4)
+  - 🇷🇺 Russia | [*CIDR] (5)
+  - 🇬🇧 United Kingdom [*CIDR]
 rules:
 - MATCH,🌍 Прокси
