@@ -1,822 +1,101 @@
-# Обновлено: 2026-09-29 02:21 UTC
-# Всего в источнике: 61
-# Живых серверов: 57
+# Обновлено: 2026-09-29 09:11 UTC
+# Всего в источнике: 15
+# Живых серверов: 7
 # Источник: 26.txt
 
 proxies:
-- name: 🇵🇱 Poland [*CIDR]
+- name: 🇵🇱 Poland | [*CIDR] VK
   type: vless
-  server: 185.178.208.176
+  server: 109.120.181.153
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇵🇱 Poland [*CIDR] (2)
+  sni: eh.vk.ru
+- name: 🇵🇱 Poland | [*CIDR] VK (2)
   type: vless
-  server: 185.178.208.176
+  server: 109.120.181.153
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇵🇱 Poland [*CIDR] (3)
+  sni: eh.vk.ru
+- name: 🇵🇱 Poland | [*CIDR] VK (3)
   type: vless
-  server: 185.178.208.176
+  server: 109.120.181.153
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇵🇱 Poland [*CIDR] (4)
+  sni: eh.vk.ru
+- name: 🇵🇱 Poland | [*CIDR] VK (4)
   type: vless
-  server: 185.178.208.176
+  server: 109.120.181.153
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇵🇱 Poland [*CIDR] (5)
+  sni: eh.vk.ru
+- name: 🇵🇱 Poland | [*CIDR] VK (5)
   type: vless
-  server: cdn1.pandaonline.org
+  server: 109.120.181.153
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇵🇱 Poland [*CIDR] (6)
+  sni: eh.vk.ru
+- name: 🇵🇱 Poland | 🌐 [*CIDR]
   type: vless
-  server: cdn1.pandaonline.org
+  server: 193.33.133.195
   port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
+  uuid: 4871e898-0980-402f-882f-e1983ffc851b
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇮🇹 Italy | 🌐 | [*CIDR]
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇵🇱 Poland [*CIDR] (7)
-  type: vless
-  server: cdn1.pandaonline.org
-  port: 443
-  uuid: 3e628fe4-2cbf-4740-9e49-d8b5d9b61916
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: cdn1.pandaonline.org
-  network: ws
-  ws-opts:
-    path: /stream/119857546/chat
-    headers:
-      Host: cdn1.pandaonline.org
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK
-  type: vless
-  server: 37.139.42.179
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  type: vless
-  server: 37.139.42.179
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇫🇷 France [*CIDR]
-  type: vless
-  server: 91.240.87.237
-  port: 443
-  uuid: 1b201db0-b373-455a-8ccd-fd624aaef8d3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fiae3.maxtelemost.com
-- name: 🇬🇧 United Kingdom [*CIDR]
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  type: vless
-  server: 37.139.42.179
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇬🇧 United Kingdom | [*CIDR]
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🇫🇷 France | [*CIDR]
-  type: vless
-  server: 91.240.87.237
-  port: 443
-  uuid: 1b201db0-b373-455a-8ccd-fd624aaef8d3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fiae3.maxtelemost.com
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  type: vless
-  server: 45.8.228.167
-  port: 443
-  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: bl3fk52.sysopnova.art
-- name: 🇬🇧 United Kingdom | [*CIDR] (2)
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
-  type: vless
-  server: 193.160.208.137
-  port: 443
-  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api.hexagonicfield.com
+  sni: ozon.ru
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇬🇧 United Kingdom | [*CIDR] (3)
+    grpc-service-name: grpc
+- name: 🇵🇱 Poland | 🌐 [*CIDR] (2)
   type: vless
-  server: 84.38.181.249
+  server: 193.33.133.195
   port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  uuid: 4871e898-0980-402f-882f-e1983ffc851b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: open.spotify.com
-- name: 🇫🇷 France | [*CIDR] (2)
-  type: vless
-  server: 91.240.87.237
-  port: 443
-  uuid: 1b201db0-b373-455a-8ccd-fd624aaef8d3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fiae3.maxtelemost.com
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
-  type: vless
-  server: 193.160.208.137
-  port: 443
-  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api.hexagonicfield.com
+  sni: ozon.ru
   network: grpc
   grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
-  type: vless
-  server: 186.246.6.110
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
-  type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇬🇧 United Kingdom | [*CIDR] (4)
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🇬🇧 United Kingdom | [*CIDR] (5)
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🇫🇷 France | [*CIDR] (3)
-  type: vless
-  server: 91.240.87.237
-  port: 443
-  uuid: 1b201db0-b373-455a-8ccd-fd624aaef8d3
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: fiae3.maxtelemost.com
-- name: 🇬🇧 United Kingdom | [*CIDR] (6)
-  type: vless
-  server: 84.38.181.249
-  port: 443
-  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: open.spotify.com
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇮🇷 Iran | [*CIDR]
-  type: vless
-  server: 193.233.247.60
-  port: 443
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.chitai-gorod.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: 10394279-283c-4ab8-8529-f1e0a4c61bc8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
-  type: vless
-  server: 193.160.208.137
-  port: 443
-  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
-  type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
-  type: vless
-  server: 186.246.13.160
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: my.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 600c1964-f199-45bf-8895-1872fa7fdb1e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: katering.coteite.pro
-  network: ws
-  ws-opts:
-    path: /euws
-    headers:
-      Host: katering.coteite.pro
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
-  type: vless
-  server: 185.207.66.8
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
-  type: vless
-  server: 193.160.208.137
-  port: 443
-  uuid: a08b9c24-3252-4f7f-afa9-4a37040950fd
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: api.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
-  type: vless
-  server: 186.246.6.110
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (2)
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 600c1964-f199-45bf-8895-1872fa7fdb1e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: katering.coteite.pro
-  network: ws
-  ws-opts:
-    path: /euws
-    headers:
-      Host: katering.coteite.pro
-- name: 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (3)
-  type: vless
-  server: 37.139.42.235
-  port: 443
-  uuid: 600c1964-f199-45bf-8895-1872fa7fdb1e
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: katering.coteite.pro
-  network: ws
-  ws-opts:
-    path: /euws
-    headers:
-      Host: katering.coteite.pro
-- name: 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
-  type: vless
-  server: 186.246.6.110
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: upload.hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
-  type: vless
-  server: 201.24.52.151
-  port: 443
-  uuid: 8c40bb2c-157a-4830-a2c3-0b35ef50c660
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: hexagonicfield.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  type: vless
-  server: vyvoz-musora.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  type: vless
-  server: vyvoz-musora.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  type: vless
-  server: vyvoz-musora.cc
-  port: 443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  tls: true
-  sni: vyvoz-musora.cc
-  network: ws
-  ws-opts:
-    path: /e8ws
-    headers:
-      Host: vyvoz-musora.cc
-- name: 🇷🇺 Russia | [*CIDR]
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇷🇺 Russia | [*CIDR] (2)
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🇷🇺 Russia | [*CIDR] (3)
-  type: vless
-  server: 45.93.201.119
-  port: 443
-  uuid: f778d2eb-1bec-4d19-b0bf-0a5e39feed4f
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: vir2albridge.com
-  network: grpc
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 🌐 Anycast-IP | 🇮🇷 [*CIDR]
-  type: vless
-  server: 193.233.247.60
-  port: 443
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.chitai-gorod.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR]
-  type: vless
-  server: 193.233.247.60
-  port: 443
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.chitai-gorod.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (2)
-  type: vless
-  server: 193.233.247.60
-  port: 443
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.chitai-gorod.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
-- name: 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (3)
-  type: vless
-  server: 193.233.247.60
-  port: 443
-  uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: www.chitai-gorod.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: astracat
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - 🇵🇱 Poland [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR] (3)
-  - 🇵🇱 Poland [*CIDR] (4)
-  - 🇵🇱 Poland [*CIDR] (5)
-  - 🇵🇱 Poland [*CIDR] (6)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - 🇫🇷 France [*CIDR]
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
-  - 🇬🇧 United Kingdom | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  - 🇮🇷 Iran | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (2)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇮🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR] VK
+  - 🇵🇱 Poland | [*CIDR] VK (2)
+  - 🇵🇱 Poland | [*CIDR] VK (3)
+  - 🇵🇱 Poland | [*CIDR] VK (4)
+  - 🇵🇱 Poland | [*CIDR] VK (5)
+  - 🇵🇱 Poland | 🌐 [*CIDR]
+  - 🇵🇱 Poland | 🌐 [*CIDR] (2)
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - 🇵🇱 Poland [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR] (3)
-  - 🇵🇱 Poland [*CIDR] (4)
-  - 🇵🇱 Poland [*CIDR] (5)
-  - 🇵🇱 Poland [*CIDR] (6)
-  - 🇮🇹 Italy | 🌐 | [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (7)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK
-  - 🇫🇷 France [*CIDR]
-  - 🇬🇧 United Kingdom [*CIDR]
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (2)
-  - 🇬🇧 United Kingdom | [*CIDR]
-  - 🇫🇷 France | [*CIDR]
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (2)
-  - 🇮🇹 Italy | 🌐 | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR]
-  - 🇬🇧 United Kingdom | [*CIDR] (3)
-  - 🇫🇷 France | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (4)
-  - 🇬🇧 United Kingdom | [*CIDR] (4)
-  - 🇬🇧 United Kingdom | [*CIDR] (5)
-  - 🇫🇷 France | [*CIDR] (3)
-  - 🇬🇧 United Kingdom | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (3)
-  - 🇮🇷 Iran | [*CIDR]
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (4)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (7)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (6)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (7)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (8)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (9)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (2)
-  - 🇬🇧 United Kingdom | 🌐 | [*CIDR] VK (3)
-  - 🌐 Anycast-IP | 🇩🇪 🇰🇷 | [*CIDR] (10)
-  - 🌐 Anycast-IP | 🇧🇷 🇸🇪 | [*CIDR] (9)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (3)
-  - 🇩🇪 Germany | 🌐 | [*CIDR] VK (4)
-  - 🇩🇪 Germany | 🌐 [*CIDR] VK (2)
-  - 🇷🇺 Russia | [*CIDR]
-  - 🇷🇺 Russia | [*CIDR] (2)
-  - 🇷🇺 Russia | [*CIDR] (3)
-  - 🌐 Anycast-IP | 🇮🇷 [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR]
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (2)
-  - 🌐 Anycast-IP | 🇮🇷 🇷🇺 [*CIDR] (3)
+  - 🇵🇱 Poland | [*CIDR] VK
+  - 🇵🇱 Poland | [*CIDR] VK (2)
+  - 🇵🇱 Poland | [*CIDR] VK (3)
+  - 🇵🇱 Poland | [*CIDR] VK (4)
+  - 🇵🇱 Poland | [*CIDR] VK (5)
+  - 🇵🇱 Poland | 🌐 [*CIDR]
+  - 🇵🇱 Poland | 🌐 [*CIDR] (2)
 rules:
 - MATCH,🌍 Прокси
