@@ -516,8 +516,9 @@ jobs:
               total_parsed = len(all_proxies)
               print(f"📦 Распознано прокси: {total_parsed}")
               
-              print("🩺 Проверка доступности...")
-              alive_proxies = filter_alive_proxies(all_proxies)
+              print("🩺 Проверка доступности... (отключено)")
+              #alive_proxies = filter_alive_proxies(all_proxies)
+              alive_proxies = all_proxies
               alive_count = len(alive_proxies)
               
               print("🔧 Исправление дубликатов имён...")
