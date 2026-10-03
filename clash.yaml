@@ -1,10 +1,558 @@
-# Обновлено: 2026-10-03 21:29 UTC
-# Всего в источнике: 42
-# Живых серверов: 42
+# Обновлено: 2026-10-03 21:32 UTC
+# Всего в источнике: 107
+# Живых серверов: 107
 # Источник: 26.txt
 
 proxies:
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
+- name: 🇷🇺 177 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  type: vless
+  server: 188.225.25.142
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: prime.betust.net
+- name: 🇷🇺 179 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  type: vless
+  server: 188.225.42.6
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: app6.betust.net
+- name: 🇷🇺 Russia | БЕЛЫЙ IP | @RaViraNet t.me/rjsxrd
+  type: vless
+  server: 90.156.218.163
+  port: 443
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: eh.vk.ru
+- name: 🇷🇺 178 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  type: vless
+  server: 188.225.25.195
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: app25.betust.net
+- name: EPODONIOS
+  type: vless
+  server: 185.147.26.210
+  port: 443
+  uuid: 1c5ed2e1-56da-41ab-9a78-159d9892ec17
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: example.com
+- name: EPODONIOS (2)
+  type: vless
+  server: 185.141.227.180
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: dismissaltree.net
+- name: EPODONIOS (3)
+  type: vless
+  server: 147.182.144.185
+  port: 8039
+  uuid: 3f2eaa98-5e92-20d8-c006-899e69c948a4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.tno.nl
+- name: EPODONIOS (4)
+  type: vless
+  server: dismissaltree.net
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+- name: EPODONIOS (5)
+  type: vless
+  server: milo.rubinaz.xyz
+  port: 8080
+  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: EPODONIOS (6)
+  type: vless
+  server: s3.bamans.uk
+  port: 443
+  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: s3.bamans.uk
+- name: EPODONIOS (7)
+  type: vless
+  server: swed4.o4ka-internet.com
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: swed4.o4ka-internet.com
+- name: EPODONIOS (8)
+  type: vless
+  server: at-nick.failspace.top
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: at-nick.failspace.top
+- name: EPODONIOS (9)
+  type: vless
+  server: chubby0.failspace.top
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: chubby0.failspace.top
+- name: EPODONIOS (10)
+  type: vless
+  server: nilka-new-2.failspace.top
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: nilka-new-2.failspace.top
+- name: EPODONIOS (11)
+  type: vless
+  server: mori-md.failspace.top
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: mori-md.failspace.top
+- name: '0066 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 34.158.210.177
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '0019 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 34.153.218.25
+  port: 443
+  uuid: 51a43b75-c84b-46eb-885e-c24e7819cd0b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '0009 | 🇬🇷 Greece | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 85.90.197.146
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: greeeeeek.pumpkinpie.study
+- name: '0130 | 🇰🇿 Kazakhstan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 109.248.247.44
+  port: 443
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: kzself.yandex-api.com
+- name: '1128 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 193.23.201.172
+  port: 443
+  uuid: c47b421f-65f1-4190-b7ba-bd2045086fe4
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: yahoo.com
+- name: '1309 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.58.178.127
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de3.swcdn.xyz
+- name: '0724 | 🇫🇷 France | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 91.108.240.42
+  port: 443
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fr-01-10.zetnik.site
+- name: '0689 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 2.27.207.30
+  port: 443
+  uuid: a5dd2dd9-0995-449e-be67-4a409890dc42
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: jdbdb.huinaduok.fans
+- name: '0678 | 🇸🇬 Singapore | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 18.143.183.26
+  port: 443
+  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: admin.aphrodite.show
+- name: '1257 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.77.248.45
+  port: 443
+  uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hel2.mtmajestic.space
+- name: '2349 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 50.7.120.204
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: nilka-new-2.failspace.top
+- name: '3940 | 🇬🇧 United Kingdom | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 50.7.227.106
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: at-nick.failspace.top
+- name: '2290 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 50.7.160.250
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: chubby0.failspace.top
+- name: '1601 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.59.216.141
+  port: 443
+  uuid: c6cfcc53-9271-4ef7-88c5-5141621c8db1
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: 193.23.216.239.cdn-one.org
+- name: '1584 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.58.178.110
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: de3.swcdn.xyz
+- name: '1799 | 🇱🇻 Latvia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.76.62.226
+  port: 443
+  uuid: fee34dc3-0837-4214-8b76-c4ed4d7404ba
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: lv2.yservice.help
+- name: '1776 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  tls: true
+  sni: pl.flen-vpn.xyz
+- name: '1910 | 🇮🇹 Italy | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 82.118.16.245
+  port: 443
+  uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: mxc.mtmajestic.space
+- name: '2195 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.59.205.36
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl3.cloud-static.org
+- name: '2211 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 159.195.239.91
+  port: 443
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: usself.yandex-api.com
+- name: '3947 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 34.104.237.214
+  port: 443
+  uuid: 0c4c6ebb-603f-4429-8682-beef6b65b80d
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '1906 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 34.29.203.135
+  port: 443
+  uuid: 0106efd7-39bf-449d-b734-a4aa758d6480
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '3066 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.76.21.78
+  port: 443
+  uuid: fee34dc3-0837-4214-8b76-c4ed4d7404ba
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fi2.yservice.help
+- name: '3714 | 🇩🇪 Germany | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 38.180.218.105
+  port: 443
+  uuid: e8ef44e0-c7b8-4210-8111-16679d7d319e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: github.com
+- name: '5185 | 🇸🇪 Sweden | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 5.157.10.250
+  port: 443
+  uuid: c20751de-06c3-4044-b6a4-eebc9b040d92
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: swebz.loozerp.wiki
+- name: '5070 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 3.36.120.14
+  port: 443
+  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: biblo-ontology-prod.shop
+- name: '1788 | 🇦🇺 Australia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 35.197.168.118
+  port: 443
+  uuid: 4f865f35-cf47-4e7f-a7e6-8882511a1b36
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '5060 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.59.204.209
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl3.cloud-static.org
+- name: '5202 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 31.77.59.163
+  port: 443
+  uuid: ff35ca20-2304-4b3a-80e5-2c82953cf2ce
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl37.mech-pro.online
+- name: '3584 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 23.106.157.238
+  port: 443
+  uuid: 965758d5-ea3e-4209-8525-3655154b470e
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.nvidia.com
+- name: '2883 | 🇺🇦 Ukraine | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 13.143.195.166
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: islam.konus.buzz
+- name: '2928 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 179.255.185.180
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: shaa5.pumpkinpie.study
+- name: '@DeltaKroneckerGithub'
+  type: vless
+  server: 210.140.81.172
+  port: 443
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.amazon.com
+- name: '3891 | Taiwan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 34.80.248.240
+  port: 443
+  uuid: 31a40f42-4ad6-4a32-a760-71102b459584
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '3446 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  type: vless
+  server: 132.243.223.82
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fin3.o4ka-internet.com
+- name: '@DeltaKroneckerGithub (2)'
+  type: vless
+  server: test.keoplentuio.xyz
+  port: 2053
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+- name: '[OpenRay] 🇷🇺RU-135'
+  type: vless
+  server: ruself.yandex-api.com
+  port: 443
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: ruself.yandex-api.com
+- name: '[OpenRay] 🇿🇦ZA-21'
+  type: vless
+  server: 34.35.174.85
+  port: 443
+  uuid: 4758aee6-6d1a-4306-b460-2398b5af4e35
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '🇱🇹 Lithuania — #46'
+  type: vless
+  server: 188.225.35.207
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: demo.betust.net
+- name: '🇱🇹 Lithuania — #47'
+  type: vless
+  server: 188.225.77.241
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: api.betust.net
+- name: '🇳🇱 The Netherlands — #49'
+  type: vless
+  server: 188.225.58.238
+  port: 443
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: app5.betust.net
+- name: '🇳🇱 The Netherlands — #81'
+  type: vless
+  server: 37.139.42.208
+  port: 9444
+  uuid: 594f0ee2-3278-4784-b412-8dec0d4bd7ca
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: res.cdnguard.org
+- name: '🇩🇪 Germany — #56'
+  type: vless
+  server: 185.229.9.234
+  port: 443
+  uuid: ea74b814-a082-4acc-8dbf-4b029ef9941c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.vk.com
+- name: '🇩🇪 Germany — #68'
+  type: vless
+  server: 185.229.9.235
+  port: 43005
+  uuid: ea74b814-a082-4acc-8dbf-4b029ef9941c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: max.ru
+- name: '🇩🇪 Germany — #60'
+  type: vless
+  server: 185.229.9.175
+  port: 443
+  uuid: ea74b814-a082-4acc-8dbf-4b029ef9941c
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: yandex.ru
+- name: '🇷🇺 Timeweb — #44'
   type: vless
   server: 201.51.11.117
   port: 443
@@ -13,482 +561,646 @@ proxies:
   skip-cert-verify: true
   encryption: none
   sni: www.samsung.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
+- name: '2. 🇩🇪 VLESS | SNI: dailycanvas.sysopnova.art | CIDR: ? | TG: @wlrustg'
   type: vless
-  server: 201.51.11.117
-  port: 443
-  uuid: 5d0e5029-061f-4d75-ac97-718dbf827957
+  server: 37.18.14.115
+  port: 10654
+  uuid: 953358cb-82ba-4296-960d-6d2ec3468f4c
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.samsung.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
+  sni: dailycanvas.sysopnova.art
+- name: Бесплатный VPN tg:VLESSFORU 🇸🇪
   type: vless
-  server: 201.51.11.117
+  server: swebz.loozerp.wiki
   port: 443
-  uuid: 5d0e5029-061f-4d75-ac97-718dbf827957
+  uuid: c20751de-06c3-4044-b6a4-eebc9b040d92
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.samsung.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
+  sni: swebz.loozerp.wiki
+- name: 🇷🇺 AetrisVPN
   type: vless
-  server: 201.51.11.117
+  server: 89.19.223.231
   port: 443
-  uuid: 5d0e5029-061f-4d75-ac97-718dbf827957
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.samsung.com
-- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
+  sni: d3-ru.cloud-cdn.xyz
+- name: 🇷🇺 AetrisVPN (2)
   type: vless
-  server: 201.51.11.117
-  port: 443
-  uuid: 5d0e5029-061f-4d75-ac97-718dbf827957
+  server: 89.169.21.180
+  port: 8443
+  uuid: b6b222ad-5702-4416-90e7-6b1aa71d65bf
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: www.samsung.com
-- name: 🇫🇮 Finland | 🌐 | [*CIDR]
+  sni: player.videocactus.xyz
+- name: tg:VLESSFORU 🇵🇱 ⚡
   type: vless
-  server: 5.188.81.58
-  port: 500
-  uuid: 3f222a01-62d1-5e63-b9b8-6668ff0088b5
+  server: pl37.mech-pro.online
+  port: 443
+  uuid: ff35ca20-2304-4b3a-80e5-2c82953cf2ce
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl37.mech-pro.online
+- name: 🇵🇱 AetrisVPN
+  type: vless
+  server: 31.59.206.218
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl3.cloud-static.org
+- name: 🇫🇮 AetrisVPN
+  type: vless
+  server: fin3.o4ka-internet.com
+  port: 443
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: fin3.o4ka-internet.com
+- name: Бесплатный VPN tg:VLESSFORU 🇵🇱
+  type: vless
+  server: 31.59.204.227
+  port: 443
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: pl3.cloud-static.org
+- name: Бесплатный VPN tg:VLESSFORU 🇩🇪
+  type: vless
+  server: de-1e51a8f925.shamanapp.online
+  port: 443
+  uuid: d666e16b-2b64-4499-bb32-896c26dc2e3d
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: media.illusion-id.ru
-- name: 🇫🇮 Finland | 🌐 | [*CIDR] (2)
+  sni: de-1e51a8f925.shamanapp.online
+- name: Бесплатный VPN tg:VLESSFORU 🇷🇺
   type: vless
-  server: 5.188.81.58
-  port: 500
-  uuid: 3f222a01-62d1-5e63-b9b8-6668ff0088b5
+  server: nl-01.avroraservice.online
+  port: 8443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-nl.cahmes.space
+- name: Бесплатный VPN tg:VLESSFORU 🇷🇺 (2)
+  type: vless
+  server: 94.228.166.86
+  port: 8443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: cdn-nl.cahmes.space
+- name: 🇭🇰 AetrisVPN
+  type: vless
+  server: 46.8.226.177
+  port: 443
+  uuid: 27bfccec-549c-4d7d-816b-e63067d1749f
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: hkex.com.hk
+- name: LTE/5G Все операторы 🇪🇺
+  type: vless
+  server: summerculture.net
+  port: 2053
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: media.illusion-id.ru
-- name: 🇵🇱 Poland [*CIDR]
+  sni: summerculture.net
+- name: 🇺🇸 AetrisVPN
   type: vless
-  server: 62.152.58.90
+  server: shaa5.pumpkinpie.study
   port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 360.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇵🇱 Poland [*CIDR] (2)
+  sni: shaa5.pumpkinpie.study
+- name: Бесплатный VPN tg:VLESSFORU 🇺🇸
   type: vless
-  server: 62.152.58.90
+  server: 192.204.60.118
   port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  uuid: 4275431a-f97c-4d84-929a-9ef411d3d10b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 360.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇵🇱 Poland [*CIDR] (3)
+  sni: cdn.jsdelivr.net
+- name: Бесплатный VPN tg:VLESSFORU 🇳🇱
   type: vless
-  server: 62.152.58.90
+  server: islam.konus.buzz
   port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  uuid: 8f6e49e6-7f03-4f10-9da9-1716158d80ed
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 360.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇵🇱 Poland | [*CIDR]
+  sni: islam.konus.buzz
+- name: Бесплатный VPN tg:VLESSFORU 🇷🇺 (3)
   type: vless
-  server: 62.152.58.90
-  port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  server: us-02.avroraservice.online
+  port: 8443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 360.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇵🇱 Poland | [*CIDR] (2)
+  sni: cdn-us.cahmes.space
+- name: 🇵🇱 AetrisVPN (2)
   type: vless
-  server: 62.152.58.90
+  server: 31.59.204.104
   port: 443
-  uuid: 1bb2af63-4472-44ed-9c70-8f316258b68b
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: 360.yandex.ru
-  network: grpc
-  grpc-opts:
-    grpc-service-name: ''
-- name: 🇵🇱 Poland | [*CIDR] VK
+  sni: pl3.cloud-static.org
+- name: Бесплатный VPN tg:VLESSFORU 🇵🇱 (2)
   type: vless
-  server: 90.156.218.163
+  server: 31.59.206.28
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (2)
+  sni: pl3.cloud-static.org
+- name: Бесплатный VPN tg:VLESSFORU 🇷🇺 (4)
   type: vless
-  server: 90.156.218.163
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  server: pl-1.avroraservice.online
+  port: 8443
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (3)
+  sni: cdn-pl.cahmes.space
+- name: '@filembad`'
   type: vless
-  server: 90.156.218.163
-  port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  server: 206.1.103.51
+  port: 43314
+  uuid: 2ec4b7a7-2b04-494c-a1a1-d5afc5985377
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (4)
+- name: '0560 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: 193.187.95.124
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 81167507-b634-4f56-9555-33e4fd660ce0
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (5)
+  sni: github.com
+- name: '0032 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: 5.42.96.76
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (6)
+  sni: ruself.yandex-api.com
+- name: '3085 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: 34.96.188.243
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 75d38591-267e-4d89-98bc-164f25b50880
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (7)
+  sni: www.cloudflare.com
+- name: '3580 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: at-04-10.zetnik.site
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (8)
+  sni: at-04-10.zetnik.site
+- name: '0907 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: 2.26.104.40
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: f4d71fd6-1c25-4748-836b-1dbda9268039
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland | [*CIDR] VK (9)
+  sni: s5.mangateka.top
+- name: '3779 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: 34.92.16.7
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK
+  sni: www.cloudflare.com
+- name: '2408 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: kzself.yandex-api.com
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (2)
+  sni: kzself.yandex-api.com
+- name: '4606 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
   type: vless
-  server: 90.156.218.163
+  server: usself.yandex-api.com
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (3)
+  sni: usself.yandex-api.com
+- name: v2go | 🇱🇹 LT | VLESS | 551
   type: vless
-  server: 90.156.218.163
+  server: 188.225.24.201
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 7610be85-9855-4010-8929-ce16d4993969
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (4)
+  sni: app11.betust.net
+- name: VLESS
   type: vless
-  server: 90.156.218.163
+  server: real.embrofree.org
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 4275431a-f97c-4d84-929a-9ef411d3d10b
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (5)
+  sni: cdn.jsdelivr.net
+- name: VLESS (2)
   type: vless
-  server: 90.156.218.163
+  server: 45.90.59.119
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (6)
+  sni: shvec.mtmajestic.space
+- name: VLESS (3)
   type: vless
-  server: 90.156.218.163
+  server: 13.143.166.71
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 0afdcc75-e449-418d-8eac-c5b657363443
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇵🇱 Poland [*CIDR] VK (7)
+  sni: cdn.jsdelivr.net
+- name: VLESS (4)
   type: vless
-  server: 90.156.218.163
+  server: 46.232.248.135
   port: 443
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: 1cb94b70-76e6-40af-99a3-ba07bd80b4f7
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: eh.vk.ru
-- name: 🇸🇪 Sweden | [*CIDR]
+  sni: g2net.alsobuzz.info
+- name: '@UnlimitConfig🇩🇪'
   type: vless
-  server: 161.104.38.98
+  server: 159.195.42.172
   port: 443
-  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
+  uuid: 1cb94b70-76e6-40af-99a3-ba07bd80b4f7
   udp: true
   skip-cert-verify: true
   encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden | [*CIDR] (2)
+  sni: br1gr.tabas.info
+- name: '@GozargahAzad|'
   type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden | [*CIDR] (3)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden | [*CIDR] (4)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🇸🇪 Sweden | [*CIDR] (5)
-  type: vless
-  server: 161.104.38.98
-  port: 443
-  uuid: bcd297ab-f064-0031-a659-5d7f90075fa8
-  udp: true
-  skip-cert-verify: true
-  encryption: none
-  sni: donatov.net
-- name: 🌐 Anycast-IP | 🇫🇮 [*CIDR]
-  type: vless
-  server: 5.188.81.58
-  port: 500
-  uuid: 3f222a01-62d1-5e63-b9b8-6668ff0088b5
+  server: assfjdy.ammd.mhxp1.com
+  port: 16932
+  uuid: 0fcb8160-252e-4d10-9855-ec2a98e53fae
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: media.illusion-id.ru
-- name: 🌐 Anycast-IP | 🇸🇪 [*CIDR]
+  sni: sddd.ammd.mhxp1.com
+- name: '@iranping24'
   type: vless
-  server: 5.188.81.58
-  port: 500
-  uuid: 3f222a01-62d1-5e63-b9b8-6668ff0088b5
+  server: 81.15.150.156
+  port: 16471
+  uuid: f01ef03a-acdd-41fa-b6b3-156e00f6a8cd
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: play-fe.googleapis.com
+- name: VLESS (5)
+  type: vless
+  server: 45.84.222.132
+  port: 443
+  uuid: 61bd5829-a243-4548-97f0-a210c2069fec
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: amd.com
+- name: '@GozargahAzad| (2)'
+  type: vless
+  server: 185.236.22.34
+  port: 443
+  uuid: d6bd3ec0-84f5-4df3-bd5a-ef69469ce642
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: amber.gaznw.my
+- name: '@iranping24 (2)'
+  type: vless
+  server: sr0a8o1y.smart-cats.ru
+  port: 443
+  uuid: 8325bd97-b77c-4917-acaa-2446e9e8cc03
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: yandex.ru
+- name: 🇺🇸US_542|1.3MB/s|R002-260618
+  type: vless
+  server: 34.48.220.167
+  port: 443
+  uuid: 8ea1a178-2719-47b7-99d0-33d8dc361ba3
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇧🇷BR_4|662KB/s|R002-260618
+  type: vless
+  server: 35.247.243.231
+  port: 443
+  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: 🇺🇸US_538|842KB/s|A004-260618
+  type: vless
+  server: 136.86.162.34
+  port: 443
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  udp: true
+  skip-cert-verify: true
+  encryption: none
+  sni: www.cloudflare.com
+- name: '[🇭🇰] [vl-tl-ra] [261003-200819.989]'
+  type: vless
+  server: 27.44.143.169
+  port: 14343
+  uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
   udp: true
   skip-cert-verify: true
   encryption: none
   tls: true
-  sni: media.illusion-id.ru
-- name: 🌐 Anycast-IP | 🇸🇪 [*CIDR] (2)
+  sni: thuk.huaweiyouxuan.com
+- name: d_1228
   type: vless
-  server: 5.188.81.58
-  port: 500
-  uuid: 3f222a01-62d1-5e63-b9b8-6668ff0088b5
+  server: 159.195.242.180
+  port: 443
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
   udp: true
   skip-cert-verify: true
   encryption: none
-  tls: true
-  sni: media.illusion-id.ru
-- name: 🇷🇺 Russia [*CIDR]
-  type: hysteria2
-  server: msk.frkn.org
+  sni: at2.tsumshop.org
+- name: d_1227
+  type: vless
+  server: 159.195.240.82
   port: 443
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  skip-cert-verify: true
-- name: 🇷🇺 Russia | 🌐 [*CIDR]
-  type: hysteria2
-  server: ru.xiaoliyu.cyou
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  skip-cert-verify: true
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  type: hysteria2
-  server: ru.xiaoliyu.cyou
-  port: 18333
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  skip-cert-verify: true
-  sni: ru.xiaoliyu.cyou
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  type: hysteria2
-  server: els.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  skip-cert-verify: true
-- name: 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  type: hysteria2
-  server: els.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  skip-cert-verify: true
-  sni: els.mangshe.xyz
-- name: 🇳🇱 The Netherlands | [*CIDR]
-  type: vmess
-  server: renderer-stream-1-832.mirra.now
-  port: 443
-  uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-  alterId: 0
-  cipher: auto
-  network: ws
+  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
   udp: true
-  ws-opts:
-    path: /api/v1/gpu-stream/socket
-    headers:
-      Host: renderer-stream-1-832.mirra.now
-  tls: true
   skip-cert-verify: true
-  sni: renderer-stream-1-832.mirra.now
+  encryption: none
+  sni: vie1.tsumshop.org
 proxy-groups:
 - name: 🚀 Авто-выбор
   type: url-test
   proxies:
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇫🇮 Finland | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR] (3)
-  - 🇵🇱 Poland | [*CIDR]
-  - 🇵🇱 Poland | [*CIDR] (2)
-  - 🇵🇱 Poland | [*CIDR] VK
-  - 🇵🇱 Poland | [*CIDR] VK (2)
-  - 🇵🇱 Poland | [*CIDR] VK (3)
-  - 🇵🇱 Poland | [*CIDR] VK (4)
-  - 🇵🇱 Poland | [*CIDR] VK (5)
-  - 🇵🇱 Poland | [*CIDR] VK (6)
-  - 🇵🇱 Poland | [*CIDR] VK (7)
-  - 🇵🇱 Poland | [*CIDR] VK (8)
-  - 🇵🇱 Poland | [*CIDR] VK (9)
-  - 🇵🇱 Poland [*CIDR] VK
-  - 🇵🇱 Poland [*CIDR] VK (2)
-  - 🇵🇱 Poland [*CIDR] VK (3)
-  - 🇵🇱 Poland [*CIDR] VK (4)
-  - 🇵🇱 Poland [*CIDR] VK (5)
-  - 🇵🇱 Poland [*CIDR] VK (6)
-  - 🇵🇱 Poland [*CIDR] VK (7)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇷🇺 177 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - 🇷🇺 179 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - 🇷🇺 Russia | БЕЛЫЙ IP | @RaViraNet t.me/rjsxrd
+  - 🇷🇺 178 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - EPODONIOS
+  - EPODONIOS (2)
+  - EPODONIOS (3)
+  - EPODONIOS (4)
+  - EPODONIOS (5)
+  - EPODONIOS (6)
+  - EPODONIOS (7)
+  - EPODONIOS (8)
+  - EPODONIOS (9)
+  - EPODONIOS (10)
+  - EPODONIOS (11)
+  - '0066 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0019 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0009 | 🇬🇷 Greece | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0130 | 🇰🇿 Kazakhstan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1128 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1309 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0724 | 🇫🇷 France | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0689 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0678 | 🇸🇬 Singapore | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1257 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2349 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3940 | 🇬🇧 United Kingdom | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2290 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1601 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1584 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1799 | 🇱🇻 Latvia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1776 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1910 | 🇮🇹 Italy | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2195 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2211 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3947 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1906 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3066 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3714 | 🇩🇪 Germany | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5185 | 🇸🇪 Sweden | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5070 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1788 | 🇦🇺 Australia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5060 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5202 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3584 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2883 | 🇺🇦 Ukraine | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2928 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '@DeltaKroneckerGithub'
+  - '3891 | Taiwan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3446 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '@DeltaKroneckerGithub (2)'
+  - '[OpenRay] 🇷🇺RU-135'
+  - '[OpenRay] 🇿🇦ZA-21'
+  - '🇱🇹 Lithuania — #46'
+  - '🇱🇹 Lithuania — #47'
+  - '🇳🇱 The Netherlands — #49'
+  - '🇳🇱 The Netherlands — #81'
+  - '🇩🇪 Germany — #56'
+  - '🇩🇪 Germany — #68'
+  - '🇩🇪 Germany — #60'
+  - '🇷🇺 Timeweb — #44'
+  - '2. 🇩🇪 VLESS | SNI: dailycanvas.sysopnova.art | CIDR: ? | TG: @wlrustg'
+  - Бесплатный VPN tg:VLESSFORU 🇸🇪
+  - 🇷🇺 AetrisVPN
+  - 🇷🇺 AetrisVPN (2)
+  - tg:VLESSFORU 🇵🇱 ⚡
+  - 🇵🇱 AetrisVPN
+  - 🇫🇮 AetrisVPN
+  - Бесплатный VPN tg:VLESSFORU 🇵🇱
+  - Бесплатный VPN tg:VLESSFORU 🇩🇪
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (2)
+  - 🇭🇰 AetrisVPN
+  - LTE/5G Все операторы 🇪🇺
+  - 🇺🇸 AetrisVPN
+  - Бесплатный VPN tg:VLESSFORU 🇺🇸
+  - Бесплатный VPN tg:VLESSFORU 🇳🇱
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (3)
+  - 🇵🇱 AetrisVPN (2)
+  - Бесплатный VPN tg:VLESSFORU 🇵🇱 (2)
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (4)
+  - '@filembad`'
+  - '0560 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '0032 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '3085 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
+  - '3580 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - '0907 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '3779 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
+  - '2408 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - '4606 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - v2go | 🇱🇹 LT | VLESS | 551
+  - VLESS
+  - VLESS (2)
+  - VLESS (3)
+  - VLESS (4)
+  - '@UnlimitConfig🇩🇪'
+  - '@GozargahAzad|'
+  - '@iranping24'
+  - VLESS (5)
+  - '@GozargahAzad| (2)'
+  - '@iranping24 (2)'
+  - 🇺🇸US_542|1.3MB/s|R002-260618
+  - 🇧🇷BR_4|662KB/s|R002-260618
+  - 🇺🇸US_538|842KB/s|A004-260618
+  - '[🇭🇰] [vl-tl-ra] [261003-200819.989]'
+  - d_1228
+  - d_1227
   url: http://www.gstatic.com/generate_204
   interval: 300
 - name: 🌍 Прокси
   type: select
   proxies:
   - 🚀 Авто-выбор
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR]
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (2)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (3)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (4)
-  - .𖥔 ݁ ˖ִ🛸༄˖°. | [*CIDR] (5)
-  - 🇫🇮 Finland | 🌐 | [*CIDR]
-  - 🇫🇮 Finland | 🌐 | [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR]
-  - 🇵🇱 Poland [*CIDR] (2)
-  - 🇵🇱 Poland [*CIDR] (3)
-  - 🇵🇱 Poland | [*CIDR]
-  - 🇵🇱 Poland | [*CIDR] (2)
-  - 🇵🇱 Poland | [*CIDR] VK
-  - 🇵🇱 Poland | [*CIDR] VK (2)
-  - 🇵🇱 Poland | [*CIDR] VK (3)
-  - 🇵🇱 Poland | [*CIDR] VK (4)
-  - 🇵🇱 Poland | [*CIDR] VK (5)
-  - 🇵🇱 Poland | [*CIDR] VK (6)
-  - 🇵🇱 Poland | [*CIDR] VK (7)
-  - 🇵🇱 Poland | [*CIDR] VK (8)
-  - 🇵🇱 Poland | [*CIDR] VK (9)
-  - 🇵🇱 Poland [*CIDR] VK
-  - 🇵🇱 Poland [*CIDR] VK (2)
-  - 🇵🇱 Poland [*CIDR] VK (3)
-  - 🇵🇱 Poland [*CIDR] VK (4)
-  - 🇵🇱 Poland [*CIDR] VK (5)
-  - 🇵🇱 Poland [*CIDR] VK (6)
-  - 🇵🇱 Poland [*CIDR] VK (7)
-  - 🇸🇪 Sweden | [*CIDR]
-  - 🇸🇪 Sweden | [*CIDR] (2)
-  - 🇸🇪 Sweden | [*CIDR] (3)
-  - 🇸🇪 Sweden | [*CIDR] (4)
-  - 🇸🇪 Sweden | [*CIDR] (5)
-  - 🌐 Anycast-IP | 🇫🇮 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 [*CIDR]
-  - 🌐 Anycast-IP | 🇸🇪 [*CIDR] (2)
-  - 🇷🇺 Russia [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR]
-  - 🇷🇺 Russia | 🌐 [*CIDR] (2)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (3)
-  - 🇷🇺 Russia | 🌐 [*CIDR] (4)
-  - 🇳🇱 The Netherlands | [*CIDR]
+  - 🇷🇺 177 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - 🇷🇺 179 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - 🇷🇺 Russia | БЕЛЫЙ IP | @RaViraNet t.me/rjsxrd
+  - 🇷🇺 178 - RU - VLESS/RAW/REALITY/PBK/SID/VISION/UTLS - 443
+  - EPODONIOS
+  - EPODONIOS (2)
+  - EPODONIOS (3)
+  - EPODONIOS (4)
+  - EPODONIOS (5)
+  - EPODONIOS (6)
+  - EPODONIOS (7)
+  - EPODONIOS (8)
+  - EPODONIOS (9)
+  - EPODONIOS (10)
+  - EPODONIOS (11)
+  - '0066 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0019 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0009 | 🇬🇷 Greece | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0130 | 🇰🇿 Kazakhstan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1128 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1309 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0724 | 🇫🇷 France | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0689 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '0678 | 🇸🇬 Singapore | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1257 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2349 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3940 | 🇬🇧 United Kingdom | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2290 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1601 | 🇳🇱 Netherlands | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1584 | 🇮🇩 Indonesia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1799 | 🇱🇻 Latvia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1776 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1910 | 🇮🇹 Italy | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2195 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2211 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3947 | 🇯🇵 Japan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1906 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3066 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3714 | 🇩🇪 Germany | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5185 | 🇸🇪 Sweden | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5070 | 🇰🇷 South Korea | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '1788 | 🇦🇺 Australia | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5060 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '5202 | 🇵🇱 Poland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3584 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2883 | 🇺🇦 Ukraine | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '2928 | 🇺🇸 USA | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '@DeltaKroneckerGithub'
+  - '3891 | Taiwan | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '3446 | 🇫🇮 Finland | VLESS | 📺 YT | TG: @YoutubeUnBlockRu'
+  - '@DeltaKroneckerGithub (2)'
+  - '[OpenRay] 🇷🇺RU-135'
+  - '[OpenRay] 🇿🇦ZA-21'
+  - '🇱🇹 Lithuania — #46'
+  - '🇱🇹 Lithuania — #47'
+  - '🇳🇱 The Netherlands — #49'
+  - '🇳🇱 The Netherlands — #81'
+  - '🇩🇪 Germany — #56'
+  - '🇩🇪 Germany — #68'
+  - '🇩🇪 Germany — #60'
+  - '🇷🇺 Timeweb — #44'
+  - '2. 🇩🇪 VLESS | SNI: dailycanvas.sysopnova.art | CIDR: ? | TG: @wlrustg'
+  - Бесплатный VPN tg:VLESSFORU 🇸🇪
+  - 🇷🇺 AetrisVPN
+  - 🇷🇺 AetrisVPN (2)
+  - tg:VLESSFORU 🇵🇱 ⚡
+  - 🇵🇱 AetrisVPN
+  - 🇫🇮 AetrisVPN
+  - Бесплатный VPN tg:VLESSFORU 🇵🇱
+  - Бесплатный VPN tg:VLESSFORU 🇩🇪
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (2)
+  - 🇭🇰 AetrisVPN
+  - LTE/5G Все операторы 🇪🇺
+  - 🇺🇸 AetrisVPN
+  - Бесплатный VPN tg:VLESSFORU 🇺🇸
+  - Бесплатный VPN tg:VLESSFORU 🇳🇱
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (3)
+  - 🇵🇱 AetrisVPN (2)
+  - Бесплатный VPN tg:VLESSFORU 🇵🇱 (2)
+  - Бесплатный VPN tg:VLESSFORU 🇷🇺 (4)
+  - '@filembad`'
+  - '0560 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '0032 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '3085 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
+  - '3580 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - '0907 | 🇷🇺 Russia | VLESS | TG: @YoutubeUnBlockRu'
+  - '3779 | 🇨🇳 HongKong | VLESS | TG: @YoutubeUnBlockRu'
+  - '2408 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - '4606 | 🌐 Unknown | VLESS | TG: @YoutubeUnBlockRu'
+  - v2go | 🇱🇹 LT | VLESS | 551
+  - VLESS
+  - VLESS (2)
+  - VLESS (3)
+  - VLESS (4)
+  - '@UnlimitConfig🇩🇪'
+  - '@GozargahAzad|'
+  - '@iranping24'
+  - VLESS (5)
+  - '@GozargahAzad| (2)'
+  - '@iranping24 (2)'
+  - 🇺🇸US_542|1.3MB/s|R002-260618
+  - 🇧🇷BR_4|662KB/s|R002-260618
+  - 🇺🇸US_538|842KB/s|A004-260618
+  - '[🇭🇰] [vl-tl-ra] [261003-200819.989]'
+  - d_1228
+  - d_1227
 rules:
 - MATCH,🌍 Прокси
