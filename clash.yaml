@@ -1,4 +1,4 @@
-# Обновлено: 2026-10-03 23:06 UTC
+# Обновлено: 2026-10-03 23:10 UTC
 # Всего в источнике: 3561
 # Живых серверов: 3561
 # Источник: 26.txt
@@ -1337,7 +1337,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  cipher: null
+  cipher: auto
   network: tcp
   udp: true
 - name: 🇷🇺 Russia | БЕЛЫЙ IP | @RaViraNet t.me/rjsxrd (2)
