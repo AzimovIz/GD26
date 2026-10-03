@@ -1,4 +1,4 @@
-# Обновлено: 2026-10-03 23:01 UTC
+# Обновлено: 2026-10-03 23:06 UTC
 # Всего в источнике: 3561
 # Живых серверов: 3561
 # Источник: 26.txt
@@ -71,7 +71,7 @@ proxies:
   port: 20772
   uuid: d69007f9-b038-4156-d27f-f81f18094ecf
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -1292,7 +1292,7 @@ proxies:
   port: 48111
   uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: Бесплатный (25)
@@ -1337,7 +1337,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: null
+  cipher: null
   network: tcp
   udp: true
 - name: 🇷🇺 Russia | БЕЛЫЙ IP | @RaViraNet t.me/rjsxrd (2)
@@ -4437,7 +4437,7 @@ proxies:
   port: 80
   uuid: c1122444-af45-4b6b-bc27-ef8de60ba7e2
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Capital_NET'
@@ -4997,7 +4997,7 @@ proxies:
   port: 8443
   uuid: 9b4c2eda-341e-488f-a3b2-1dc716b9f36a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -5053,7 +5053,7 @@ proxies:
   port: 18901
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -5074,7 +5074,7 @@ proxies:
   port: 8880
   uuid: da28c85e-e71b-4554-a9fc-162bc94c7cb0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -5119,7 +5119,7 @@ proxies:
   port: 443
   uuid: 50ef0b23-f14b-459f-97aa-d0f346189d2a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -5135,7 +5135,7 @@ proxies:
   port: 8080
   uuid: 96588912-3bcb-491c-8ce3-7a965bbec07f
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -5547,7 +5547,7 @@ proxies:
   port: 31484
   uuid: 943961b8-4e27-4bdf-a048-c2f724f542fb
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '-Channel: (2)'
@@ -7661,7 +7661,7 @@ proxies:
   port: 21036
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: 🇨🇿[openproxylist.com]
@@ -8011,7 +8011,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8027,7 +8027,7 @@ proxies:
   port: 443
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8115,7 +8115,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8189,7 +8189,7 @@ proxies:
   port: 23325
   uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: 🇸🇪[openproxylist.com] (3)
@@ -8224,7 +8224,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: 🇱🇹[openproxylist.com] (2)
@@ -8319,7 +8319,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8414,7 +8414,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8553,7 +8553,7 @@ proxies:
   port: 2083
   uuid: ac251237-576f-40c8-a543-554960c958b1
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8605,7 +8605,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8667,7 +8667,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8683,7 +8683,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8717,7 +8717,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8733,7 +8733,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -8757,7 +8757,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: VLESS (8)
@@ -12609,7 +12609,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: EPODONIOS (8)
@@ -13921,7 +13921,7 @@ proxies:
   port: 443
   uuid: c99929e1-9c82-4a33-d11e-f177247b8f63
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -13939,7 +13939,7 @@ proxies:
   port: 443
   uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -13957,7 +13957,7 @@ proxies:
   port: 443
   uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -13975,7 +13975,7 @@ proxies:
   port: 443
   uuid: 82ff6d30-2920-4ebd-b95c-b016ede1a841
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -13993,7 +13993,7 @@ proxies:
   port: 443
   uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14011,7 +14011,7 @@ proxies:
   port: 21369
   uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14029,7 +14029,7 @@ proxies:
   port: 443
   uuid: 6b95d340-30a5-47bd-ac53-49584e5d4ddf
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14047,7 +14047,7 @@ proxies:
   port: 443
   uuid: f40a8d65-a9ac-42ce-ebcc-9e6447a9866d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14065,7 +14065,7 @@ proxies:
   port: 443
   uuid: 42576a04-5a4d-4c7e-fcb4-a8582ab46031
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14083,7 +14083,7 @@ proxies:
   port: 443
   uuid: d9863037-0463-4615-e972-36ba9662d1e9
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14101,7 +14101,7 @@ proxies:
   port: 443
   uuid: 96c585de-c7e4-41cb-a232-9aba535ea9ac
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14119,7 +14119,7 @@ proxies:
   port: 443
   uuid: 9ce4526a-c500-4c66-99b0-048e4b6b5663
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14137,7 +14137,7 @@ proxies:
   port: 443
   uuid: bc94f742-0e7b-4cf8-e897-6214f9bec8da
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14155,7 +14155,7 @@ proxies:
   port: 80
   uuid: 2f38f848-a899-4c87-9807-207a41615e3c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14170,7 +14170,7 @@ proxies:
   port: 443
   uuid: 6796611b-260e-4d63-9016-20c27b12e420
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14188,7 +14188,7 @@ proxies:
   port: 22643
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   alterId: 2
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14206,7 +14206,7 @@ proxies:
   port: 443
   uuid: b526926d-1474-4f41-985e-8b877cb840cd
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14224,7 +14224,7 @@ proxies:
   port: 443
   uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14242,7 +14242,7 @@ proxies:
   port: 18901
   uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14257,7 +14257,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14272,7 +14272,7 @@ proxies:
   port: 443
   uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14290,7 +14290,7 @@ proxies:
   port: 35034
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 339
@@ -14301,7 +14301,7 @@ proxies:
   port: 443
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
   alterId: 0
-  chipher: chacha20-poly1305
+  cipher: chacha20-poly1305
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 338
@@ -14312,7 +14312,7 @@ proxies:
   port: 443
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 337
@@ -14323,7 +14323,7 @@ proxies:
   port: 49667
   uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14338,7 +14338,7 @@ proxies:
   port: 443
   uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14356,7 +14356,7 @@ proxies:
   port: 443
   uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -14374,7 +14374,7 @@ proxies:
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 333
@@ -14385,7 +14385,7 @@ proxies:
   port: 180
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 332
@@ -14396,7 +14396,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security join us - 331
@@ -14407,7 +14407,7 @@ proxies:
   port: 10000
   uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: '@Vip_Security'
@@ -18707,7 +18707,7 @@ proxies:
   port: 443
   uuid: 5fd0c433-efe8-466a-9fd7-233a448e8b58
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: httpupgrade
   udp: true
   tls: true
@@ -19581,7 +19581,7 @@ proxies:
   port: 28267
   uuid: 32a92c21-0a1b-4a1c-ada5-06208d8a921e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -19594,7 +19594,7 @@ proxies:
   port: 23981
   uuid: 32a92c21-0a1b-4a1c-ada5-06208d8a921e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -19945,7 +19945,7 @@ proxies:
   port: 2053
   uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -20192,7 +20192,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: EPODONIOS (193)
@@ -24175,7 +24175,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: Server 2vless://2f35965a-9a9b-45fd-ba32-987296dfb6be@45.9.156.28:443?mode=gun&security=reality&encryption=none&pbk=k-vH6pkyAv26L1_dXKOFhp0Kesur9-FCUDoj-IIpVhc&fp=chrome&type=grpc&serviceName=cloud.v1.RelayService&sni=bg4.univesalsrv.com&sid=51f45d4fd58cc319#Server
@@ -29193,7 +29193,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29259,7 +29259,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201413.847]'
@@ -29268,7 +29268,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201413.964]'
@@ -29277,7 +29277,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201414.600]'
@@ -29286,7 +29286,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201414.636]'
@@ -29295,7 +29295,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201414.672]'
@@ -29304,7 +29304,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201433.133]'
@@ -29313,7 +29313,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201433.169]'
@@ -29322,7 +29322,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201433.205]'
@@ -29331,7 +29331,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201433.281]'
@@ -29340,7 +29340,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201435.125]'
@@ -29349,7 +29349,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-no-ra] [261003-201444.149]'
@@ -29358,7 +29358,7 @@ proxies:
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇨🇦] [vm-tl-ws] [261003-201420.508]'
@@ -29367,7 +29367,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29383,7 +29383,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29399,7 +29399,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29415,7 +29415,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29675,7 +29675,7 @@ proxies:
   port: 23325
   uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201350.470]'
@@ -29684,7 +29684,7 @@ proxies:
   port: 23325
   uuid: 3dff544a-379e-41f9-95d9-4b95a8e4026e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201416.352]'
@@ -29693,7 +29693,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201416.388]'
@@ -29702,7 +29702,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201416.933]'
@@ -29711,7 +29711,7 @@ proxies:
   port: 110
   uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201416.969]'
@@ -29720,7 +29720,7 @@ proxies:
   port: 110
   uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201429.126]'
@@ -29729,7 +29729,7 @@ proxies:
   port: 1
   uuid: 9f15b600-ce52-447f-b388-ef70de75308e
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201443.930]'
@@ -29738,7 +29738,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ra] [261003-201443.966]'
@@ -29747,7 +29747,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇩🇪] [vm-no-ws] [261003-201305.243]'
@@ -29756,7 +29756,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29769,7 +29769,7 @@ proxies:
   port: 20772
   uuid: d69007f9-b038-4156-d27f-f81f18094ecf
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29782,7 +29782,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29795,7 +29795,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29808,7 +29808,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29821,7 +29821,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29834,7 +29834,7 @@ proxies:
   port: 80
   uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29847,7 +29847,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29863,7 +29863,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29879,7 +29879,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29895,7 +29895,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29911,7 +29911,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29927,7 +29927,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -29962,7 +29962,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇪🇸] [vm-no-ra] [261003-201428.194]'
@@ -29971,7 +29971,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇫🇮]'
@@ -30268,7 +30268,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇫🇷] [vm-no-ra] [261003-201417.223]'
@@ -30277,7 +30277,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇫🇷] [vm-no-ra] [261003-201417.258]'
@@ -30286,7 +30286,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇫🇷] [vm-no-ra] [261003-201421.779]'
@@ -30295,7 +30295,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇫🇷] [vm-no-ra] [261003-201421.815]'
@@ -30304,7 +30304,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇬🇧]'
@@ -30352,7 +30352,7 @@ proxies:
   port: 80
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30365,7 +30365,7 @@ proxies:
   port: 80
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30378,7 +30378,7 @@ proxies:
   port: 80
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30391,7 +30391,7 @@ proxies:
   port: 80
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30404,7 +30404,7 @@ proxies:
   port: 80
   uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30469,7 +30469,7 @@ proxies:
   port: 800
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇭🇰] [vm-no-ra] [261003-201423.255]'
@@ -30478,7 +30478,7 @@ proxies:
   port: 800
   uuid: f2c67cae-c09d-4739-947d-f5302d87a3c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇭🇰] [vm-no-ra] [261003-201434.627]'
@@ -30487,7 +30487,7 @@ proxies:
   port: 52080
   uuid: f1ac5c82-00a4-400b-bb20-530c91b7c5bb
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇭🇰] [vm-no-ra] [261003-201449.202]'
@@ -30496,7 +30496,7 @@ proxies:
   port: 16114
   uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇭🇰] [vm-no-ra] [261003-201454.044]'
@@ -30505,7 +30505,7 @@ proxies:
   port: 21020
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇭🇰] [vm-no-ws] [261003-201225.967]'
@@ -30514,7 +30514,7 @@ proxies:
   port: 36703
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30527,7 +30527,7 @@ proxies:
   port: 44867
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30540,7 +30540,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30553,7 +30553,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30566,7 +30566,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30579,7 +30579,7 @@ proxies:
   port: 36703
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30592,7 +30592,7 @@ proxies:
   port: 44867
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30605,7 +30605,7 @@ proxies:
   port: 36703
   uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30618,7 +30618,7 @@ proxies:
   port: 44867
   uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30631,7 +30631,7 @@ proxies:
   port: 23026
   uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30644,7 +30644,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30657,7 +30657,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30670,7 +30670,7 @@ proxies:
   port: 35043
   uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30683,7 +30683,7 @@ proxies:
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30699,7 +30699,7 @@ proxies:
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30715,7 +30715,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30731,7 +30731,7 @@ proxies:
   port: 443
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30747,7 +30747,7 @@ proxies:
   port: 443
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30763,7 +30763,7 @@ proxies:
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30833,7 +30833,7 @@ proxies:
   port: 80
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30846,7 +30846,7 @@ proxies:
   port: 80
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30859,7 +30859,7 @@ proxies:
   port: 80
   uuid: 9db4c708-aef8-4359-821b-38e47990be0d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -30889,7 +30889,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇮🇹] [vm-no-ra] [261003-201419.004]'
@@ -30898,7 +30898,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇮🇹] [vm-no-ra] [261003-201428.571]'
@@ -30907,7 +30907,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇮🇹] [vm-no-ra] [261003-201428.607]'
@@ -30916,7 +30916,7 @@ proxies:
   port: 22324
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: '[🇯🇵]'
@@ -30996,7 +30996,7 @@ proxies:
   port: 80
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31009,7 +31009,7 @@ proxies:
   port: 80
   uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31022,7 +31022,7 @@ proxies:
   port: 80
   uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31053,7 +31053,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31066,7 +31066,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31079,7 +31079,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31092,7 +31092,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31105,7 +31105,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31118,7 +31118,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31131,7 +31131,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31144,7 +31144,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31157,7 +31157,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31170,7 +31170,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -31183,7 +31183,7 @@ proxies:
   port: 80
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32804,7 +32804,7 @@ proxies:
   port: 443
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32820,7 +32820,7 @@ proxies:
   port: 443
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32836,7 +32836,7 @@ proxies:
   port: 443
   uuid: f3244e28-157b-49e9-9730-89832f89ebcc
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32852,7 +32852,7 @@ proxies:
   port: 443
   uuid: f3244e28-157b-49e9-9730-89832f89ebcc
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32868,7 +32868,7 @@ proxies:
   port: 443
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32884,7 +32884,7 @@ proxies:
   port: 443
   uuid: b2ba4a73-3123-479e-aa96-5973a9ecd0c0
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32900,7 +32900,7 @@ proxies:
   port: 443
   uuid: f3244e28-157b-49e9-9730-89832f89ebcc
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
@@ -32916,7 +32916,7 @@ proxies:
   port: 110
   uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: tcp
   udp: true
 - name: 🇺🇸 United States, Orem | [BL] (4)
@@ -32925,7 +32925,7 @@ proxies:
   port: 110
   uuid: d2d8601b-c14b-42c6-b8ea-33889bce152a
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: raw
   udp: true
 - name: 🇺🇸 United States, St Louis (Downtown) | [BL]
@@ -32934,7 +32934,7 @@ proxies:
   port: 8443
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
-  chipher: auto
+  cipher: auto
   network: ws
   udp: true
   ws-opts:
