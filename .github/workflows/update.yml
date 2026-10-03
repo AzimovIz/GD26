@@ -60,7 +60,7 @@ jobs:
                       "port": int(vmess_json.get("port", 0)),
                       "uuid": vmess_json.get("id", ""),
                       "alterId": int(vmess_json.get("aid", 0)),
-                      "chipher": vmess_json.get("scy", "auto"),
+                      "cipher": vmess_json.get("scy", "auto"),
                       "network": vmess_json.get("net", "tcp"),
                       "udp": True
                   }
