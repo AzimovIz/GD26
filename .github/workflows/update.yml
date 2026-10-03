@@ -146,7 +146,8 @@ jobs:
                       return None
                   
                   server, port = server_port.rsplit(':', 1)
-                  
+                  if cipher == "chacha20-ietf-poly1305":
+                      return None
                   proxy = {
                       "name": name,
                       "type": "ss",
