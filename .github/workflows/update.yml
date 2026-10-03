@@ -37,7 +37,7 @@ jobs:
           import sys
           from datetime import datetime, timezone
 
-          SOURCE_URL = "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/Vless-Reality-White-Lists-Rus-Mobile.txt"
+          SOURCE_URL = "https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/WHITE-CIDR-RU-all.txt"
           OUTPUT_FILE = "clash.yaml"
           TIMEOUT = 5
           MAX_WORKERS = 50
