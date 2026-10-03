@@ -1,4 +1,4 @@
-# Обновлено: 2026-10-03 23:10 UTC
+# Обновлено: 2026-10-03 23:14 UTC
 # Всего в источнике: 3561
 # Живых серверов: 3561
 # Источник: 26.txt
@@ -77,7 +77,7 @@ proxies:
   ws-opts:
     path: /ray
     headers:
-      Host: ''
+      Host: 31.59.58.232
 - name: 🇳🇱 The Netherlands | @RaViraNet t.me/rjsxrd (2)
   type: ss
   server: 82.38.31.213
@@ -5003,7 +5003,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 192.200.160.16
   tls: true
   skip-cert-verify: true
   sni: steam.avaaaal.ir
@@ -5059,7 +5059,7 @@ proxies:
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
     headers:
-      Host: ''
+      Host: 2001:bc8:32d7:1a9::2
 - name: '@ConfigforVPN'
   type: vless
   server: root.configforvpn.fun
@@ -5125,7 +5125,7 @@ proxies:
   ws-opts:
     path: /mail/
     headers:
-      Host: ''
+      Host: join.melodyfreenet2.shop
   tls: true
   skip-cert-verify: true
   sni: Join.MelodyFeenEt2.shoP.
@@ -8420,7 +8420,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: i2psm3knof5qjjix.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: i2psm3knof5qjjix.v.3dns.vip
@@ -8673,7 +8673,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: null
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: ex1ogt73nzpqkac2.v.3dns.vip
@@ -8689,7 +8689,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: 6jdvarazgu3qqr6q.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: 6jdvarazgu3qqr6q.v.3dns.vip
@@ -8739,7 +8739,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -14248,7 +14248,7 @@ proxies:
   ws-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
     headers:
-      Host: ''
+      Host: 2001:bc8:32d7:1a9::2
 - name: '@Vip_Security join us - 342
 
     '
@@ -14329,7 +14329,7 @@ proxies:
   ws-opts:
     path: /d46bf492
     headers:
-      Host: ''
+      Host: 118.193.57.167
 - name: '@Vip_Security join us - 336
 
     '
@@ -29775,7 +29775,7 @@ proxies:
   ws-opts:
     path: /ray
     headers:
-      Host: ''
+      Host: 31.59.58.232
 - name: '[🇩🇪] [vm-no-ws] [261003-201415.510]'
   type: vmess
   server: 188.114.96.19
@@ -29885,7 +29885,7 @@ proxies:
   ws-opts:
     path: /linkvws
     headers:
-      Host: ''
+      Host: aidrivercat.org
   tls: true
   skip-cert-verify: true
   sni: ''
@@ -30520,7 +30520,7 @@ proxies:
   ws-opts:
     path: /arki?ed=2048
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201226.044]'
   type: vmess
   server: 47.244.120.197
@@ -30533,7 +30533,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201252.796]'
   type: vmess
   server: 156.245.232.239
@@ -30546,7 +30546,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: '[🇭🇰] [vm-no-ws] [261003-201414.406]'
   type: vmess
   server: 156.245.232.239
@@ -30559,7 +30559,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: '[🇭🇰] [vm-no-ws] [261003-201414.444]'
   type: vmess
   server: 156.245.232.239
@@ -30572,7 +30572,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: '[🇭🇰] [vm-no-ws] [261003-201417.369]'
   type: vmess
   server: 47.244.120.197
@@ -30585,7 +30585,7 @@ proxies:
   ws-opts:
     path: /arki?ed=2048
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201417.444]'
   type: vmess
   server: 47.244.120.197
@@ -30598,7 +30598,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201423.656]'
   type: vmess
   server: 47.244.120.197
@@ -30611,7 +30611,7 @@ proxies:
   ws-opts:
     path: /arki?ed=2048
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201423.694]'
   type: vmess
   server: 47.244.120.197
@@ -30624,7 +30624,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201423.732]'
   type: vmess
   server: 47.244.120.197
@@ -30637,7 +30637,7 @@ proxies:
   ws-opts:
     path: /arki
     headers:
-      Host: ''
+      Host: 47.244.120.197
 - name: '[🇭🇰] [vm-no-ws] [261003-201434.812]'
   type: vmess
   server: 156.245.232.239
@@ -30650,7 +30650,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: '[🇭🇰] [vm-no-ws] [261003-201434.850]'
   type: vmess
   server: 156.245.232.239
@@ -30663,7 +30663,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 156.245.232.239
 - name: '[🇭🇰] [vm-no-ws] [261003-201434.888]'
   type: vmess
   server: 156.245.232.239
@@ -30737,7 +30737,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: ''
@@ -30769,7 +30769,7 @@ proxies:
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: ''
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
   tls: true
   skip-cert-verify: true
   sni: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -30839,7 +30839,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: '[🇮🇳] [vm-no-ws] [261003-201414.707]'
   type: vmess
   server: 152.67.8.205
@@ -30852,7 +30852,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: '[🇮🇳] [vm-no-ws] [261003-201434.517]'
   type: vmess
   server: 152.67.8.205
@@ -30865,7 +30865,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ''
+      Host: 152.67.8.205
 - name: '[🇮🇹]'
   type: vless
   server: 204.216.216.23
@@ -31124,7 +31124,7 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: ''
+      Host: 38.107.234.57
 - name: '[🇰🇿] [vm-no-ws] [261003-201445.375]'
   type: vmess
   server: 38.107.234.57
@@ -31189,7 +31189,7 @@ proxies:
   ws-opts:
     path: /vmess/
     headers:
-      Host: ''
+      Host: 3h-kazakhstan1.09vpn.com
 - name: '[🇱🇻]'
   type: vless
   server: 138.124.180.137
