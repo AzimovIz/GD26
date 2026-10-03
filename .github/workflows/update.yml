@@ -69,7 +69,7 @@ jobs:
                   if net == "ws":
                       proxy["ws-opts"] = {
                           "path": vmess_json.get("path", "/"),
-                          "headers": {"Host": vmess_json.get("host", vmess_json.get("add", ""))}
+                          "headers": {"Host": (vmess_json.get("host") or vmess_json.get("add") or "")}
                       }
                   elif net == "grpc":
                       proxy["grpc-opts"] = {"grpc-service-name": vmess_json.get("path", "")}
