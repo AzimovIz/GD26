@@ -511,7 +511,7 @@ jobs:
                       }
                   ],
                   "rules": [
-                      "MATCH,Proxy"
+                      "MATCH,🌍 Прокси"
                   ]
               }
               return config
