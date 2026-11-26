@@ -42,7 +42,8 @@ jobs:
           #SOURCE_URL = "https://github.com/histeenn/VLESS-PO-GRIBI/raw/refs/heads/main/deploy/sub.txt"
           #SOURCE_URL = "https://github.com/kort0881/vpn-vless-configs-russia/raw/refs/heads/main/output/vless.txt"
           #SOURCE_URL = "https://raw.githubusercontent.com/aviamastersgh/vpn-free-russia/main/all_configs.txt"
-          SOURCE_URL = "https://github.com/FLAT447/v2ray-lists/raw/refs/heads/main/WHITE_FULL.txt"
+          #SOURCE_URL = "https://github.com/FLAT447/v2ray-lists/raw/refs/heads/main/WHITE_FULL.txt"
+          SOURCE_URL = "https://github.com/whoahaow/rjsxrd/raw/refs/heads/main/githubmirror/bypass/bypass-all.txt"
           OUTPUT_FILE = "clash.yaml"
           TIMEOUT = 5
           MAX_WORKERS = 50
