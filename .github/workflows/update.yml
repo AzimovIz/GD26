@@ -39,7 +39,8 @@ jobs:
 
           #SOURCE_URL = "https://github.com/igareck/vpn-configs-for-russia/raw/refs/heads/main/WHITE-CIDR-RU-all.txt"
           #SOURCE_URL = "https://github.com/luxxuria/harvester/raw/refs/heads/main/ping_tested.txt"
-          SOURCE_URL = "https://github.com/histeenn/VLESS-PO-GRIBI/raw/refs/heads/main/deploy/sub.txt"
+          #SOURCE_URL = "https://github.com/histeenn/VLESS-PO-GRIBI/raw/refs/heads/main/deploy/sub.txt"
+          SOURCE_URL = "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/main/githubmirror/clean/vless.txt"
           OUTPUT_FILE = "clash.yaml"
           TIMEOUT = 5
           MAX_WORKERS = 50
